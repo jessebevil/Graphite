@@ -52,25 +52,6 @@
 	<Template>CheckBox</Template>
 </Button>
 
-<Button item="IDW_PrintRealEstateItems">
-  <ScreenID>IDW_PrintRealEstateItems</ScreenID>
-  <!--<Font>3</Font>-->
-  <RelativePosition>true</RelativePosition>
-  <Location>
-    <X>10</X>
-    <Y>135</Y>
-  </Location>
-  <Size>
-    <CX>70</CX>
-    <CY>20</CY>
-  </Size>
-  <Text>Print Items</Text>
-  <Template>BDT_Normal</Template>
-  <!--<SoundPressed/>-->
-  <!--<SoundUp/>-->
-  <!--<SoundFlyby/>-->
-</Button>
-
 <Button item="IDW_IconButton">
 	<ScreenID>IconButton</ScreenID>
 	<Location>
@@ -107,6 +88,11 @@
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
 	<NoWrap>true</NoWrap>
 </Label>
 
@@ -499,75 +485,6 @@
 		<B>255</B>
 	</TextColor>
 </Label>
-
-<Button item="IDW_FuseButton">
-	<ScreenID>IDW_FuseButton</ScreenID>
-	<RelativePosition>true</RelativePosition>
-	<Location>
-		<X>10</X>
-		<Y>550</Y>
-	</Location>
-	<Size>
-		<CX>10</CX>
-		<CY>10</CY>
-	</Size>
-	<Text></Text>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-</Button>
-
-<Label item="IDW_FuseButtonLabel">
-	<ScreenID>IDW_FuseButtonLabel</ScreenID>
-	<RelativePosition>true</RelativePosition>
-	<Location>
-		<X>10</X>
-		<Y>50</Y>
-	</Location>
-	<Size>
-		<CX>40</CX>
-		<CY>20</CY>
-	</Size>
-	<Text></Text>
-	<NoWrap>true</NoWrap>
-</Label>
-
-<Button item="IDW_RewardButton">
-		<ScreenID>IDW_RewardButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>10</X>
-			<Y>135</Y>
-		</Location>
-		<Size>
-			<CX>10</CX>
-			<CY>10</CY>
-		</Size>
-		<Text></Text>
-		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-</Button>
-  
-<STMLbox item = "IDW_RewardButtonLabel">
-	<ScreenID>IDW_RewardButtonLabel</ScreenID>
-	<RelativePosition>true</RelativePosition>
-	<Location>
-		<X>10</X>
-		<Y>60</Y>
-	</Location>
-	<Size>
-		<CX>600</CX>
-		<CY>20</CY>
-	</Size>
-	<Text></Text>
-	<NoWrap>false</NoWrap>
-</STMLbox>
 
 <!-- NOTE: END ERROR SUPPRESION ELEMENTS -->
 
@@ -4190,14 +4107,6 @@
 		<Pieces>IDW_DeityTitle</Pieces>
 		<Pieces>IDW_RaceTitle2</Pieces>
 
-<!-- 2018DEC29@JYD: UPDATED TO ADD NEW BUTTONS AND LABELS -->
-		<Pieces>IDW_FuseButton</Pieces>
-		<Pieces>IDW_FuseButtonLabel</Pieces>
-		<Pieces>IDW_RewardButton</Pieces>
-		<Pieces>IDW_RewardButtonLabel</Pieces>
-		<Pieces>IDW_PrintRealEstateItems</Pieces>
-<!-- 2018DEC29@JYD: END OF UPDATE -->
-
 <!-- NOTE: END ERROR SUPPRESION ELEMENTS -->
 
 		<Pieces>IDW_Row1Col1Stat</Pieces>
@@ -4477,7 +4386,7 @@
 	<Style_ClientMovable>true</Style_ClientMovable>
 	<Style_Closebox>true</Style_Closebox>
 	<Style_Minimizebox>true</Style_Minimizebox>
-	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
 	<Style_Sizable>true</Style_Sizable>
 	<Style_Titlebar>true</Style_Titlebar>
 	<Style_Transparent>false</Style_Transparent>
