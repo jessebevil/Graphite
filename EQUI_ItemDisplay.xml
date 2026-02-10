@@ -96,51 +96,6 @@
 	<NoWrap>true</NoWrap>
 </Label>
 
-<Button item="IDW_ConvertButton">
-	<ScreenID>IDW_ConvertButton</ScreenID>
-	<Location>
-		<X>10</X>
-		<Y>135</Y>
-	</Location>
-	<Size>
-		<CX>10</CX>
-		<CY>10</CY>
-	</Size>
-	<Font>2</Font>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text></Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Button>
-
-<STMLbox item = "IDW_ConvertButtonLabel">
-	<ScreenID>IDW_ConvertButtonLabel</ScreenID>
-	<Location>
-		<X>10</X>
-		<Y>60</Y>
-	</Location>
-	<Size>
-		<CX>10</CX>
-		<CY>10</CY>
-	</Size>
-	<Font>2</Font>
-	<NoWrap>true</NoWrap>
-	<Text></Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</STMLbox>
-
 <Label item="IDW_MadeBy">
 	<ScreenID>IDW_MadeBy</ScreenID>
 	<Location>
@@ -4082,8 +4037,6 @@
 		<Pieces>IDW_ScribedLabel</Pieces>
 		<Pieces>IDW_ModButton</Pieces>
 		<Pieces>IDW_ModButtonLabel</Pieces>
-		<Pieces>IDW_ConvertButton</Pieces>
-		<Pieces>IDW_ConvertButtonLabel</Pieces>
 
 		<Pieces>IDW_MadeBy</Pieces>
 		<Pieces>IDW_ItemInfo1</Pieces>
