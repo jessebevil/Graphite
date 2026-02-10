@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<VerticalLayoutBox item="MIW_InfoVerticalLayout">
+	<ScreenID>InfoVerticalLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Stance_Info</Pieces>
+</VerticalLayoutBox>
+
+<Screen item="MIW_Stance_Pane">
+	<Size>
+		<CX>312</CX>
+		<CY>180</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Stance</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>VerticalLayoutBox:MIW_InfoVerticalLayout</Pieces>
+</Screen>
+
+<Screen item="MIW_Info_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Slot_Info</Pieces>
+</Screen>
+
+<Screen item="MIW_Info_Pane">
+	<Size>
+		<CX>312</CX>
+		<CY>358</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Tier</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>Screen:MIW_Info_Glass</Pieces>
+</Screen>
+
+<Screen item="MIW_Or_Wrap">
+	<Size>
+		<CX>50</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>F2_Or_Text</Pieces>
+</Screen>
+
+<Label item="MIW_Purchase_Plat_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>mercenary/InfoWnd/PurchaseCostPlatText</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MIW_Purchase_Plat_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Dummy_Platinum_Coin</Pieces>
+		<Pieces>MIW_Purchase_Plat_Text</Pieces>
+</Screen>
+
+<Label item="MIW_Purchase_Gold_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>mercenary/InfoWnd/PurchaseCostGoldText</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MIW_Purchase_Gold_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Dummy_Gold_Coin</Pieces>
+		<Pieces>MIW_Purchase_Gold_Text</Pieces>
+</Screen>
+
+<Label item="MIW_Purchase_Bayle_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>mercenary/InfoWnd/AltPurchaseCostText</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MIW_Purchase_Bayle_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Dummy_Bayle_Coin</Pieces>
+		<Pieces>MIW_Purchase_Bayle_Text</Pieces>
+</Screen>
+
+<TileLayoutBox item="MIW_Purchase_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>Screen:MIW_Purchase_Plat_Wrap</Pieces>
+		<Pieces>Screen:MIW_Purchase_Gold_Wrap</Pieces>
+		<Pieces>Screen:MIW_Or_Wrap</Pieces>
+		<Pieces>Screen:MIW_Purchase_Bayle_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="MIW_Purchase_Pane">
+	<Size>
+		<CX>312</CX>
+		<CY>56</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Purchase Cost</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>TileLayoutBox:MIW_Purchase_Layout</Pieces>
+</Screen>
+
+<Label item="MIW_Upkeep_Plat_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>mercenary/InfoWnd/UpkeepCostPlatText</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MIW_Upkeep_Plat_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Dummy_Platinum_Coin</Pieces>
+		<Pieces>MIW_Upkeep_Plat_Text</Pieces>
+</Screen>
+
+<Label item="MIW_Upkeep_Gold_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>mercenary/InfoWnd/UpkeepCostGoldText</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MIW_Upkeep_Gold_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Dummy_Gold_Coin</Pieces>
+		<Pieces>MIW_Upkeep_Gold_Text</Pieces>
+</Screen>
+
+<Label item="MIW_Upkeep_Bayle_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>mercenary/InfoWnd/AltUpkeepCostText</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MIW_Upkeep_Bayle_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Dummy_Bayle_Coin</Pieces>
+		<Pieces>MIW_Upkeep_Bayle_Text</Pieces>
+</Screen>
+
+<TileLayoutBox item="MIW_Upkeep_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>Screen:MIW_Upkeep_Plat_Wrap</Pieces>
+		<Pieces>Screen:MIW_Upkeep_Gold_Wrap</Pieces>
+		<Pieces>Screen:MIW_Or_Wrap</Pieces>
+		<Pieces>Screen:MIW_Upkeep_Bayle_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="MIW_Upkeep_Pane">
+	<Size>
+		<CX>312</CX>
+		<CY>56</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Upkeep Cost</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>TileLayoutBox:MIW_Upkeep_Layout</Pieces>
+</Screen>
+
+<TileLayoutBox item="MIW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>8</Spacing>
+		<Pieces>Screen:MIW_Stance_Pane</Pieces>
+		<Pieces>Screen:MIW_Info_Pane</Pieces>
+		<Pieces>Screen:MIW_Purchase_Pane</Pieces>
+		<Pieces>Screen:MIW_Upkeep_Pane</Pieces>
+</TileLayoutBox>
+
+<Screen item="MIW_InfoWnd">
+	<Size>
+		<CX>340</CX>
+		<CY>722</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<EQType>mercenary/InfoWnd</EQType>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Mercenary Information</Text>
+		<Pieces>TileLayoutBox:MIW_Layout</Pieces>
+</Screen>
+</XML>

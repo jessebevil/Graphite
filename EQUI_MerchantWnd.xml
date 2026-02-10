@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Listbox item="MW_ItemList">
+	<ScreenID>ItemList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width>24</Width>
+	</Columns>
+	<Columns>
+		<Heading>Item</Heading>
+		<Width>210</Width>
+	</Columns>
+	<Columns>
+		<Heading>Qty</Heading>
+		<Width>30</Width>
+	</Columns>
+	<Columns>
+		<Header>Header_PlatCoin</Header>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Header>Header_GoldCoin</Header>
+		<Width>24</Width>
+	</Columns>
+	<Columns>
+		<Header>Header_SilvCoin</Header>
+		<Width>24</Width>
+	</Columns>
+	<Columns>
+		<Header>Header_CoppCoin</Header>
+		<Width>24</Width>
+	</Columns>
+	<Columns>
+		<Heading>Lvl</Heading>
+		<Width>24</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="MW_Purchase_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>26</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>16</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>MW_ItemList</Pieces>
+</Screen>
+
+<Button item="MW_UsableButton">
+	<ScreenID>MW_UsableButton</ScreenID>	
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>14</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>1</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>1</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Only show useable items</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="MW_Purchase_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:MW_Purchase_Glass</Pieces>
+		<Pieces>MW_UsableButton</Pieces>
+</Screen>
+
+<Page item="MW_PurchasePage">
+	<ScreenID>MW_PurchasePage</ScreenID>
+	<TabText>Merchant</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:MW_Purchase_Pane</Pieces>
+</Page>
+
+<Listbox item="MW_ItemListRecovery">
+	<ScreenID>MW_ItemListRecovery</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width>24</Width>
+	</Columns>
+	<Columns>
+		<Heading>Item</Heading>
+		<Width>210</Width>
+	</Columns>
+	<Columns>
+		<Heading>Qty</Heading>
+		<Width>30</Width>
+	</Columns>
+	<Columns>
+		<Heading>Lore</Heading>
+		<Width>60</Width>
+	</Columns>
+	<Columns>
+		<Heading>Lore Aug</Heading>
+		<Width>80</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="MW_Recovery_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>26</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>MW_ItemListRecovery</Pieces>
+</Screen>
+
+<Screen item="MW_Recovery_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:MW_Recovery_Glass</Pieces>
+</Screen>
+
+<Page item="MW_RecoveryPage">
+	<ScreenID>MW_RecoveryPage</ScreenID>
+	<TabText>Recover</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:MW_Recovery_Pane</Pieces>
+</Page>
+
+<Listbox item="MW_ItemListMail">
+	<ScreenID>MW_ItemListMail</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width>24</Width>
+	</Columns>
+	<Columns>
+		<Heading>Item</Heading>
+		<Width>210</Width>
+	</Columns>
+	<Columns>
+		<Heading>Qty</Heading>
+		<Width>30</Width>
+	</Columns>
+	<Columns>
+		<Heading>From</Heading>
+		<Width>60</Width>
+	</Columns>
+	<Columns>
+		<Heading>Note</Heading>
+		<Width>80</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="MW_Mail_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>26</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>MW_ItemListMail</Pieces>
+</Screen>
+
+<Screen item="MW_Mail_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>128</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>MW_Mail_Glass</Pieces>
+</Screen>
+
+<!-- NOTE: DUMMY ELEMENT ADDED FOR UNIFORMITY WHEN DISABLED -->
+
+<Editbox item="MW_Note_Edit_Dummy">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+</Editbox>
+
+<Editbox item="MW_Note_Edit">
+	<ScreenID>MW_Note_Edit</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TooltipReference>Item notes are limited to 140 characters.</TooltipReference>
+</Editbox>
+
+<Screen item="MW_Note_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>120</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>64</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Note</Text>
+		<Pieces>MW_Note_Edit_Dummy</Pieces>
+		<Pieces>MW_Note_Edit</Pieces>
+</Screen>
+
+<!-- NOTE: DUMMY ELEMENT ADDED FOR UNIFORMITY WHEN DISABLED -->
+
+<Editbox item="MW_Send_To_Edit_Dummy">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Dark</DrawTemplate>
+	<Style_Border>true</Style_Border>
+</Editbox>
+
+<Editbox item="MW_Send_To_Edit">
+	<ScreenID>MW_Send_To_Edit</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Screen item="MW_Recipient_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>56</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Recipient</Text>
+		<Pieces>MW_Send_To_Edit_Dummy</Pieces>
+		<Pieces>MW_Send_To_Edit</Pieces>
+</Screen>
+
+<Page item="MW_MailPage">
+	<ScreenID>MW_MailPage</ScreenID>
+	<TabText>Parcels</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:MW_Mail_Pane</Pieces>
+		<Pieces>Screen:MW_Note_Pane</Pieces>
+		<Pieces>Screen:MW_Recipient_Pane</Pieces>
+</Page>
+
+<TabBox item="MW_MerchantSubwindows">
+	<ScreenID>MW_MerchantSubwindows</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>462</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>66</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<PageBorderTemplate>Page_Border_Null</PageBorderTemplate>
+	<TabBorderTemplate>Tab_Border_Pane</TabBorderTemplate>
+		<Pages>MW_PurchasePage</Pages>
+		<Pages>MW_RecoveryPage</Pages>
+		<Pages>MW_MailPage</Pages>
+</TabBox>
+
+<Label item="MW_MerchantName">
+	<ScreenID>MW_MerchantName</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MW_Name_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>28</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>8</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>454</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>48</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>MW_MerchantName</Pieces>
+</Screen>
+
+<Button item="MW_SelectedItem">
+	<ScreenID>MW_SelectedItem</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>18</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>16</CX>
+		<CY>16</CY>
+	</DecalSize>
+	<Template>DragItem_Clear</Template>
+</Button>
+
+<Label item="MW_SelectedItemLabel">
+	<ScreenID>MW_SelectedItemLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>22</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="MW_SelectedPriceLabel">
+	<ScreenID>MW_SelectedPriceLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="MW_SelectedItem_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>20</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>MW_SelectedItem</Pieces>
+		<Pieces>MW_SelectedItemLabel</Pieces>
+		<Pieces>MW_SelectedPriceLabel</Pieces>
+</Screen>
+
+<Button item="MW_Inspect_Button">
+	<ScreenID>MW_Inspect_Button</ScreenID>
+	<Size>
+		<CX>110</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>240</R>
+		<G>0</G>
+		<B>240</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Inspect</Text>
+	<TextColor>
+		<R>240</R>
+		<G>0</G>
+		<B>240</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="MW_Preview_Button">
+	<ScreenID>MW_Preview_Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Preview</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="MW_Buy_Button">
+	<ScreenID>MW_Buy_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Buy</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="MW_Recover_Button">
+	<ScreenID>MW_Recover_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Recover</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="MW_Retrieve_Button">
+	<ScreenID>MW_Retrieve_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>54</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Retrieve</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="MW_Retrieve_All_Button">
+	<ScreenID>MW_Retrieve_All_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>54</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>All</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="MW_Sell_Button">
+	<ScreenID>MW_Sell_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Sell</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="MW_Send_Button">
+	<ScreenID>MW_Send_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Send</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="MW_Button_Wrap">
+		<Pieces>MW_Buy_Button</Pieces>
+		<Pieces>MW_Recover_Button</Pieces>
+		<Pieces>MW_Retrieve_Button</Pieces>
+		<Pieces>MW_Retrieve_All_Button</Pieces>
+		<Pieces>MW_Sell_Button</Pieces>
+		<Pieces>MW_Send_Button</Pieces>
+</Screen>
+
+<Button item="MW_Done_Button">
+	<ScreenID>MW_Done_Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Done</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="MW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>MW_Inspect_Button</Pieces>
+		<Pieces>MW_Preview_Button</Pieces>
+		<Pieces>Screen:MW_Button_Wrap</Pieces>
+		<Pieces>MW_Done_Button</Pieces>
+</TileLayoutBox>
+
+<Screen item="MW_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>58</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>462</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:MW_SelectedItem_Glass</Pieces>
+		<Pieces>TileLayoutBox:MW_Layout</Pieces>
+</Screen>
+
+<Label item="MW_Note_Label">
+	<ScreenID>MW_Note_Label</ScreenID>
+</Label>
+
+<Label item="MW_Send_To_Label">
+	<ScreenID>MW_Send_To_Label</ScreenID>
+</Label>
+
+<Screen item="MerchantWnd">
+	<Size>
+		<CX>490</CX>
+		<CY>490</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_Drag_Vertical</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Horizontal</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Merchant</Text>
+		<Pieces>MW_MerchantSubwindows</Pieces>
+		<Pieces>Screen:MW_Name_Glass</Pieces>
+		<Pieces>Screen:MW_Pane</Pieces>
+		<Pieces>MW_Note_Label</Pieces>
+		<Pieces>MW_Send_To_Label</Pieces>
+</Screen>
+</XML>

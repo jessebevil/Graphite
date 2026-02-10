@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Compass_Overlay">
+	<Frames>
+		<Texture>Graphite_Compass.png</Texture>
+		<Location>
+			<X>79</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>98</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Compass_Strip">
+	<Frames>
+		<Texture>Graphite_Compass.png</Texture>
+		<Location>
+			<X>38</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="CMPW_Strip1">
+	<ScreenID>CompassStrip1</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>180</CX>
+		<CY>20</CY>
+	</Size>
+	<Animation>Compass_Strip</Animation>
+</StaticAnimation>
+
+<StaticAnimation item="CMPW_Strip2">
+	<ScreenID>CompassStrip2</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>180</CX>
+		<CY>20</CY>
+	</Size>
+	<Animation>Compass_Strip</Animation>
+</StaticAnimation>
+
+<StaticAnimation item="CMPW_Overlay">
+	<ScreenID>CompassOverlay</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>98</CX>
+		<CY>20</CY>
+	</Size>
+	<Animation>Compass_Overlay</Animation>
+</StaticAnimation>
+
+<Screen item="CompassWindow">
+	<Size>
+		<CX>98</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>false</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>false</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>false</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>CMPW_Strip1</Pieces>
+		<Pieces>CMPW_Strip2</Pieces>
+		<Pieces>CMPW_Overlay</Pieces>
+</Screen>
+</XML>

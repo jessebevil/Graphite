@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Listbox item="VRW_ClosedQuestions_List">
+	<ScreenID>VRW_ClosedQuestions_List</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Heading>Status</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Heading>Poll</Heading>
+		<Width>160</Width>
+	</Columns>
+	<Columns>
+		<Heading>Open Date</Heading>
+		<Width>140</Width>
+	</Columns>
+	<Columns>
+		<Heading>Close Date</Heading>
+		<Width>140</Width>
+	</Columns>
+	<Columns>
+		<Heading>Polling Location</Heading>
+		<Width>100</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="VRW_ClosedQuestions_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>VRW_ClosedQuestions_List</Pieces>
+</Screen>
+
+<Screen item="VRW_ClosedQuestions_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>126</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Poll History</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>Screen:VRW_ClosedQuestions_Glass</Pieces>
+</Screen>
+
+<Label item="VRW_SelectionValue_Label">
+	<ScreenID>VRW_SelectionValue_Label</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Text>[Value]</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="VRW_Selection_Glass">
+	<ScreenID>VRW_Selection_Screen</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>26</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>VRW_SelectionValue_Label</Pieces>
+</Screen>
+
+<Button item="VRW_Vote_Btn">
+	<ScreenID>VRW_Vote_Btn</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>207</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>307</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Vote</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TooltipReference>Opens the Voting Window for open polls.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="VRW_WinnerTeleport_Btn">
+	<ScreenID>VRW_WinnerTeleport_Btn</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>307</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>207</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Teleport to Poll</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="VRW_Vote_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>134</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>286</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Your Vote</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>Screen:VRW_Selection_Glass</Pieces>
+		<Pieces>VRW_Vote_Btn</Pieces>
+		<Pieces>VRW_WinnerTeleport_Btn</Pieces>
+</Screen>
+
+<Listbox item="VRW_Results_List">
+	<ScreenID>VRW_Results_List</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Heading>Rank</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Width>540</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_VScroll>true</Style_VScroll>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+</Listbox>
+
+<Screen item="VRW_Results_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>VRW_Results_List</Pieces>
+</Screen>
+
+<Screen item="VRW_Results_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>294</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>420</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Vote Results</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>Screen:VRW_Results_Glass</Pieces>
+</Screen>
+
+<Screen item="VoteResultsWnd">
+	<Size>
+		<CX>660</CX>
+		<CY>468</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Polls</Text>
+		<Pieces>Screen:VRW_ClosedQuestions_Pane</Pieces>
+		<Pieces>Screen:VRW_Vote_Pane</Pieces>
+		<Pieces>Screen:VRW_Results_Pane</Pieces>
+</Screen>
+</XML>

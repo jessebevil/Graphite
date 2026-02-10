@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Button item="SEW_TC0Button">
+	<ScreenID>SEW_TC0Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>240</R>
+		<G>240</G>
+		<B>240</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>240</R>
+		<G>240</G>
+		<B>240</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 240, B: 240</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC1Button">
+	<ScreenID>SEW_TC1Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>240</R>
+		<G>180</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>240</R>
+		<G>180</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>240</R>
+		<G>180</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 180, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC2Button">
+	<ScreenID>SEW_TC2Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>128</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>128</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>0</R>
+		<G>128</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 128, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC3Button">
+	<ScreenID>SEW_TC3Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>180</R>
+		<G>100</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>180</R>
+		<G>100</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>180</R>
+		<G>100</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 180, G: 100, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC4Button">
+	<ScreenID>SEW_TC4Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>0</G>
+		<B>128</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>0</G>
+		<B>128</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>128</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 0, B: 128</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC5Button">
+	<ScreenID>SEW_TC5Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>240</R>
+		<G>0</G>
+		<B>240</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>240</R>
+		<G>0</G>
+		<B>240</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>240</R>
+		<G>0</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 0, B: 240</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC6Button">
+	<ScreenID>SEW_TC6Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</TextColor>
+	<TooltipReference>R: 128, G: 128, B: 128</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC7Button">
+	<ScreenID>SEW_TC7Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>224</R>
+		<G>224</G>
+		<B>224</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>224</R>
+		<G>224</G>
+		<B>224</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>224</R>
+		<G>224</G>
+		<B>224</B>
+	</TextColor>
+	<TooltipReference>R: 224, G: 224, B: 224</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC8Button">
+	<ScreenID>SEW_TC8Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>130</R>
+		<G>130</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>130</R>
+		<G>130</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>130</R>
+		<G>130</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 130, G: 130, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC9Button">
+	<ScreenID>SEW_TC9Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>96</R>
+		<G>96</G>
+		<B>96</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>96</R>
+		<G>96</G>
+		<B>96</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>96</R>
+		<G>96</G>
+		<B>96</B>
+	</TextColor>
+	<TooltipReference>R: 96, G: 96, B: 96</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC10Button">
+	<ScreenID>SEW_TC10Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 0, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC11Button">
+	<ScreenID>SEW_TC11Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>140</R>
+		<G>0</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>140</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>140</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 140, G: 0, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC12Button">
+	<ScreenID>SEW_TC12Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>160</R>
+		<G>160</G>
+		<B>160</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>160</R>
+		<G>160</G>
+		<B>160</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>160</R>
+		<G>160</G>
+		<B>160</B>
+	</TextColor>
+	<TooltipReference>R: 160, G: 160, B: 160</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC13Button">
+	<ScreenID>SEW_TC13Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>240</R>
+		<G>0</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>240</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>240</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 0, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC14Button">
+	<ScreenID>SEW_TC14Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>240</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>240</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>0</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 240, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC15Button">
+	<ScreenID>SEW_TC15Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 240, B: 0</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC16Button">
+	<ScreenID>SEW_TC16Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>0</G>
+		<B>240</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>0</G>
+		<B>240</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 0, B: 240</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC17Button">
+	<ScreenID>SEW_TC17Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>100</G>
+		<B>240</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>100</G>
+		<B>240</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>0</R>
+		<G>100</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 100, B: 240</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC18Button">
+	<ScreenID>SEW_TC18Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>240</G>
+		<B>240</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>240</G>
+		<B>240</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>0</R>
+		<G>240</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 240, B: 240</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_TC19Button">
+	<ScreenID>SEW_TC19Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>128</R>
+		<G>0</G>
+		<B>128</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>128</R>
+		<G>0</G>
+		<B>128</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>A</Text>
+	<TextColor>
+		<R>128</R>
+		<G>0</G>
+		<B>128</B>
+	</TextColor>
+	<TooltipReference>R: 128, G: 0, B: 128</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="SEW_TC_Layout">
+	<Size>
+		<CX>400</CX>
+		<CY>20</CY>
+	</Size>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>SEW_TC10Button</Pieces>
+		<Pieces>SEW_TC9Button</Pieces>
+		<Pieces>SEW_TC6Button</Pieces>
+		<Pieces>SEW_TC12Button</Pieces>
+		<Pieces>SEW_TC0Button</Pieces>
+		<Pieces>SEW_TC7Button</Pieces>
+<!-- BLUE -->
+		<Pieces>SEW_TC18Button</Pieces>
+		<Pieces>SEW_TC17Button</Pieces>
+		<Pieces>SEW_TC16Button</Pieces>
+		<Pieces>SEW_TC4Button</Pieces>
+<!-- PURPLE -->
+		<Pieces>SEW_TC19Button</Pieces>
+		<Pieces>SEW_TC5Button</Pieces>
+<!-- RED -->
+		<Pieces>SEW_TC11Button</Pieces>
+		<Pieces>SEW_TC13Button</Pieces>
+		<Pieces>SEW_TC3Button</Pieces>
+		<Pieces>SEW_TC1Button</Pieces>
+		<Pieces>SEW_TC15Button</Pieces>
+<!-- GREEN -->
+		<Pieces>SEW_TC8Button</Pieces>
+		<Pieces>SEW_TC2Button</Pieces>
+		<Pieces>SEW_TC14Button</Pieces>
+</TileLayoutBox>
+
+<Editbox item="SEW_Line0Input">
+	<ScreenID>SEW_Line0Input</ScreenID>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Editbox item="SEW_Line1Input">
+	<ScreenID>SEW_Line1Input</ScreenID>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Editbox item="SEW_Line2Input">
+	<ScreenID>SEW_Line2Input</ScreenID>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Editbox item="SEW_Line3Input">
+	<ScreenID>SEW_Line3Input</ScreenID>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Editbox item="SEW_Line4Input">
+	<ScreenID>SEW_Line4Input</ScreenID>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Editbox item="SEW_NameInput">
+	<ScreenID>SEW_NameInput</ScreenID>
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Button item="SEW_Accept_Button">
+	<ScreenID>SEW_Accept_Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Accept</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SEW_Clear_Button">
+	<ScreenID>SEW_Clear_Button</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Clear</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="SEW_Input_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>78</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>78</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>SEW_NameInput</Pieces>
+		<Pieces>SEW_Accept_Button</Pieces>
+		<Pieces>SEW_Clear_Button</Pieces>
+</TileLayoutBox>
+
+<Screen item="SEW_Input_Wrap">
+		<Pieces>TileLayoutBox:SEW_Input_Layout</Pieces>
+</Screen>
+
+<TileLayoutBox item="SEW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>TileLayoutBox:SEW_TC_Layout</Pieces>
+		<Pieces>SEW_Line0Input</Pieces>
+		<Pieces>SEW_Line1Input</Pieces>
+		<Pieces>SEW_Line2Input</Pieces>
+		<Pieces>SEW_Line3Input</Pieces>
+		<Pieces>SEW_Line4Input</Pieces>
+		<Pieces>Screen:SEW_Input_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="SEW_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>TileLayoutBox:SEW_Layout</Pieces>
+</Screen>
+
+<Screen item="SocialEditWnd">
+	<Size>
+		<CX>444</CX>
+		<CY>216</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Social Edit</Text>
+		<Pieces>Screen:SEW_Pane</Pieces>
+</Screen>
+</XML>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Player_Box_Top">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>104</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>304</CX>
+			<CY>2</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Player_Box_Bottom">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>104</X>
+			<Y>93</Y>
+		</Location>
+		<Size>
+			<CX>304</CX>
+			<CY>2</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Listbox item="CSSW_SkillSelectorList">
+	<ScreenID>CSSW_SkillSelectorList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Heading>Name</Heading>
+		<Width>200</Width>
+	</Columns>
+	<Columns>
+		<Heading>Level</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Heading>Cost</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Heading>Upkeep</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Heading>Target</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Heading>Duration</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Heading>Reuse</Heading>
+		<Width>50</Width>
+	</Columns>
+	<Columns>
+		<Heading>Timer</Heading>
+		<Width>40</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="CSSW_SkillSelector_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>142</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>CSSW_SkillSelectorList</Pieces>
+</Screen>
+
+<STMLbox item="CSSW_SkillDescriptionStmlBox">
+	<ScreenID>CSSW_SkillDescriptionStmlBox</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>3</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</STMLbox>
+
+<Screen item="CSSW_SkillDescription_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>136</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>26</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>CSSW_SkillDescriptionStmlBox</Pieces>
+</Screen>
+
+<Button item="CSSW_MakeHotkeyButton">
+	<ScreenID>CSSW_MakeHotkeyButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>210</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>210</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Hotkey</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="CSSW_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:CSSW_SkillSelector_Glass</Pieces>
+		<Pieces>Screen:CSSW_SkillDescription_Glass</Pieces>
+		<Pieces>CSSW_MakeHotkeyButton</Pieces>
+</Screen>
+
+<Screen item="CombatSkillSelectWnd">
+	<Size>
+		<CX>600</CX>
+		<CY>600</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Disciplines</Text>
+		<Pieces>Screen:CSSW_Pane</Pieces>
+</Screen>
+</XML>

@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="20_HotButton_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>218</X>
+			<Y>239</Y>
+		</Location>
+		<Size>
+			<CX>34</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20_HotButton_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>260</X>
+			<Y>239</Y>
+		</Location>
+		<Size>
+			<CX>34</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20_HotButton_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>302</X>
+			<Y>239</Y>
+		</Location>
+		<Size>
+			<CX>34</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20_HotButton_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>344</X>
+			<Y>239</Y>
+		</Location>
+		<Size>
+			<CX>34</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20_HotButton_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>386</X>
+			<Y>239</Y>
+		</Location>
+		<Size>
+			<CX>34</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="20_HotButton">
+	<Disabled>20_HotButton_Disabled</Disabled>
+	<Flyby>20_HotButton_Flyby</Flyby>
+	<Normal>20_HotButton_Normal</Normal>
+	<Pressed>20_HotButton_Pressed</Pressed>
+	<PressedFlyby>20_HotButton_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="WDT_HotButton_TopLeft">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_HotButton_Top">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>302</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_HotButton_TopRight">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>336</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_HotButton_Left">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>216</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_HotButton_Right">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>336</X>
+			<Y>216</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_HotButton_BottomLeft">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>234</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_HotButton_Bottom">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>302</X>
+			<Y>234</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_HotButton_BottomRight">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>336</X>
+			<Y>234</Y>
+		</Location>
+		<Size>
+			<CX>3</CX>
+			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<WindowDrawTemplate item="WDT_HotButton">
+	<Background>Texture_BG_Black.png</Background>
+	<Border>
+		<TopLeft>WDT_HotButton_TopLeft</TopLeft>
+		<Top>WDT_HotButton_Top</Top>
+		<TopRight>WDT_HotButton_TopRight</TopRight>
+		<LeftTop>WDT_HotButton_Left</LeftTop>
+		<Left>WDT_HotButton_Left</Left>
+		<LeftBottom>WDT_HotButton_Left</LeftBottom>
+		<RightTop>WDT_HotButton_Right</RightTop>
+		<Right>WDT_HotButton_Right</Right>
+		<RightBottom>WDT_HotButton_Right</RightBottom>
+		<BottomLeft>WDT_HotButton_BottomLeft</BottomLeft>
+		<Bottom>WDT_HotButton_Bottom</Bottom>
+		<BottomRight>WDT_HotButton_BottomRight</BottomRight>
+	</Border>
+</WindowDrawTemplate>
+
+<Ui2DAnimation item="40_HotButton_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>467</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="40_HotButton_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>467</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="40_HotButton_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>467</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="40_HotButton_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>467</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="40_HotButton_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>467</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="40_HotButton">
+	<Disabled>40_HotButton_Disabled</Disabled>
+	<Flyby>40_HotButton_Flyby</Flyby>
+	<Normal>40_HotButton_Normal</Normal>
+	<Pressed>40_HotButton_Pressed</Pressed>
+	<PressedFlyby>40_HotButton_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton01_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>5</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton01_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>5</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton01_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>5</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton01_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>5</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton01_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>5</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_01">
+	<Disabled>HotButton01_Disabled</Disabled>
+	<Flyby>HotButton01_Flyby</Flyby>
+	<Normal>HotButton01_Normal</Normal>
+	<Pressed>HotButton01_Pressed</Pressed>
+	<PressedFlyby>HotButton01_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton02_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton02_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton02_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton02_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton02_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_02">
+	<Disabled>HotButton02_Disabled</Disabled>
+	<Flyby>HotButton02_Flyby</Flyby>
+	<Normal>HotButton02_Normal</Normal>
+	<Pressed>HotButton02_Pressed</Pressed>
+	<PressedFlyby>HotButton02_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton03_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton03_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton03_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton03_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton03_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_03">
+	<Disabled>HotButton03_Disabled</Disabled>
+	<Flyby>HotButton03_Flyby</Flyby>
+	<Normal>HotButton03_Normal</Normal>
+	<Pressed>HotButton03_Pressed</Pressed>
+	<PressedFlyby>HotButton03_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton04_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton04_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton04_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton04_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton04_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_04">
+	<Disabled>HotButton04_Disabled</Disabled>
+	<Flyby>HotButton04_Flyby</Flyby>
+	<Normal>HotButton04_Normal</Normal>
+	<Pressed>HotButton04_Pressed</Pressed>
+	<PressedFlyby>HotButton04_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton05_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton05_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton05_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton05_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton05_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_05">
+	<Disabled>HotButton05_Disabled</Disabled>
+	<Flyby>HotButton05_Flyby</Flyby>
+	<Normal>HotButton05_Normal</Normal>
+	<Pressed>HotButton05_Pressed</Pressed>
+	<PressedFlyby>HotButton05_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton06_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton06_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton06_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton06_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton06_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_06">
+	<Disabled>HotButton06_Disabled</Disabled>
+	<Flyby>HotButton06_Flyby</Flyby>
+	<Normal>HotButton06_Normal</Normal>
+	<Pressed>HotButton06_Pressed</Pressed>
+	<PressedFlyby>HotButton06_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton07_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton07_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton07_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton07_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton07_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_07">
+	<Disabled>HotButton07_Disabled</Disabled>
+	<Flyby>HotButton07_Flyby</Flyby>
+	<Normal>HotButton07_Normal</Normal>
+	<Pressed>HotButton07_Pressed</Pressed>
+	<PressedFlyby>HotButton07_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton08_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton08_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton08_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton08_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton08_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_08">
+	<Disabled>HotButton08_Disabled</Disabled>
+	<Flyby>HotButton08_Flyby</Flyby>
+	<Normal>HotButton08_Normal</Normal>
+	<Pressed>HotButton08_Pressed</Pressed>
+	<PressedFlyby>HotButton08_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton09_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton09_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton09_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton09_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton09_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_09">
+	<Disabled>HotButton09_Disabled</Disabled>
+	<Flyby>HotButton09_Flyby</Flyby>
+	<Normal>HotButton09_Normal</Normal>
+	<Pressed>HotButton09_Pressed</Pressed>
+	<PressedFlyby>HotButton09_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton10_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton10_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton10_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton10_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton10_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_10">
+	<Disabled>HotButton10_Disabled</Disabled>
+	<Flyby>HotButton10_Flyby</Flyby>
+	<Normal>HotButton10_Normal</Normal>
+	<Pressed>HotButton10_Pressed</Pressed>
+	<PressedFlyby>HotButton10_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton11_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton11_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton11_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton11_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton11_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_11">
+	<Disabled>HotButton11_Disabled</Disabled>
+	<Flyby>HotButton11_Flyby</Flyby>
+	<Normal>HotButton11_Normal</Normal>
+	<Pressed>HotButton11_Pressed</Pressed>
+	<PressedFlyby>HotButton11_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton12_40x24_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>24</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x24_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>24</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x24_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>24</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x24_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>24</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x24_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>24</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="Hotbutton_12_40x24">
+	<Disabled>HotButton12_40x24_Disabled</Disabled>
+	<Flyby>HotButton12_40x24_Flyby</Flyby>
+	<Normal>HotButton12_40x24_Normal</Normal>
+	<Pressed>HotButton12_40x24_Pressed</Pressed>
+	<PressedFlyby>HotButton12_40x24_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="HotButton12_40x40_Disabled">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>5</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x40_Flyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x40_Normal">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x40_Pressed">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="HotButton12_40x40_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_HotButtons.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="HotButton_12_40x40">
+	<Disabled>HotButton12_40x40_Disabled</Disabled>
+	<Flyby>HotButton12_40x40_Flyby</Flyby>
+	<Normal>HotButton12_40x40_Normal</Normal>
+	<Pressed>HotButton12_40x40_Pressed</Pressed>
+	<PressedFlyby>HotButton12_40x40_PressedFlyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+</XML>

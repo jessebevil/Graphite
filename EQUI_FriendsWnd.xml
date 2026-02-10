@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Listbox item="FW_FriendsList">
+	<ScreenID>FriendsList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns></Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="FW_Friends_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>70</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>FW_FriendsList</Pieces>
+</Screen>
+
+<Button item="FW_ContactButton">
+	<ScreenID>ContactButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Contact</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="FW_WhoButton">
+	<ScreenID>WhoButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Who</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Editbox item="FW_NameInput">
+	<ScreenID>NameInput</ScreenID>
+	<Size>
+		<CX>182</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Normal</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Button item="FW_AddButton">
+	<ScreenID>AddButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Add</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="FW_DeleteButton">
+	<ScreenID>DeleteButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Remove</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="FW_Friends_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>64</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>2</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>FW_ContactButton</Pieces>
+		<Pieces>FW_WhoButton</Pieces>
+		<Pieces>FW_NameInput</Pieces>
+		<Pieces>FW_AddButton</Pieces>
+		<Pieces>FW_DeleteButton</Pieces>
+</TileLayoutBox>
+
+<Screen item="FW_Friends_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:FW_Friends_Glass</Pieces>
+		<Pieces>TileLayoutBox:FW_Friends_Layout</Pieces>
+</Screen>
+
+<Page item="FW_FriendsPage">
+	<TabText>Friends</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:FW_Friends_Pane</Pieces>
+</Page>
+
+<Listbox item="FW_IgnoreList">
+	<ScreenID>IgnoreList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns></Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="FW_Ignore_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>48</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>FW_IgnoreList</Pieces>
+</Screen>
+
+<Editbox item="FW_IgnoreNameInput">
+	<ScreenID>IgnoreNameInput</ScreenID>
+	<Size>
+		<CX>182</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Normal</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Button item="FW_IgnoreAddButton">
+	<ScreenID>IgnoreAddButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Add</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="FW_IgnoreDeleteButton">
+	<ScreenID>IgnoreDeleteButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Remove</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="FW_Ignore_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>42</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>2</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>FW_IgnoreNameInput</Pieces>
+		<Pieces>FW_IgnoreAddButton</Pieces>
+		<Pieces>FW_IgnoreDeleteButton</Pieces>
+</TileLayoutBox>
+
+<Screen item="FW_Ignore_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:FW_Ignore_Glass</Pieces>
+		<Pieces>TileLayoutBox:FW_Ignore_Layout</Pieces>
+</Screen>
+
+<Page item="FW_IgnorePage">
+	<TabText>Ignored</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:FW_Ignore_Pane</Pieces>
+</Page>
+
+<Listbox item="FW_MutedList">
+	<ScreenID>MutedList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>-16</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns></Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<EQType>voicechat/MutedList</EQType>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="FW_Muted_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>26</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>FW_MutedList</Pieces>
+</Screen>
+
+<Button item="FW_MutedDeleteButton">
+	<ScreenID>MutedDeleteButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>46</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>46</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<EQType>voicechat/MutedListRemove</EQType>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Unmute</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="FW_Muted_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:FW_Muted_Glass</Pieces>
+		<Pieces>FW_MutedDeleteButton</Pieces>
+</Screen>
+
+<Page item="FW_MutedPage">
+	<TabText>Muted</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:FW_Muted_Pane</Pieces>
+</Page>
+
+<TabBox item="FW_Subwindows">
+	<ScreenID>Subwindows</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<PageBorderTemplate>Page_Border_Null</PageBorderTemplate>
+	<TabBorderTemplate>Tab_Border_Pane</TabBorderTemplate>
+		<Pages>FW_FriendsPage</Pages>
+		<Pages>FW_IgnorePage</Pages>
+		<Pages>FW_MutedPage</Pages>
+</TabBox>
+
+<Screen item="FW_Snap_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>202</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>FW_Subwindows</Pieces>
+</Screen>
+
+<Screen item="FriendsWindow">
+	<Size>
+		<CX>210</CX>
+		<CY>210</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Recessed_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Horizontal</Layout>
+	<MinVSize>140</MinVSize>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Friends</Text>
+		<Pieces>Screen:FW_Snap_Wrap</Pieces>
+</Screen>
+</XML>

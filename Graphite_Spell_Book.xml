@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="SpellBook_Normal">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>19</X>
+			<Y>72</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="SpellBook_Flyby">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>78</X>
+			<Y>72</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="SpellBook_Pressed">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>138</X>
+			<Y>72</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="SpellBook_PressedFlyby">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>197</X>
+			<Y>72</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

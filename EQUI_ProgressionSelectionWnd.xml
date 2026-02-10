@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<!-- NOTE: DEFAULT SIZE FOR CLASS ANIMATION
+	<Size>
+		<CX>75</CX>
+		<CY>142</CY>
+	</Size>
+-->
+
+<StaticAnimation item="STAT_ClassAnim">
+	<ScreenID>ClassAnim</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>10</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>55</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>55</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>152</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<Animation>A_ClassAnim01</Animation>
+</StaticAnimation>
+
+<Label item="STAT_ClassValueLabel">
+	<ScreenID>ClassValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="STAT_LevelValueLabel">
+	<ScreenID>LevelValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Class_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>14</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>STAT_ClassValueLabel</Pieces>
+		<Pieces>STAT_LevelValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_HitPointsValueLabel">
+	<ScreenID>HitPointsValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_HP_Wrap">
+		<Pieces>Shroud_HP_Text</Pieces>
+		<Pieces>STAT_HitPointsValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_ManaValueLabel">
+	<ScreenID>ManaValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Mana_Wrap">
+		<Pieces>Shroud_Mana_Text</Pieces>
+		<Pieces>STAT_ManaValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_EnduranceValueLabel">
+	<ScreenID>EnduranceValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Endurance_Wrap">
+		<Pieces>Shroud_Endurance_Text</Pieces>
+		<Pieces>STAT_EnduranceValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_StrengthValueLabel">
+	<ScreenID>StrengthValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Strength_Wrap">
+		<Pieces>Shroud_Strength_Text</Pieces>
+		<Pieces>STAT_StrengthValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_StaminaValueLabel">
+	<ScreenID>StaminaValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Stamina_Wrap">
+		<Pieces>Shroud_Stamina_Text</Pieces>
+		<Pieces>STAT_StaminaValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_IntelligenceValueLabel">
+	<ScreenID>IntelligenceValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Intelligence_Wrap">
+		<Pieces>Shroud_Intelligence_Text</Pieces>
+		<Pieces>STAT_IntelligenceValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_WisdomValueLabel">
+	<ScreenID>WisdomValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Wisdom_Wrap">
+		<Pieces>Shroud_Wisdom_Text</Pieces>
+		<Pieces>STAT_WisdomValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_AgilityValueLabel">
+	<ScreenID>AgilityValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Agility_Wrap">
+		<Pieces>Shroud_Agility_Text</Pieces>
+		<Pieces>STAT_AgilityValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_DexterityValueLabel">
+	<ScreenID>DexterityValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Dexterity_Wrap">
+		<Pieces>Shroud_Dexterity_Text</Pieces>
+		<Pieces>STAT_DexterityValueLabel</Pieces>
+</Screen>
+
+<Label item="STAT_CharismaValueLabel">
+	<ScreenID>CharismaValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="STAT_Charisma_Wrap">
+		<Pieces>Shroud_Charisma_Text</Pieces>
+		<Pieces>STAT_CharismaValueLabel</Pieces>
+</Screen>
+
+<TileLayoutBox item="Progression_Stats_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:STAT_Class_Wrap</Pieces>
+		<Pieces>Screen:STAT_HP_Wrap</Pieces>
+		<Pieces>Screen:STAT_Mana_Wrap</Pieces>
+		<Pieces>Screen:STAT_Endurance_Wrap</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:STAT_Strength_Wrap</Pieces>
+		<Pieces>Screen:STAT_Stamina_Wrap</Pieces>
+		<Pieces>Screen:STAT_Intelligence_Wrap</Pieces>
+		<Pieces>Screen:STAT_Wisdom_Wrap</Pieces>
+		<Pieces>Screen:STAT_Agility_Wrap</Pieces>
+		<Pieces>Screen:STAT_Dexterity_Wrap</Pieces>
+		<Pieces>Screen:STAT_Charisma_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="Progression_Stats_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>STAT_ClassAnim</Pieces>
+		<Pieces>TileLayoutBox:Progression_Stats_Layout</Pieces>
+</Screen>
+
+<Screen item="Progression_Stats_Pane">
+	<ScreenID>ProgressionSelectionStatsPane</ScreenID>
+	<Size>
+		<CX>218</CX>
+		<CY>220</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Statistics</Text>
+		<Pieces>Screen:Progression_Stats_Glass</Pieces>
+</Screen>
+
+<STMLbox item="ProgressionSelectionInfo">
+	<ScreenID>ProgressionSelectionInfo</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>3</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</STMLbox>
+
+<Button item="ProgressionSelectionItemIconButton">
+	<ScreenID>ProgressionSelectionItemIconButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>50</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>73</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>73</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>10</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Template>BDT_RedBuff</Template>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>40</CX>
+		<CY>40</CY>
+	</DecalSize>
+</Button>
+
+<Screen item="Progression_Info_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>ProgressionSelectionInfo</Pieces>
+		<Pieces>ProgressionSelectionItemIconButton</Pieces>
+</Screen>
+
+<Screen item="Progression_Info_Pane">
+	<Size>
+		<CX>218</CX>
+		<CY>398</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Description</Text>
+		<Pieces>Screen:Progression_Info_Glass</Pieces>
+</Screen>
+
+<Listbox item="ProgressionSelectionAbilitiesList">
+	<ScreenID>ProgressionSelectionAbilitiesList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>-18</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width></Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="Progression_Abilities_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>ProgressionSelectionAbilitiesList</Pieces>
+</Screen>
+
+<Screen item="Progression_Abilities_Pane">
+	<Size>
+		<CX>218</CX>
+		<CY>510</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Abilities</Text>
+		<Pieces>Screen:Progression_Abilities_Glass</Pieces>
+</Screen>
+
+<Listbox item="ProgressionSelectionEquipmentList">
+	<ScreenID>ProgressionSelectionEquipmentList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>-18</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width></Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="Progression_Equipment_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>ProgressionSelectionEquipmentList</Pieces>
+</Screen>
+
+<Screen item="Progression_Equipment_Pane">
+	<Size>
+		<CX>218</CX>
+		<CY>108</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Equipment</Text>
+		<Pieces>Screen:Progression_Equipment_Glass</Pieces>
+</Screen>
+
+<Listbox item="ProgressionList">
+	<ScreenID>ProgressionList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>-18</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width></Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="Progression_List_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>ProgressionList</Pieces>
+</Screen>
+
+<Screen item="Progression_List_Pane">
+	<Size>
+		<CX>218</CX>
+		<CY>178</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Monster Progression</Text>
+		<Pieces>Screen:Progression_List_Glass</Pieces>
+</Screen>
+
+<Listbox item="ProgressionBranchList">
+	<ScreenID>ProgressionBranchList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>-18</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width></Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="Progression_Branch_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>ProgressionBranchList</Pieces>
+</Screen>
+
+<Screen item="Progression_Branch_Pane">
+	<Size>
+		<CX>218</CX>
+		<CY>122</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Monster Class</Text>
+		<Pieces>Screen:Progression_Branch_Glass</Pieces>
+</Screen>
+
+<Listbox item="ProgressionStepList">
+	<ScreenID>ProgressionStepList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Heading>Monster</Heading>
+		<Width>130</Width>
+	</Columns>
+	<Columns>
+		<Heading>Level</Heading>
+		<Width>50</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="Progression_Step_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>ProgressionStepList</Pieces>
+</Screen>
+
+<Screen item="Progression_Step_Pane">
+	<Size>
+		<CX>218</CX>
+		<CY>266</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Level</Text>
+		<Pieces>Screen:Progression_Step_Glass</Pieces>
+</Screen>
+
+<Button item="ProgressionTemplateSelectAcceptButton">
+	<ScreenID>ProgressionTemplateSelectAcceptButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>100</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Accept</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="ProgressionTemplateSelectCancelButton">
+	<ScreenID>ProgressionTemplateSelectCancelButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>100</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Cancel</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="Progression_Select_Pane">
+	<Size>
+		<CX>218</CX>
+		<CY>36</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>ProgressionTemplateSelectAcceptButton</Pieces>
+		<Pieces>ProgressionTemplateSelectCancelButton</Pieces>
+</Screen>
+
+<TileLayoutBox item="Progression_Layout">
+	<ScreenID>ProgressionTemplateTopLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>8</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>8</Spacing>
+		<Pieces>Screen:Progression_Stats_Pane</Pieces>
+		<Pieces>Screen:Progression_Info_Pane</Pieces>
+		<Pieces>Screen:Progression_Abilities_Pane</Pieces>
+		<Pieces>Screen:Progression_Equipment_Pane</Pieces>
+		<Pieces>Screen:Progression_List_Pane</Pieces>
+		<Pieces>Screen:Progression_Branch_Pane</Pieces>
+		<Pieces>Screen:Progression_Step_Pane</Pieces>
+		<Pieces>Screen:Progression_Select_Pane</Pieces>
+</TileLayoutBox>
+
+<Screen item="ProgressionSelectionWnd">
+	<Size>
+		<CX>698</CX>
+		<CY>674</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Monster Select</Text>
+		<Pieces>TileLayoutBox:Progression_Layout</Pieces>
+</Screen>
+</XML>

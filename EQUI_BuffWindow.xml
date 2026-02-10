@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Screen item="BW_Netstat_BG">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>160</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>22</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_EQ_Main</DrawTemplate>
+</Screen>
+
+<Button item="BW_Buff0_Button">
+	<ScreenID>Buff0</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff1_Button">
+	<ScreenID>Buff1</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff2_Button">
+	<ScreenID>Buff2</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff3_Button">
+	<ScreenID>Buff3</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff4_Button">
+	<ScreenID>Buff4</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff5_Button">
+	<ScreenID>Buff5</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff6_Button">
+	<ScreenID>Buff6</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff7_Button">
+	<ScreenID>Buff7</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff8_Button">
+	<ScreenID>Buff8</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff9_Button">
+	<ScreenID>Buff9</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff10_Button">
+	<ScreenID>Buff10</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff11_Button">
+	<ScreenID>Buff11</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff12_Button">
+	<ScreenID>Buff12</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff13_Button">
+	<ScreenID>Buff13</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff14_Button">
+	<ScreenID>Buff14</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff15_Button">
+	<ScreenID>Buff15</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff16_Button">
+	<ScreenID>Buff16</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff17_Button">
+	<ScreenID>Buff17</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff18_Button">
+	<ScreenID>Buff18</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff19_Button">
+	<ScreenID>Buff19</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff20_Button">
+	<ScreenID>Buff20</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff21_Button">
+	<ScreenID>Buff21</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff22_Button">
+	<ScreenID>Buff22</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff23_Button">
+	<ScreenID>Buff23</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff24_Button">
+	<ScreenID>Buff24</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff25_Button">
+	<ScreenID>Buff25</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff26_Button">
+	<ScreenID>Buff26</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff27_Button">
+	<ScreenID>Buff27</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff28_Button">
+	<ScreenID>Buff28</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff29_Button">
+	<ScreenID>Buff29</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff30_Button">
+	<ScreenID>Buff30</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff31_Button">
+	<ScreenID>Buff31</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff32_Button">
+	<ScreenID>Buff32</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff33_Button">
+	<ScreenID>Buff33</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff34_Button">
+	<ScreenID>Buff34</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff35_Button">
+	<ScreenID>Buff35</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff36_Button">
+	<ScreenID>Buff36</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff37_Button">
+	<ScreenID>Buff37</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff38_Button">
+	<ScreenID>Buff38</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff39_Button">
+	<ScreenID>Buff39</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff40_Button">
+	<ScreenID>Buff40</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_Buff41_Button">
+	<ScreenID>Buff41</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>1</X>
+		<Y>1</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>10</CX>
+		<CY>10</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Label item="BW_Buff0_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>500</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff1_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>501</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff2_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>502</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff3_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>503</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff4_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>504</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff5_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>505</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff6_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>506</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff7_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>507</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff8_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>508</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff9_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>509</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff10_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>510</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff11_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>511</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff12_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>512</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff13_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>513</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff14_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>514</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff15_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>515</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff16_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>516</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff17_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>517</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff18_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>518</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff19_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>519</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff20_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>520</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff21_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>521</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff22_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>522</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff23_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>523</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff24_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>524</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff25_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>525</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff26_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>526</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff27_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>527</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff28_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>528</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff29_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>529</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff30_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>530</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff31_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>531</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff32_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>532</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff33_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>533</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff34_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>534</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff35_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>535</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff36_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>536</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff37_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>537</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff38_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>538</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff39_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>539</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff40_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>540</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_Buff41_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>13</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>20</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>541</EQType>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="BW_Buff00_Wrap">
+	<Size>
+		<CX>144</CX>
+		<CY>12</CY>
+	</Size>
+		<Pieces>F1_01_Text</Pieces>
+		<Pieces>BW_Buff0_Button</Pieces>
+		<Pieces>BW_Buff0_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff01_Wrap">
+		<Pieces>F1_02_Text</Pieces>
+		<Pieces>BW_Buff1_Button</Pieces>
+		<Pieces>BW_Buff1_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff02_Wrap">
+		<Pieces>F1_03_Text</Pieces>
+		<Pieces>BW_Buff2_Button</Pieces>
+		<Pieces>BW_Buff2_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff03_Wrap">
+		<Pieces>F1_04_Text</Pieces>
+		<Pieces>BW_Buff3_Button</Pieces>
+		<Pieces>BW_Buff3_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff04_Wrap">
+		<Pieces>F1_05_Text</Pieces>
+		<Pieces>BW_Buff4_Button</Pieces>
+		<Pieces>BW_Buff4_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff05_Wrap">
+		<Pieces>F1_06_Text</Pieces>
+		<Pieces>BW_Buff5_Button</Pieces>
+		<Pieces>BW_Buff5_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff06_Wrap">
+		<Pieces>F1_07_Text</Pieces>
+		<Pieces>BW_Buff6_Button</Pieces>
+		<Pieces>BW_Buff6_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff07_Wrap">
+		<Pieces>F1_08_Text</Pieces>
+		<Pieces>BW_Buff7_Button</Pieces>
+		<Pieces>BW_Buff7_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff08_Wrap">
+		<Pieces>F1_09_Text</Pieces>
+		<Pieces>BW_Buff8_Button</Pieces>
+		<Pieces>BW_Buff8_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff09_Wrap">
+		<Pieces>F1_10_Text</Pieces>
+		<Pieces>BW_Buff9_Button</Pieces>
+		<Pieces>BW_Buff9_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff10_Wrap">
+		<Pieces>F1_11_Text</Pieces>
+		<Pieces>BW_Buff10_Button</Pieces>
+		<Pieces>BW_Buff10_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff11_Wrap">
+		<Pieces>F1_12_Text</Pieces>
+		<Pieces>BW_Buff11_Button</Pieces>
+		<Pieces>BW_Buff11_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff12_Wrap">
+		<Pieces>F1_13_Text</Pieces>
+		<Pieces>BW_Buff12_Button</Pieces>
+		<Pieces>BW_Buff12_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff13_Wrap">
+		<Pieces>F1_14_Text</Pieces>
+		<Pieces>BW_Buff13_Button</Pieces>
+		<Pieces>BW_Buff13_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff14_Wrap">
+		<Pieces>F1_15_Text</Pieces>
+		<Pieces>BW_Buff14_Button</Pieces>
+		<Pieces>BW_Buff14_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff15_Wrap">
+		<Pieces>F1_16_Text</Pieces>
+		<Pieces>BW_Buff15_Button</Pieces>
+		<Pieces>BW_Buff15_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff16_Wrap">
+		<Pieces>F1_17_Text</Pieces>
+		<Pieces>BW_Buff16_Button</Pieces>
+		<Pieces>BW_Buff16_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff17_Wrap">
+		<Pieces>F1_18_Text</Pieces>
+		<Pieces>BW_Buff17_Button</Pieces>
+		<Pieces>BW_Buff17_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff18_Wrap">
+		<Pieces>F1_19_Text</Pieces>
+		<Pieces>BW_Buff18_Button</Pieces>
+		<Pieces>BW_Buff18_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff19_Wrap">
+		<Pieces>F1_20_Text</Pieces>
+		<Pieces>BW_Buff19_Button</Pieces>
+		<Pieces>BW_Buff19_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff20_Wrap">
+		<Pieces>F1_21_Text</Pieces>
+		<Pieces>BW_Buff20_Button</Pieces>
+		<Pieces>BW_Buff20_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff21_Wrap">
+		<Pieces>F1_22_Text</Pieces>
+		<Pieces>BW_Buff21_Button</Pieces>
+		<Pieces>BW_Buff21_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff22_Wrap">
+		<Pieces>F1_23_Text</Pieces>
+		<Pieces>BW_Buff22_Button</Pieces>
+		<Pieces>BW_Buff22_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff23_Wrap">
+		<Pieces>F1_24_Text</Pieces>
+		<Pieces>BW_Buff23_Button</Pieces>
+		<Pieces>BW_Buff23_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff24_Wrap">
+		<Pieces>F1_25_Text</Pieces>
+		<Pieces>BW_Buff24_Button</Pieces>
+		<Pieces>BW_Buff24_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff25_Wrap">
+		<Pieces>F1_26_Text</Pieces>
+		<Pieces>BW_Buff25_Button</Pieces>
+		<Pieces>BW_Buff25_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff26_Wrap">
+		<Pieces>F1_27_Text</Pieces>
+		<Pieces>BW_Buff26_Button</Pieces>
+		<Pieces>BW_Buff26_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff27_Wrap">
+		<Pieces>F1_28_Text</Pieces>
+		<Pieces>BW_Buff27_Button</Pieces>
+		<Pieces>BW_Buff27_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff28_Wrap">
+		<Pieces>F1_29_Text</Pieces>
+		<Pieces>BW_Buff28_Button</Pieces>
+		<Pieces>BW_Buff28_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff29_Wrap">
+		<Pieces>F1_30_Text</Pieces>
+		<Pieces>BW_Buff29_Button</Pieces>
+		<Pieces>BW_Buff29_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff30_Wrap">
+		<Pieces>F1_31_Text</Pieces>
+		<Pieces>BW_Buff30_Button</Pieces>
+		<Pieces>BW_Buff30_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff31_Wrap">
+		<Pieces>F1_32_Text</Pieces>
+		<Pieces>BW_Buff31_Button</Pieces>
+		<Pieces>BW_Buff31_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff32_Wrap">
+		<Pieces>F1_33_Text</Pieces>
+		<Pieces>BW_Buff32_Button</Pieces>
+		<Pieces>BW_Buff32_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff33_Wrap">
+		<Pieces>F1_34_Text</Pieces>
+		<Pieces>BW_Buff33_Button</Pieces>
+		<Pieces>BW_Buff33_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff34_Wrap">
+		<Pieces>F1_35_Text</Pieces>
+		<Pieces>BW_Buff34_Button</Pieces>
+		<Pieces>BW_Buff34_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff35_Wrap">
+		<Pieces>F1_36_Text</Pieces>
+		<Pieces>BW_Buff35_Button</Pieces>
+		<Pieces>BW_Buff35_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff36_Wrap">
+		<Pieces>F1_37_Text</Pieces>
+		<Pieces>BW_Buff36_Button</Pieces>
+		<Pieces>BW_Buff36_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff37_Wrap">
+		<Pieces>F1_38_Text</Pieces>
+		<Pieces>BW_Buff37_Button</Pieces>
+		<Pieces>BW_Buff37_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff38_Wrap">
+		<Pieces>F1_39_Text</Pieces>
+		<Pieces>BW_Buff38_Button</Pieces>
+		<Pieces>BW_Buff38_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff39_Wrap">
+		<Pieces>F1_40_Text</Pieces>
+		<Pieces>BW_Buff39_Button</Pieces>
+		<Pieces>BW_Buff39_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff40_Wrap">
+		<Pieces>F1_41_Text</Pieces>
+		<Pieces>BW_Buff40_Button</Pieces>
+		<Pieces>BW_Buff40_Text</Pieces>
+</Screen>
+
+<Screen item="BW_Buff41_Wrap">
+		<Pieces>F1_42_Text</Pieces>
+		<Pieces>BW_Buff41_Button</Pieces>
+		<Pieces>BW_Buff41_Text</Pieces>
+</Screen>
+
+<TileLayoutBox item="BW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>1</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>1</Spacing>
+		<Pieces>Screen:BW_Buff00_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff01_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff02_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff03_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff04_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff05_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff06_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff07_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff08_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff09_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff10_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff11_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff12_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff13_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff14_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff15_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff16_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff17_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff18_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff19_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff20_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff21_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff22_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff23_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff24_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff25_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff26_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff27_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff28_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff29_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff30_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff31_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff32_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff33_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff34_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff35_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff36_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff37_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff38_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff39_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff40_Wrap</Pieces>
+		<Pieces>Screen:BW_Buff41_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="BW_Scrollbox">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>24</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>158</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_2_Opaque_NoBorder</DrawTemplate>
+	<Style_Transparent>true</Style_Transparent>
+	<Style_VScroll>true</Style_VScroll>
+		<Pieces>TileLayoutBox:BW_Layout</Pieces>
+</Screen>
+
+<Screen item="BuffWindow">
+	<Size>
+		<CX>168</CX>
+		<CY>117</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Opaque</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Horizontal</Layout>
+	<MinVSize>119</MinVSize>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>false</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+
+<!-- NOTE: STATIC ANIMATION HACK USED FOR EXTRA TRANSPARENCY -->
+
+		<Pieces>Opaque_BG</Pieces>
+		<Pieces>Screen:BW_Netstat_BG</Pieces>
+		<Pieces>Screen:BW_Scrollbox</Pieces>
+</Screen>
+</XML>

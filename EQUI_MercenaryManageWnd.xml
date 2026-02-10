@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<TileLayoutBox item="MMGW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>HotButton:40x36_HB_10_06</Pieces>
+		<Pieces>HotButton:40x36_HB_10_07</Pieces>
+		<Pieces>HotButton:40x36_HB_10_08</Pieces>
+		<Pieces>HotButton:40x36_HB_10_03</Pieces>
+		<Pieces>HotButton:40x36_HB_10_04</Pieces>
+		<Pieces>HotButton:40x36_HB_10_05</Pieces>
+		<Pieces>HotButton:40x36_HB_10_00</Pieces>
+		<Pieces>HotButton:40x36_HB_10_01</Pieces>
+		<Pieces>HotButton:40x36_HB_10_02</Pieces>
+		<Pieces>HotButton:40x36_HB_10_09</Pieces>
+		<Pieces>HotButton:40x36_HB_10_10</Pieces>
+		<Pieces>HotButton:40x36_HB_10_11</Pieces>
+</TileLayoutBox>
+
+<Screen item="MMGW_Suspend_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Suspend</Pieces>
+</Screen>
+
+<Page item="MMGW_ButtonPage">
+	<Font>2</Font>
+	<TabIcon>Tab_Icon</TabIcon>
+	<TabIconActive>Tab_Icon_Active</TabIconActive>
+	<TooltipReference>Hotbar</TooltipReference>
+		<Pieces>TileLayoutBox:MMGW_Layout</Pieces>
+		<Pieces>Screen:MMGW_Suspend_Wrap</Pieces>
+</Page>
+
+<Screen item="MMGW_Merc_Time_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>20</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Time_Text</Pieces>
+		<Pieces>Merc_Time_Value</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Stance_Hotkey_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>60</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Stance_Hotkey</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Stance_Activate_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>60</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Stance_Activate</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Stance_List_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>44</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>44</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Stance_List</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Assist_Call_Wrap">
+	<ScreenID>CallForAssistButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>42</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>22</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Assist_Call</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Assist_Checkbox_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>18</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>4</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>4</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Assist_Checkbox</Pieces>
+</Screen>
+
+<Button item="MMGW_DismissButton">
+	<ScreenID>DismissButton</ScreenID>
+</Button>
+
+<Button item="MMGW_SuspendButton">
+	<ScreenID>SuspendButton</ScreenID>
+</Button>
+
+<Page item="MMGW_ManagePage">
+	<ScreenID>ManagePage</ScreenID>
+	<EQType>mercenary/ManageWnd/ManagePage</EQType>
+	<Font>2</Font>
+	<TabIcon>Tab_Icon</TabIcon>
+	<TabIconActive>Tab_Icon_Active</TabIconActive>
+	<TooltipReference>Stance</TooltipReference>
+		<Pieces>Screen:MMGW_Merc_Time_Glass</Pieces>
+		<Pieces>Screen:MMGW_Merc_Stance_Hotkey_Wrap</Pieces>
+		<Pieces>Screen:MMGW_Merc_Stance_Activate_Wrap</Pieces>
+		<Pieces>Screen:MMGW_Merc_Stance_List_Glass</Pieces>
+		<Pieces>Screen:MMGW_Merc_Assist_Call_Wrap</Pieces>
+		<Pieces>Screen:MMGW_Merc_Assist_Checkbox_Wrap</Pieces>
+		<Pieces>Button:MMGW_DismissButton</Pieces>
+		<Pieces>Button:MMGW_SuspendButton</Pieces>
+</Page>
+
+<Screen item="MMGW_Merc_Slot_Total_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>20</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Slot_Total</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Slot_Hotkey_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>60</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Slot_Hotkey</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Slot_Activate_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>60</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Slot_Activate</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Slot_Scrollbox_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>44</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>44</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:Merc_Slot_Scrollbox</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Info_Button_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>42</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>22</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Info_Button</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Dismiss_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>60</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Dismiss</Pieces>
+</Screen>
+
+<Screen item="MMGW_Merc_Gift_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>60</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Gift</Pieces>
+</Screen>
+
+<Page item="MMGW_SwitchPage">
+	<ScreenID>MMGW_SwitchPage</ScreenID>
+	<EQType>mercenary/SwitchPage</EQType>
+	<Font>2</Font>
+	<TabIcon>Tab_Icon</TabIcon>
+	<TabIconActive>Tab_Icon_Active</TabIconActive>
+	<TooltipReference>Barracks</TooltipReference>
+		<Pieces>Screen:MMGW_Merc_Slot_Total_Glass</Pieces>
+		<Pieces>Screen:MMGW_Merc_Slot_Hotkey_Wrap</Pieces>
+		<Pieces>Screen:MMGW_Merc_Slot_Activate_Wrap</Pieces>
+		<Pieces>Screen:MMGW_Merc_Slot_Scrollbox_Glass</Pieces>
+		<Pieces>Screen:MMGW_Merc_Info_Button_Wrap</Pieces>
+		<Pieces>Screen:MMGW_Merc_Dismiss_Wrap</Pieces>
+		<Pieces>Screen:MMGW_Merc_Gift_Wrap</Pieces>
+</Page>
+
+<TabBox item="MMGW_Subwindows">
+	<ScreenID>MMGW_Subwindows</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<PageBorderTemplate>Page_Border_Null</PageBorderTemplate>
+	<TabBorderTemplate>Tab_Border_Null</TabBorderTemplate>
+		<Pages>MMGW_ButtonPage</Pages>
+		<Pages>MMGW_ManagePage</Pages>
+		<Pages>MMGW_SwitchPage</Pages>
+</TabBox>
+
+<Screen item="MMGW_ManageWnd">
+
+<!-- NOTE: STANDARD 128x233. RESIZED TO 0,0 TO
+SUPPRESS MERC WINDOW AUTOPOP ON UNSUSPEND -->
+
+	<Size>
+		<CX>0</CX>
+		<CY>0</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Plain_Grill</DrawTemplate>
+	<EQType>mercenary/ManageWnd</EQType>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Mercenary</Text>
+		<Pieces>MMGW_Subwindows</Pieces>
+</Screen>
+</XML>

@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Label item="F1_01_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>1.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_02_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>2.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_03_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>3.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_04_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>4.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_05_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>5.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_06_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>6.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_07_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>7.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_08_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>8.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_09_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>9.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_10_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>10.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_11_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>11.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_12_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>12.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_13_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>13.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_14_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>14.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_15_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>15.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_16_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>16.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_17_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>17.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_18_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>18.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_19_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>19.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_20_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>20.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_21_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>21.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_22_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>22.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_23_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>23.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_24_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>24.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_25_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>25.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_26_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>26.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_27_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>27.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_28_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>28.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_29_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>29.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_30_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>30.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_31_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>31.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_32_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>32.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_33_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>33.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_34_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>34.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_35_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>35.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_36_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>36.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_37_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>37.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_38_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>38.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_39_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>39.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_40_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>40.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_41_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>41.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F1_42_Text">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>10</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>42.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Label item="F2_01_Text">
+	<Size>
+		<CX>16</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>1.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_02_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>2.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_03_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>3.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_04_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>4.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_05_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>5.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_06_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>6.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_07_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>7.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_08_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>8.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_09_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>9.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_10_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>10.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_11_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>11.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_12_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>12.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_13_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>13.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_14_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>14.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_15_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>15.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_16_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>16.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_17_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>17.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_18_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>18.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_19_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>19.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_20_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>20.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_21_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>21.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_22_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>22.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_23_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>23.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_24_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>24.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_25_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>25.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_26_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>26.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_27_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>27.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_28_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>28.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_29_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>29.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_30_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>30.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_31_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>31.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_32_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>32.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_33_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>33.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_34_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>34.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_35_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>35.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_36_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>36.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_37_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>37.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_38_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>38.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_39_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>39.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_40_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>40.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_41_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>41.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_42_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>42.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_43_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>43.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_44_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>44.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_45_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>45.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_46_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>46.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_47_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>47.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_48_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>48.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_49_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>49.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_50_Text">
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>50.</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+</XML>

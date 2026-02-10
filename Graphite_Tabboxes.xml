@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Tab_Icon">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>9</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>18</CX>
+			<CY>18</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Icon_Active">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>37</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>18</CX>
+			<CY>18</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Pane_TopLeft">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>19</X>
+			<Y>41</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>4</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Pane_Top">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>30</X>
+			<Y>41</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>4</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Pane_TopRight">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>35</X>
+			<Y>41</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>4</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Pane_LeftTop">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>19</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>4</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Pane_Left">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>19</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>4</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Pane_RightTop">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>35</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>4</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Tab_Pane_Right">
+	<Frames>
+		<Texture>Graphite_Tabboxes.png</Texture>
+		<Location>
+			<X>35</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>4</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<FrameTemplate item="Page_Border_Null">
+	<TopLeft>UI2D_NULL</TopLeft>
+	<Top>UI2D_NULL</Top>
+	<TopRight>UI2D_NULL</TopRight>
+	<LeftTop>UI2D_NULL</LeftTop>
+	<Left>UI2D_NULL</Left>
+	<LeftBottom>UI2D_NULL</LeftBottom>
+	<RightTop>UI2D_NULL</RightTop>
+	<Right>UI2D_NULL</Right>
+	<RightBottom>UI2D_NULL</RightBottom>
+	<BottomLeft>UI2D_NULL</BottomLeft>
+	<Bottom>UI2D_NULL</Bottom>
+	<BottomRight>UI2D_NULL</BottomRight>
+</FrameTemplate>
+
+<FrameTemplate item="Tab_Border_Null">
+	<TopLeft>UI2D_NULL</TopLeft>
+	<Top>UI2D_NULL</Top>
+	<TopRight>UI2D_NULL</TopRight>
+	<LeftTop>UI2D_NULL</LeftTop>
+	<Left>UI2D_NULL</Left>
+	<LeftBottom>UI2D_NULL</LeftBottom>
+	<RightTop>UI2D_NULL</RightTop>
+	<Right>UI2D_NULL</Right>
+	<RightBottom>UI2D_NULL</RightBottom>
+	<BottomLeft>UI2D_NULL</BottomLeft>
+	<Bottom>UI2D_NULL</Bottom>
+	<BottomRight>UI2D_NULL</BottomRight>
+</FrameTemplate>
+
+<FrameTemplate item="Tab_Border_Pane">
+	<TopLeft>Tab_Pane_TopLeft</TopLeft>
+	<Top>Tab_Pane_Top</Top>
+	<TopRight>Tab_Pane_TopRight</TopRight>
+	<LeftTop>Tab_Pane_LeftTop</LeftTop>
+	<Left>Tab_Pane_Left</Left>
+	<LeftBottom>Tab_Pane_Left</LeftBottom>
+	<RightTop>Tab_Pane_RightTop</RightTop>
+	<Right>Tab_Pane_Right</Right>
+	<RightBottom>Tab_Pane_Right</RightBottom>
+	<BottomLeft>UI2D_NULL</BottomLeft>
+	<Bottom>UI2D_NULL</Bottom>
+	<BottomRight>UI2D_NULL</BottomRight>
+</FrameTemplate>
+
+</XML>

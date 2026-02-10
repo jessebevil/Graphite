@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="28x48_Close_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>8</X>
+			<Y>85</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>26</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Close_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>32</X>
+			<Y>85</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>26</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Close_Pressed">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>56</X>
+			<Y>85</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>26</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Minimize_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>80</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>25</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Minimize_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>104</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>25</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Minimize_Pressed">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>128</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>25</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_QMark_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>152</X>
+			<Y>85</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>26</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_QMark_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>176</X>
+			<Y>85</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>26</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_TitleLeft">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>31</X>
+			<Y>53</Y>
+		</Location>
+		<Size>
+			<CX>74</CX>
+			<CY>34</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_TitleMiddle">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>109</X>
+			<Y>53</Y>
+		</Location>
+		<Size>
+			<CX>294</CX>
+			<CY>34</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_TitleRight">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>407</X>
+			<Y>53</Y>
+		</Location>
+		<Size>
+			<CX>74</CX>
+			<CY>34</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_LeftTop">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>13</X>
+			<Y>53</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>34</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Left">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>13</X>
+			<Y>90</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>385</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_LeftBottom">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>13</X>
+			<Y>477</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>7</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_RightTop">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>485</X>
+			<Y>53</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>34</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Right">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>485</X>
+			<Y>90</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>339</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_RightBottom">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>485</X>
+			<Y>431</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>7</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_RightBottom_Drag_Horizontal">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>485</X>
+			<Y>440</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>25</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_BottomLeft">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>13</X>
+			<Y>486</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_Bottom">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>29</X>
+			<Y>486</Y>
+		</Location>
+		<Size>
+			<CX>426</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_BottomRight">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>485</X>
+			<Y>470</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="28x48_BottomRight_Drag_Vertical">
+	<Frames>
+		<Texture>Graphite_WDT.png</Texture>
+		<Location>
+			<X>457</X>
+			<Y>486</Y>
+		</Location>
+		<Size>
+			<CX>42</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<WindowDrawTemplate item="WDT_28x48_Drag_Both">
+	<Background>Texture_BG_Dark.png</Background>
+	<Border>
+		<LeftTop>28x48_LeftTop</LeftTop>
+		<Left>28x48_Left</Left>
+		<LeftBottom>28x48_LeftBottom</LeftBottom>
+		<RightTop>28x48_RightTop</RightTop>
+		<Right>28x48_Right</Right>
+		<RightBottom>28x48_RightBottom_Drag_Horizontal</RightBottom>
+		<BottomLeft>28x48_BottomLeft</BottomLeft>
+		<Bottom>28x48_Bottom</Bottom>
+		<BottomRight>28x48_BottomRight_Drag_Vertical</BottomRight>
+	</Border>
+	<CloseBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Close_Flyby</Flyby>
+		<Normal>28x48_Close_Normal</Normal>
+		<Pressed>28x48_Close_Pressed</Pressed>
+		<PressedFlyby>28x48_Close_Pressed</PressedFlyby>
+	</CloseBox>
+	<MinimizeBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Minimize_Flyby</Flyby>
+		<Normal>28x48_Minimize_Normal</Normal>
+		<Pressed>28x48_Minimize_Pressed</Pressed>
+		<PressedFlyby>28x48_Minimize_Pressed</PressedFlyby>
+	</MinimizeBox>
+	<QMarkBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_QMark_Flyby</Flyby>
+		<Normal>28x48_QMark_Normal</Normal>
+		<Pressed>28x48_QMark_Flyby</Pressed>
+		<PressedFlyby>28x48_QMark_Flyby</PressedFlyby>
+	</QMarkBox>
+	<Titlebar>
+		<Left>28x48_TitleLeft</Left>
+		<Middle>28x48_TitleMiddle</Middle>
+		<Right>28x48_TitleRight</Right>
+	</Titlebar>
+</WindowDrawTemplate>
+
+<WindowDrawTemplate item="WDT_28x48_Drag_Horizontal">
+	<Background>Texture_BG_Dark.png</Background>
+	<Border>
+		<LeftTop>28x48_LeftTop</LeftTop>
+		<Left>28x48_Left</Left>
+		<LeftBottom>28x48_LeftBottom</LeftBottom>
+		<RightTop>28x48_RightTop</RightTop>
+		<Right>28x48_Right</Right>
+		<RightBottom>28x48_RightBottom_Drag_Horizontal</RightBottom>
+		<BottomLeft>28x48_BottomLeft</BottomLeft>
+		<Bottom>28x48_Bottom</Bottom>
+		<BottomRight>28x48_BottomRight</BottomRight>
+	</Border>
+	<CloseBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Close_Flyby</Flyby>
+		<Normal>28x48_Close_Normal</Normal>
+		<Pressed>28x48_Close_Pressed</Pressed>
+		<PressedFlyby>28x48_Close_Pressed</PressedFlyby>
+	</CloseBox>
+	<MinimizeBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Minimize_Flyby</Flyby>
+		<Normal>28x48_Minimize_Normal</Normal>
+		<Pressed>28x48_Minimize_Pressed</Pressed>
+		<PressedFlyby>28x48_Minimize_Pressed</PressedFlyby>
+	</MinimizeBox>
+	<QMarkBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_QMark_Flyby</Flyby>
+		<Normal>28x48_QMark_Normal</Normal>
+		<Pressed>28x48_QMark_Flyby</Pressed>
+		<PressedFlyby>28x48_QMark_Flyby</PressedFlyby>
+	</QMarkBox>
+	<Titlebar>
+		<Left>28x48_TitleLeft</Left>
+		<Middle>28x48_TitleMiddle</Middle>
+		<Right>28x48_TitleRight</Right>
+	</Titlebar>
+</WindowDrawTemplate>
+
+<WindowDrawTemplate item="WDT_28x48_Drag_Vertical">
+	<Background>Texture_BG_Dark.png</Background>
+	<Border>
+		<LeftTop>28x48_LeftTop</LeftTop>
+		<Left>28x48_Left</Left>
+		<LeftBottom>28x48_LeftBottom</LeftBottom>
+		<RightTop>28x48_RightTop</RightTop>
+		<Right>28x48_Right</Right>
+		<RightBottom>28x48_RightBottom</RightBottom>
+		<BottomLeft>28x48_BottomLeft</BottomLeft>
+		<Bottom>28x48_Bottom</Bottom>
+		<BottomRight>28x48_BottomRight_Drag_Vertical</BottomRight>
+	</Border>
+	<CloseBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Close_Flyby</Flyby>
+		<Normal>28x48_Close_Normal</Normal>
+		<Pressed>28x48_Close_Pressed</Pressed>
+		<PressedFlyby>28x48_Close_Pressed</PressedFlyby>
+	</CloseBox>
+	<MinimizeBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Minimize_Flyby</Flyby>
+		<Normal>28x48_Minimize_Normal</Normal>
+		<Pressed>28x48_Minimize_Pressed</Pressed>
+		<PressedFlyby>28x48_Minimize_Pressed</PressedFlyby>
+	</MinimizeBox>
+	<QMarkBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_QMark_Flyby</Flyby>
+		<Normal>28x48_QMark_Normal</Normal>
+		<Pressed>28x48_QMark_Flyby</Pressed>
+		<PressedFlyby>28x48_QMark_Flyby</PressedFlyby>
+	</QMarkBox>
+	<Titlebar>
+		<Left>28x48_TitleLeft</Left>
+		<Middle>28x48_TitleMiddle</Middle>
+		<Right>28x48_TitleRight</Right>
+	</Titlebar>
+</WindowDrawTemplate>
+
+<WindowDrawTemplate item="WDT_28x48_NoDrag">
+	<Background>Texture_BG_Dark.png</Background>
+	<Border>
+		<LeftTop>28x48_LeftTop</LeftTop>
+		<Left>28x48_Left</Left>
+		<LeftBottom>28x48_LeftBottom</LeftBottom>
+		<RightTop>28x48_RightTop</RightTop>
+		<Right>28x48_Right</Right>
+		<RightBottom>28x48_RightBottom</RightBottom>
+		<BottomLeft>28x48_BottomLeft</BottomLeft>
+		<Bottom>28x48_Bottom</Bottom>
+		<BottomRight>28x48_BottomRight</BottomRight>
+	</Border>
+	<CloseBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Close_Flyby</Flyby>
+		<Normal>28x48_Close_Normal</Normal>
+		<Pressed>28x48_Close_Pressed</Pressed>
+		<PressedFlyby>28x48_Close_Pressed</PressedFlyby>
+	</CloseBox>
+	<MinimizeBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_Minimize_Flyby</Flyby>
+		<Normal>28x48_Minimize_Normal</Normal>
+		<Pressed>28x48_Minimize_Pressed</Pressed>
+		<PressedFlyby>28x48_Minimize_Pressed</PressedFlyby>
+	</MinimizeBox>
+	<QMarkBox>
+		<Disabled>UI2D_NULL</Disabled>
+		<Flyby>28x48_QMark_Flyby</Flyby>
+		<Normal>28x48_QMark_Normal</Normal>
+		<Pressed>28x48_QMark_Flyby</Pressed>
+		<PressedFlyby>28x48_QMark_Flyby</PressedFlyby>
+	</QMarkBox>
+	<Titlebar>
+		<Left>28x48_TitleLeft</Left>
+		<Middle>28x48_TitleMiddle</Middle>
+		<Right>28x48_TitleRight</Right>
+	</Titlebar>
+</WindowDrawTemplate>
+
+</XML>

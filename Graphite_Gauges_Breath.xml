@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Breath_Background">
+	<Frames>
+		<Texture>Graphite_Gauges_Breath.png</Texture>
+		<Location>
+			<X>79</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>120</CX>
+			<CY>52</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Breath_Endcap_Left">
+	<Frames>
+		<Texture>Graphite_Gauges_Breath.png</Texture>
+		<Location>
+			<X>51</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>52</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Breath_Endcap_Right">
+	<Frames>
+		<Texture>Graphite_Gauges_Breath.png</Texture>
+		<Location>
+			<X>199</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>6</CX>
+			<CY>52</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Breath_Fill">
+	<Frames>
+		<Texture>Graphite_Gauges_Breath.png</Texture>
+		<Location>
+			<X>79</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>120</CX>
+			<CY>52</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

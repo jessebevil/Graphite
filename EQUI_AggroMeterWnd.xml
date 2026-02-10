@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Screen item="AggroMeterWnd">
+	<RelativePosition>false</RelativePosition>
+</Screen>
+</XML>

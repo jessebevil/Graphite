@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="EXP_Single_Background">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>204</X>
+			<Y>112</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="EXP_Single_Fill">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>204</X>
+			<Y>136</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="EXP_Double_Background">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>204</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="EXP_Double_Fill">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>204</X>
+			<Y>184</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="EXP_Double_Lines_Fill">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>204</X>
+			<Y>208</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="EXP_Endcap_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>202</X>
+			<Y>112</Y>
+		</Location>
+		<Size>
+			<CX>2</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="EXP_Endcap_Right">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>304</X>
+			<Y>112</Y>
+		</Location>
+		<Size>
+			<CX>2</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

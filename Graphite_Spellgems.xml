@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<!-- NOTE: DISABLED BACKGROUND FOR EXTRA AA PURCHASED SPELL GEMS -->
+
+<Ui2DAnimation item="Disabled_AA_SpellGem">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>19</X>
+			<Y>16</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<!-- NOTE: BOTTOM LAYER BACKGROUND FOR AN EMPTY SPELL GEM -->
+
+<Ui2DAnimation item="Empty_SpellGemHolder">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>78</X>
+			<Y>16</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<!-- NOTE: MIDDLE LAYER FILL COLOR AROUND A SPELL GEM -->
+
+<Ui2DAnimation item="Fill_SpellGemBackground">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>138</X>
+			<Y>16</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<!-- NOTE: TOP LAYER BACKGROUND MASKS THE BACKGROUND COLOR AROUND A SPELL GEM -->
+
+<Ui2DAnimation item="Loaded_SpellGemHighlight">
+	<Frames>
+		<Texture>Graphite_Spellgems.png</Texture>
+		<Location>
+			<X>197</X>
+			<Y>16</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<!-- NOTE: 40X24 USED FOR HOTBUTTON #12 HOTBUTTON -->
+
+<SpellGem item="40x24_SpellGem">
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>40</CX>
+		<CY>24</CY>
+	</Size>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>3</SpellIconOffsetY>
+</SpellGem>
+
+<!-- NOTE: 40X28 USED FOR BANDOLIER AND EQMAIN HOTBUTTONS -->
+
+<SpellGem item="40x28_SpellGem">
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>5</SpellIconOffsetY>
+</SpellGem>
+
+<!-- NOTE: 40X36 USED FOR ACTIONS, CASTSPELL, HOTBUTTON, AND MERCENARY MANAGE HOTBUTTONS -->
+
+<SpellGem item="40x36_SpellGem">
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+</XML>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<STMLbox item="CD_TextOutput">
+	<ScreenID>TextOutput</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>3</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</STMLbox>
+
+<Screen item="CD_Text_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>26</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>CD_TextOutput</Pieces>
+</Screen>
+
+<Screen item="CD_TextOutput_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:CD_Text_Glass</Pieces>
+</Screen>
+
+<!-- NOTE: ConfirmationDialogBox ELEMENTS WILL NOT FUNCTION OUTSIDE THE DEFAULT
+PAGE ITEM. MOVING ELEMENTS TO A TILEBOX OR SCREEN ITEM BREAKS FUNCTIONALITY.
+DO NOT INCLUDE ELEMENTS INSIDE CUSTOM SCREEN ITEMS. -->
+
+<Button item="CD_Yes_Button">
+	<ScreenID>Yes_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>28</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>66</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>8</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Yes</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<!-- NOTE: ConfirmationDialogBox ELEMENTS WILL NOT FUNCTION OUTSIDE THE DEFAULT
+PAGE ITEM. MOVING ELEMENTS TO A TILEBOX OR SCREEN ITEM BREAKS FUNCTIONALITY.
+DO NOT INCLUDE ELEMENTS INSIDE CUSTOM SCREEN ITEMS. -->
+
+<Button item="CD_No_Button">
+	<ScreenID>No_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>28</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>105</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>169</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>8</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>No</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<!-- NOTE: ConfirmationDialogBox ELEMENTS WILL NOT FUNCTION OUTSIDE THE DEFAULT
+PAGE ITEM. MOVING ELEMENTS TO A TILEBOX OR SCREEN ITEM BREAKS FUNCTIONALITY.
+DO NOT INCLUDE ELEMENTS INSIDE CUSTOM SCREEN ITEMS. -->
+
+<Button item="CD_OK_Button">
+	<ScreenID>OK_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>28</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>66</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>8</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>OK</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<!-- NOTE: ConfirmationDialogBox ELEMENTS WILL NOT FUNCTION OUTSIDE THE DEFAULT
+PAGE ITEM. MOVING ELEMENTS TO A TILEBOX OR SCREEN ITEM BREAKS FUNCTIONALITY.
+DO NOT INCLUDE ELEMENTS INSIDE CUSTOM SCREEN ITEMS. -->
+
+<Button item="CD_Cancel_Button">
+	<ScreenID>Cancel_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>28</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>105</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>169</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>8</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>No</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="ConfirmationDialogBox">
+	<Size>
+		<CX>190</CX>
+		<CY>190</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Plain_Grill</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>Screen:CD_TextOutput_Pane</Pieces>
+
+<!-- NOTE: ConfirmationDialogBox ELEMENTS WILL NOT FUNCTION OUTSIDE THE DEFAULT
+PAGE ITEM. MOVING ELEMENTS TO A TILEBOX OR SCREEN ITEM BREAKS FUNCTIONALITY.
+DO NOT INCLUDE ELEMENTS INSIDE CUSTOM SCREEN ITEMS. -->
+
+		<Pieces>CD_Yes_Button</Pieces>
+		<Pieces>CD_No_Button</Pieces>
+		<Pieces>CD_OK_Button</Pieces>
+		<Pieces>CD_Cancel_Button</Pieces>
+</Screen>
+</XML>

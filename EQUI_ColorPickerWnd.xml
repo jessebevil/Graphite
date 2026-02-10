@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Button item="CPW_TC0Button">
+	<ScreenID>CPW_TC0Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>240</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 0, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC1Button">
+	<ScreenID>CPW_TC1Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 240, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC2Button">
+	<ScreenID>CPW_TC2Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 0, B: 240</TooltipReference>
+</Button>
+
+<Button item="CPW_TC3Button">
+	<ScreenID>CPW_TC3Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 240, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC4Button">
+	<ScreenID>CPW_TC4Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 240, B: 240</TooltipReference>
+</Button>
+
+<Button item="CPW_TC5Button">
+	<ScreenID>CPW_TC5Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>127</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 127, G: 0, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC6Button">
+	<ScreenID>CPW_TC6Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>127</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 127, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC7Button">
+	<ScreenID>CPW_TC7Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>127</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 0, B: 127</TooltipReference>
+</Button>
+
+<Button item="CPW_TC8Button">
+	<ScreenID>CPW_TC8Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>127</R>
+		<G>127</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 127, G: 127, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC9Button">
+	<ScreenID>CPW_TC9Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>127</R>
+		<G>127</G>
+		<B>127</B>
+	</TextColor>
+	<TooltipReference>R: 127, G: 127, B: 127</TooltipReference>
+</Button>
+
+<Button item="CPW_TC10Button">
+	<ScreenID>CPW_TC10Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>240</G>
+		<B>240</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 240, B: 240</TooltipReference>
+</Button>
+
+<Button item="CPW_TC11Button">
+	<ScreenID>CPW_TC11Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>127</G>
+		<B>127</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 127, B: 127</TooltipReference>
+</Button>
+
+<Button item="CPW_TC12Button">
+	<ScreenID>CPW_TC12Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>240</R>
+		<G>127</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 240, G: 127, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC13Button">
+	<ScreenID>CPW_TC13Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>127</R>
+		<G>64</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 127, G: 64, B: 0</TooltipReference>
+</Button>
+
+<Button item="CPW_TC14Button">
+	<ScreenID>CPW_TC14Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<TooltipReference>R: 0, G: 0, B: 0</TooltipReference>
+</Button>
+
+<Slider item="CPW_RedSlider">
+	<ScreenID>CPW_RedSlider</ScreenID>
+	<Size>
+		<CX>82</CX>
+		<CY>20</CY>
+	</Size>
+	<SliderArt>Slider_Red</SliderArt>
+</Slider>
+
+<Editbox item="CPW_RedSliderInput">
+	<ScreenID>CPW_RedSliderInput</ScreenID>
+	<Size>
+		<CX>30</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>200</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+</Editbox>
+
+<Slider item="CPW_GreenSlider">
+	<ScreenID>CPW_GreenSlider</ScreenID>
+	<Size>
+		<CX>82</CX>
+		<CY>20</CY>
+	</Size>
+	<SliderArt>Slider_Green</SliderArt>
+</Slider>
+
+<Editbox item="CPW_GreenSliderInput">
+	<ScreenID>CPW_GreenSliderInput</ScreenID>
+	<Size>
+		<CX>30</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>0</R>
+		<G>200</G>
+		<B>0</B>
+	</TextColor>
+</Editbox>
+
+<Slider item="CPW_BlueSlider">
+	<ScreenID>CPW_BlueSlider</ScreenID>
+	<Size>
+		<CX>82</CX>
+		<CY>20</CY>
+	</Size>
+	<SliderArt>Slider_Blue</SliderArt>
+</Slider>
+
+<Editbox item="CPW_BlueSliderInput">
+	<ScreenID>CPW_BlueSliderInput</ScreenID>
+	<Size>
+		<CX>30</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>200</B>
+	</TextColor>
+</Editbox>
+
+<Button item="CPW_TC15Button">
+	<ScreenID>CPW_TC15Button</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalSize>
+		<CX>12</CX>
+		<CY>12</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_4_Button</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Template>BDT_Tint</Template>
+	<TextColor>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+</Button>
+
+<Button item="CPW_Accept_Button">
+	<ScreenID>CPW_Accept_Button</ScreenID>
+	<Size>
+		<CX>92</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Accept</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="CPW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>4</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>4</Spacing>
+		<Pieces>CPW_TC14Button</Pieces>
+		<Pieces>CPW_TC9Button</Pieces>
+		<Pieces>CPW_TC4Button</Pieces>
+<!-- BLUE -->
+		<Pieces>CPW_TC10Button</Pieces>
+		<Pieces>CPW_TC11Button</Pieces>
+		<Pieces>CPW_TC2Button</Pieces>
+		<Pieces>CPW_TC7Button</Pieces>
+<!-- RED -->
+		<Pieces>CPW_TC5Button</Pieces>
+		<Pieces>CPW_TC0Button</Pieces>
+<!-- ORANGE -->
+		<Pieces>CPW_TC13Button</Pieces>
+		<Pieces>CPW_TC12Button</Pieces>
+<!-- YELLOW -->
+		<Pieces>CPW_TC3Button</Pieces>
+		<Pieces>CPW_TC8Button</Pieces>
+<!-- GREEN -->
+		<Pieces>CPW_TC6Button</Pieces>
+		<Pieces>CPW_TC1Button</Pieces>
+		<Pieces>CPW_RedSlider</Pieces>
+		<Pieces>CPW_RedSliderInput</Pieces>
+		<Pieces>CPW_GreenSlider</Pieces>
+		<Pieces>CPW_GreenSliderInput</Pieces>
+		<Pieces>CPW_BlueSlider</Pieces>
+		<Pieces>CPW_BlueSliderInput</Pieces>
+		<Pieces>CPW_TC15Button</Pieces>
+		<Pieces>CPW_Accept_Button</Pieces>
+</TileLayoutBox>
+
+<Screen item="CPW_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>TileLayoutBox:CPW_Layout</Pieces>
+</Screen>
+
+<Screen item="ColorPickerWnd">
+	<Size>
+		<CX>144</CX>
+		<CY>203</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Plain_Grill</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Brush</Text>
+		<Pieces>Screen:CPW_Pane</Pieces>
+</Screen>
+</XML>

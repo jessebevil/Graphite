@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Opaque_Texture">
+	<Frames>
+		<Texture>Texture_BG_Opaque.png</Texture>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Opaque_BG">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Opaque_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="Glass_Texture">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>12</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>232</CX>
+			<CY>232</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Glass_BG">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Glass_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="Pane_16x16_Texture">
+	<Frames>
+		<Texture>Graphite_WDT_Pane_16x16.png</Texture>
+		<Location>
+			<X>12</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>232</CX>
+			<CY>232</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Pane_16x16_BG">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Pane_16x16_Texture</Animation>
+</StaticAnimation>
+
+<Screen item="Generic_Pane_BG">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+</Screen>
+
+<Ui2DAnimation item="Pane_16x36_Texture">
+	<Frames>
+		<Texture>Graphite_WDT_Pane_16x36.png</Texture>
+		<Location>
+			<X>12</X>
+			<Y>32</Y>
+		</Location>
+		<Size>
+			<CX>232</CX>
+			<CY>212</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Pane_16x36_BG">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Pane_16x36_Texture</Animation>
+</StaticAnimation>
+
+</XML>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Gauge item="RW_TimeGauge">
+	<ScreenID>TimeGauge</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>8</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>8</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>8</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>28</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawLinesFill>true</DrawLinesFill>
+	<EQType>28</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Background>EXP_Double_Background</Background>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Double_Fill</Fill>
+		<LinesFill>EXP_Double_Lines_Fill</LinesFill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<LinesFillTint>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</LinesFillTint>
+</Gauge>
+
+<Screen item = "RW_OptionsList_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>34</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>8</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>8</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>34</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+</Screen>
+
+<Listbox item = "RW_OptionsList">
+	<ScreenID>OptionsList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>36</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>12</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>10</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>36</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns></Columns>
+	<Columns>
+		<Heading>Name</Heading>
+		<Width>70</Width>
+	</Columns>
+	<Columns>
+		<Heading>Zone</Heading>
+		<Width>100</Width>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Button item = "RW_SelectButton">
+	<ScreenID>SelectButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>28</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>8</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>8</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>8</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Respawn</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item = "RespawnWnd">
+	<Size>
+		<CX>246</CX>
+		<CY>166</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>false</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Respawn</Text>
+
+<!-- NOTE: RespawnWnd ITEMS WILL NOT FUNCTION OUTSIDE
+THE DEFAULT PAGE ITEM. MOVING THE SCREEN ID TO ANOTHER
+TILEBOX OR SCREEN ITEM SCREEN ALSO BREAKS FUNCTIONALITY.
+DO NOT INCLUDE PIECES INSIDE CUSTOM SCREEN ITEMS. -->
+
+		<Pieces>Screen:Generic_Pane_BG</Pieces>
+		<Pieces>RW_TimeGauge</Pieces>
+		<Pieces>Screen:RW_OptionsList_Glass</Pieces>
+		<Pieces>RW_OptionsList</Pieces>
+		<Pieces>RW_SelectButton</Pieces>
+</Screen>
+</XML>

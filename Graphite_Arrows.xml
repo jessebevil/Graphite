@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="9x10_Left_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>10</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>10</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="9x10_Left_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>34</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>10</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="9x10_Left_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>58</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>10</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="9x10_Left">
+	<Disabled>9x10_Left_Disabled</Disabled>
+	<Flyby>9x10_Left_Flyby</Flyby>
+	<Normal>9x10_Left_Normal</Normal>
+	<Pressed>9x10_Left_Flyby</Pressed>
+	<PressedFlyby>9x10_Left_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="9x10_Right_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>82</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>10</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="9x10_Right_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>10</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="9x10_Right_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>130</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>10</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="9x10_Right">
+	<Disabled>9x10_Right_Disabled</Disabled>
+	<Flyby>9x10_Right_Flyby</Flyby>
+	<Normal>9x10_Right_Normal</Normal>
+	<Pressed>9x10_Right_Flyby</Pressed>
+	<PressedFlyby>9x10_Right_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="13x14_Left_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>8</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="13x14_Left_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>32</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="13x14_Left_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>56</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="13x14_Left">
+	<Disabled>13x14_Left_Disabled</Disabled>
+	<Flyby>13x14_Left_Flyby</Flyby>
+	<Normal>13x14_Left_Normal</Normal>
+	<Pressed>13x14_Left_Flyby</Pressed>
+	<PressedFlyby>13x14_Left_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="13x14_Right_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>80</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="13x14_Right_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>104</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="13x14_Right_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>128</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="13x14_Right">
+	<Disabled>13x14_Right_Disabled</Disabled>
+	<Flyby>13x14_Right_Flyby</Flyby>
+	<Normal>13x14_Right_Normal</Normal>
+	<Pressed>13x14_Right_Flyby</Pressed>
+	<PressedFlyby>13x14_Right_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="20x20_Left_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Left_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>28</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Left_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>52</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="20x20_Left">
+	<Disabled>20x20_Left_Disabled</Disabled>
+	<Flyby>20x20_Left_Flyby</Flyby>
+	<Normal>20x20_Left_Normal</Normal>
+	<Pressed>20x20_Left_Flyby</Pressed>
+	<PressedFlyby>20x20_Left_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="20x20_Right_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>76</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Right_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>100</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Right_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>124</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="20x20_Right">
+	<Disabled>20x20_Right_Disabled</Disabled>
+	<Flyby>20x20_Right_Flyby</Flyby>
+	<Normal>20x20_Right_Normal</Normal>
+	<Pressed>20x20_Right_Flyby</Pressed>
+	<PressedFlyby>20x20_Right_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="20x20_Up_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>148</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Up_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>172</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Up_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>196</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="20x20_Up">
+	<Disabled>20x20_Up_Disabled</Disabled>
+	<Flyby>20x20_Up_Flyby</Flyby>
+	<Normal>20x20_Up_Normal</Normal>
+	<Pressed>20x20_Up_Flyby</Pressed>
+	<PressedFlyby>20x20_Up_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="20x20_Down_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>220</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Down_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>244</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20x20_Down_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>268</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="20x20_Down">
+	<Disabled>20x20_Down_Disabled</Disabled>
+	<Flyby>20x20_Down_Flyby</Flyby>
+	<Normal>20x20_Down_Normal</Normal>
+	<Pressed>20x20_Down_Flyby</Pressed>
+	<PressedFlyby>20x20_Down_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+</XML>

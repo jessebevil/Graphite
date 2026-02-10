@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Slider item="QTYW_Slider">
+	<ScreenID>QTYW_Slider</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<SliderArt>Slider</SliderArt>
+</Slider>
+
+<Editbox item="QTYW_SliderInput">
+	<ScreenID>QTYW_SliderInput</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>18</Y>
+	</Location>
+	<Size>
+		<CX>49</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Button item="QTYW_Accept_Button">
+	<ScreenID>QTYW_Accept_Button</ScreenID>
+	<Location>
+		<X>53</X>
+		<Y>18</Y>
+	</Location>
+	<Size>
+		<CX>49</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Accept</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="QuantityWnd">
+	<Size>
+		<CX>112</CX>
+		<CY>59</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Plain_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Quantity</Text>
+		<Pieces>QTYW_Slider</Pieces>
+		<Pieces>QTYW_SliderInput</Pieces>
+		<Pieces>QTYW_Accept_Button</Pieces>
+</Screen>
+</XML>

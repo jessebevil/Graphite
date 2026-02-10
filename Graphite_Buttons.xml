@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Audio_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>292</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Audio_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>316</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Audio_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>340</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="Audio">
+	<Disabled>Audio_Disabled</Disabled>
+	<Flyby>Audio_Flyby</Flyby>
+	<Normal>Audio_Normal</Normal>
+	<Pressed>Audio_Flyby</Pressed>
+	<PressedFlyby>Audio_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="Mail_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>364</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Mail_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>388</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Mail_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>412</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="Mail">
+	<Disabled>Mail_Disabled</Disabled>
+	<Flyby>Mail_Flyby</Flyby>
+	<Normal>Mail_Normal</Normal>
+	<Pressed>Mail_Flyby</Pressed>
+	<PressedFlyby>Mail_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="Options_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>436</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Options_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>460</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Options_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>484</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="Options">
+	<Disabled>Options_Disabled</Disabled>
+	<Flyby>Options_Flyby</Flyby>
+	<Normal>Options_Normal</Normal>
+	<Pressed>Options_Flyby</Pressed>
+	<PressedFlyby>Options_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="Search_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>292</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Search_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>316</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Search_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>340</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="Search">
+	<Disabled>Search_Disabled</Disabled>
+	<Flyby>Search_Flyby</Flyby>
+	<Normal>Search_Normal</Normal>
+	<Pressed>Search_Flyby</Pressed>
+	<PressedFlyby>Search_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Button item="Disable_Name_Change_Reminder_Dummy">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<Normal>20_HotButton_Disabled</Normal>
+	</ButtonDrawTemplate>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</MouseoverColor>
+	<Style_Border>true</Style_Border>
+	<Text>Disable Reminder</Text>
+	<TextColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</Button>
+
+</XML>

@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<TextureInfo item="menuicons01.tga">
+	<Size>
+		<CX>256</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<Ui2DAnimation item="A_MenuIcons">
+	<Grid>true</Grid>
+	<CellHeight>24</CellHeight>
+	<CellWidth>24</CellWidth>
+	<Vertical>true</Vertical>
+	<Frames>
+		<Texture>menuicons01.tga</Texture>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_EQBtnFlyby">
+	<Frames>
+		<Texture>window_pieces05.tga</Texture>
+		<Location>
+			<X>102</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>44</CX>
+			<CY>44</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_EQBtnNormal">
+	<Frames>
+		<Texture>window_pieces05.tga</Texture>
+		<Location>
+			<X>60</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>44</CX>
+			<CY>44</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_EQBtnPressed">
+	<Frames>
+		<Texture>window_pieces05.tga</Texture>
+		<Location>
+			<X>144</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>44</CX>
+			<CY>44</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_EQBtnPressedFlyby">
+	<Frames>
+		<Texture>window_pieces05.tga</Texture>
+		<Location>
+			<X>186</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>44</CX>
+			<CY>44</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Button item="CCmdIW_Button">
+	<ScreenID>Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="CascadeCommandItemWnd">
+	<Size>
+		<CX>170</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>CCmdIW_Button</Pieces>
+</Screen>
+
+<Button item="CSubIW_Button">
+	<ScreenID>Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<NormalDecal>A_MenuIcons</NormalDecal>
+		<Disabled>20_HotButton_Disabled</Disabled>
+		<Flyby>20_HotButton_Flyby</Flyby>
+		<Normal>20_HotButton_Normal</Normal>
+		<Pressed>20_HotButton_Pressed</Pressed>
+		<PressedFlyby>20_HotButton_PressedFlyby</PressedFlyby>
+	</ButtonDrawTemplate>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="CSubIW_Arrow">
+	<ScreenID>Arrow</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>3</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>17</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>3</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<Normal>13x14_Right_Normal</Normal>
+	</ButtonDrawTemplate>
+</Button>
+
+<Screen item="CascadeSubmenuItemWnd">
+	<Size>
+		<CX>170</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+	<Style_Transparent>true</Style_Transparent>
+		<Pieces>CSubIW_Button</Pieces>
+		<Pieces>CSubIW_Arrow</Pieces>
+</Screen>
+
+<Screen item="CascadeSubWnd">
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+</Screen>
+
+<Screen item="CascadeTopWnd">
+	<Size>
+		<CX>170</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+</Screen>
+
+<!-- NOTE: LEFT GRILL BACKGROUND -->
+
+<Screen item="EQM_BG_01">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>631</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_4_Grill</DrawTemplate>
+</Screen>
+
+<!-- NOTE: TOP GRILL BACKGROUND -->
+
+<Screen item="EQM_BG_02">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>631</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>729</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>24</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_4_Grill</DrawTemplate>
+</Screen>
+
+<!-- NOTE: BOTTOM GRILL BACKGROUND -->
+
+<Screen item="EQM_BG_03">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>4</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>631</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>729</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_4_Grill</DrawTemplate>
+</Screen>
+
+<!-- NOTE: RIGHT GRILL BACKGROUND -->
+
+<Screen item="EQM_BG_04">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>729</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>1360</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_4_Grill</DrawTemplate>
+</Screen>
+
+<TileLayoutBox item="EQM_HotButtons_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>1360</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>28</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:40x28_HB_06_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_06_01</Pieces>
+		<Pieces>HotButton:40x28_HB_06_02</Pieces>
+		<Pieces>HotButton:40x28_HB_06_03</Pieces>
+		<Pieces>HotButton:40x28_HB_06_04</Pieces>
+		<Pieces>HotButton:40x28_HB_06_05</Pieces>
+		<Pieces>HotButton:40x28_HB_06_06</Pieces>
+		<Pieces>HotButton:40x28_HB_06_07</Pieces>
+		<Pieces>HotButton:40x28_HB_06_08</Pieces>
+		<Pieces>HotButton:40x28_HB_06_09</Pieces>
+		<Pieces>Screen:40x28_HB_04_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_04_01</Pieces>
+		<Pieces>HotButton:40x28_HB_04_02</Pieces>
+		<Pieces>HotButton:40x28_HB_04_03</Pieces>
+		<Pieces>HotButton:40x28_HB_04_04</Pieces>
+		<Pieces>HotButton:40x28_HB_04_05</Pieces>
+		<Pieces>HotButton:40x28_HB_04_06</Pieces>
+		<Pieces>HotButton:40x28_HB_04_07</Pieces>
+		<Pieces>HotButton:40x28_HB_04_08</Pieces>
+		<Pieces>HotButton:40x28_HB_04_09</Pieces>
+		<Pieces>HotButton:40x28_HB_04_10</Pieces>
+		<Pieces>HotButton:40x28_HB_04_11</Pieces>
+		<Pieces>Screen:40x28_HB_02_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_02_01</Pieces>
+		<Pieces>HotButton:40x28_HB_02_02</Pieces>
+		<Pieces>HotButton:40x28_HB_02_03</Pieces>
+		<Pieces>HotButton:40x28_HB_02_04</Pieces>
+		<Pieces>HotButton:40x28_HB_02_05</Pieces>
+		<Pieces>HotButton:40x28_HB_02_06</Pieces>
+		<Pieces>HotButton:40x28_HB_02_07</Pieces>
+		<Pieces>HotButton:40x28_HB_02_08</Pieces>
+		<Pieces>HotButton:40x28_HB_02_09</Pieces>
+		<Pieces>HotButton:40x28_HB_02_10</Pieces>
+		<Pieces>HotButton:40x28_HB_02_11</Pieces>
+		<Pieces>Screen:40x28_HB_07_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_07_01</Pieces>
+		<Pieces>HotButton:40x28_HB_07_02</Pieces>
+		<Pieces>HotButton:40x28_HB_07_03</Pieces>
+		<Pieces>HotButton:40x28_HB_07_04</Pieces>
+		<Pieces>HotButton:40x28_HB_07_05</Pieces>
+		<Pieces>HotButton:40x28_HB_07_06</Pieces>
+		<Pieces>HotButton:40x28_HB_07_07</Pieces>
+		<Pieces>HotButton:40x28_HB_07_08</Pieces>
+		<Pieces>HotButton:40x28_HB_07_09</Pieces>
+		<Pieces>Screen:40x28_HB_05_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_05_01</Pieces>
+		<Pieces>HotButton:40x28_HB_05_02</Pieces>
+		<Pieces>HotButton:40x28_HB_05_03</Pieces>
+		<Pieces>HotButton:40x28_HB_05_04</Pieces>
+		<Pieces>HotButton:40x28_HB_05_05</Pieces>
+		<Pieces>HotButton:40x28_HB_05_06</Pieces>
+		<Pieces>HotButton:40x28_HB_05_07</Pieces>
+		<Pieces>HotButton:40x28_HB_05_08</Pieces>
+		<Pieces>HotButton:40x28_HB_05_09</Pieces>
+		<Pieces>HotButton:40x28_HB_05_10</Pieces>
+		<Pieces>HotButton:40x28_HB_05_11</Pieces>
+		<Pieces>Screen:40x28_HB_03_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_03_01</Pieces>
+		<Pieces>HotButton:40x28_HB_03_02</Pieces>
+		<Pieces>HotButton:40x28_HB_03_03</Pieces>
+		<Pieces>HotButton:40x28_HB_03_04</Pieces>
+		<Pieces>HotButton:40x28_HB_03_05</Pieces>
+		<Pieces>HotButton:40x28_HB_03_06</Pieces>
+		<Pieces>HotButton:40x28_HB_03_07</Pieces>
+		<Pieces>HotButton:40x28_HB_03_08</Pieces>
+		<Pieces>HotButton:40x28_HB_03_09</Pieces>
+		<Pieces>HotButton:40x28_HB_03_10</Pieces>
+		<Pieces>HotButton:40x28_HB_03_11</Pieces>
+</TileLayoutBox>
+
+<Button item="EQM_SCButton">
+	<ScreenID>SCButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Template>BDT_SCBtn</Template>
+</Button>
+
+<Button item="EQM_SCFSButton">
+	<ScreenID>SCFSButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Template>BDT_SCFSBtn</Template>
+</Button>
+
+<Screen item="EQM_SC_Wrap">
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>EQM_SCButton</Pieces>
+		<Pieces>EQM_SCFSButton</Pieces>
+</Screen>
+
+<Button item="EQM_EQButton">
+	<ScreenID>EQButton</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<ButtonDrawTemplate>
+		<Flyby>A_EQBtnFlyby</Flyby>
+		<Normal>A_EQBtnNormal</Normal>
+		<Pressed>A_EQBtnPressed</Pressed>
+		<PressedFlyby>A_EQBtnPressedFlyby</PressedFlyby>
+	</ButtonDrawTemplate>
+	<Style_Checkbox>true</Style_Checkbox>
+</Button>
+
+<Screen item="EQM_Magic_Icon_Wrap">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+		<Pieces>Magic_Icon</Pieces>
+</Screen>
+
+<Label item="EQM_Magic_Current">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>42</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>249</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>75</R>
+		<G>175</G>
+		<B>250</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_Divider_Resist">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>25</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<Text>/</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_Magic_Max">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>20</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>275</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>75</R>
+		<G>175</G>
+		<B>250</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_Magic_Wrap">
+	<Size>
+		<CX>72</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:EQM_Magic_Icon_Wrap</Pieces>
+		<Pieces>EQM_Magic_Current</Pieces>
+		<Pieces>F2_Divider_Resist</Pieces>
+		<Pieces>EQM_Magic_Max</Pieces>
+</Screen>
+
+<Screen item="EQM_Fire_Icon_Wrap">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+		<Pieces>Fire_Icon</Pieces>
+</Screen>
+
+<Label item="EQM_Fire_Current">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>42</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>247</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>25</G>
+		<B>25</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_Fire_Max">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>20</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>273</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>25</G>
+		<B>25</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_Fire_Wrap">
+	<Size>
+		<CX>72</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:EQM_Fire_Icon_Wrap</Pieces>
+		<Pieces>EQM_Fire_Current</Pieces>
+		<Pieces>F2_Divider_Resist</Pieces>
+		<Pieces>EQM_Fire_Max</Pieces>
+</Screen>
+
+<Screen item="EQM_Cold_Icon_Wrap">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+		<Pieces>Cold_Icon</Pieces>
+</Screen>
+
+<Label item="EQM_Cold_Current">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>42</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>248</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>25</R>
+		<G>75</G>
+		<B>200</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_Cold_Max">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>20</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>274</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>25</R>
+		<G>75</G>
+		<B>200</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_Cold_Wrap">
+	<Size>
+		<CX>72</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:EQM_Cold_Icon_Wrap</Pieces>
+		<Pieces>EQM_Cold_Current</Pieces>
+		<Pieces>F2_Divider_Resist</Pieces>
+		<Pieces>EQM_Cold_Max</Pieces>
+</Screen>
+
+<Screen item="EQM_Disease_Icon_Wrap">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+		<Pieces>Disease_Icon</Pieces>
+</Screen>
+
+<Label item="EQM_Disease_Current">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>42</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>246</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>150</R>
+		<G>150</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_Disease_Max">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>20</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>272</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>150</R>
+		<G>150</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_Disease_Wrap">
+	<Size>
+		<CX>72</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:EQM_Disease_Icon_Wrap</Pieces>
+		<Pieces>EQM_Disease_Current</Pieces>
+		<Pieces>F2_Divider_Resist</Pieces>
+		<Pieces>EQM_Disease_Max</Pieces>
+</Screen>
+
+<Screen item="EQM_Poison_Icon_Wrap">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+		<Pieces>Poison_Icon</Pieces>
+</Screen>
+
+<Label item="EQM_Poison_Current">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>42</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>245</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>50</R>
+		<G>255</G>
+		<B>50</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_Poison_Max">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>20</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>271</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>50</R>
+		<G>255</G>
+		<B>50</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_Poison_Wrap">
+	<Size>
+		<CX>72</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:EQM_Poison_Icon_Wrap</Pieces>
+		<Pieces>EQM_Poison_Current</Pieces>
+		<Pieces>F2_Divider_Resist</Pieces>
+		<Pieces>EQM_Poison_Max</Pieces>
+</Screen>
+
+<Screen item="EQM_Corruption_Icon_Wrap">
+	<Location>
+		<X>1</X>
+		<Y>1</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+		<Pieces>Corruption_Icon</Pieces>
+</Screen>
+
+<Label item="EQM_Corruption_Current">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>42</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>250</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>100</R>
+		<G>0</G>
+		<B>100</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_Corruption_Max">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>20</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>276</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>100</R>
+		<G>0</G>
+		<B>100</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_Corruption_Wrap">
+	<Size>
+		<CX>72</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:EQM_Corruption_Icon_Wrap</Pieces>
+		<Pieces>EQM_Corruption_Current</Pieces>
+		<Pieces>F2_Divider_Resist</Pieces>
+		<Pieces>EQM_Corruption_Max</Pieces>
+</Screen>
+
+<TileLayoutBox item="EQM_Stats_Layout">
+
+<!--
+	<Size>
+		<CX>500</CX>
+		<CY>20</CY>
+	</Size>
+-->
+
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>24</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>65</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>565</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>4</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>4</Spacing>
+		<Pieces>Screen:EQM_SC_Wrap</Pieces>
+		<Pieces>EQM_EQButton</Pieces>
+		<Pieces>Screen:EQM_Magic_Wrap</Pieces>
+		<Pieces>Screen:EQM_Fire_Wrap</Pieces>
+		<Pieces>Screen:EQM_Cold_Wrap</Pieces>
+		<Pieces>Screen:EQM_Disease_Wrap</Pieces>
+		<Pieces>Screen:EQM_Poison_Wrap</Pieces>
+		<Pieces>Screen:EQM_Corruption_Wrap</Pieces>
+</TileLayoutBox>
+
+<Button item="EQM_Audio">
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<EQType>openwnd AudioTriggersWindow</EQType>
+	<Font>2</Font>
+	<Template>Audio</Template>
+	<TooltipReference>Audio Triggers</TooltipReference>
+</Button>
+
+<Button item="EQM_Mail">
+	<ScreenID>SELW_MailToggleButton</ScreenID>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<EQType>openwnd MailWindow</EQType>
+	<Font>2</Font>
+	<Template>Mail</Template>
+	<TooltipReference>Mail</TooltipReference>
+</Button>
+
+<Button item="EQM_Options">
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<EQType>openwnd OptionsWindow</EQType>
+	<Font>2</Font>
+	<Template>Options</Template>
+	<TooltipReference>Options</TooltipReference>
+</Button>
+
+<Label item="EQM_AA_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>28</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>AA:</Text>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_AA_Value">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>38</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>27</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_AA_Percent">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>48</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>%</Text>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Label item="F2_AA_XP_Divider">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>54</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<Text>/</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_AA_Banked">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>26</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>71</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_AA_Text_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>EQM_AA_Text</Pieces>
+		<Pieces>EQM_AA_Value</Pieces>
+		<Pieces>EQM_AA_Percent</Pieces>
+		<Pieces>F2_AA_XP_Divider</Pieces>
+		<Pieces>EQM_AA_Banked</Pieces>
+</Screen>
+
+<Gauge item="EQM_Gauge_AA">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawLinesFill>true</DrawLinesFill>
+	<EQType>5</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Background>EXP_Double_Background</Background>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Double_Fill</Fill>
+		<LinesFill>EXP_Double_Fill</LinesFill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<LinesFillTint>
+		<R>0</R>
+		<G>80</G>
+		<B>220</B>
+	</LinesFillTint>
+</Gauge>
+
+<Gauge item="EQM_Gauge_AA_Vitality">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>148</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Double_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="EQM_Gauge_XP">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawLinesFill>true</DrawLinesFill>
+	<EQType>4</EQType>
+	<FillTint>
+		<R>225</R>
+		<G>181</G>
+		<B>17</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Double_Lines_Fill</Fill>
+		<LinesFill>EXP_Double_Lines_Fill</LinesFill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<LinesFillTint>
+		<R>0</R>
+		<G>80</G>
+		<B>220</B>
+	</LinesFillTint>
+</Gauge>
+
+<Gauge item="EQM_Gauge_XP_Vitality">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>147</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Double_Lines_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Screen item="EQM_Gauge_Title">
+	<Size>
+		<CX>120</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>Title_BG</Pieces>
+		<Pieces>EQM_Gauge_AA</Pieces>
+		<Pieces>EQM_Gauge_AA_Vitality</Pieces>
+		<Pieces>EQM_Gauge_XP</Pieces>
+		<Pieces>EQM_Gauge_XP_Vitality</Pieces>
+</Screen>
+
+<Label item="EQM_XP_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>28</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>XP:</Text>
+	<TextColor>
+		<R>225</R>
+		<G>181</G>
+		<B>17</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_XP_Value">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>38</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<EQType>26</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>225</R>
+		<G>181</G>
+		<B>17</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_XP_Percent">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>48</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<Text>%</Text>
+	<TextColor>
+		<R>225</R>
+		<G>181</G>
+		<B>17</B>
+	</TextColor>
+</Label>
+
+<Label item="EQM_Level">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>26</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>2</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>225</R>
+		<G>181</G>
+		<B>17</B>
+	</TextColor>
+</Label>
+
+<Screen item="EQM_XP_Text_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>EQM_XP_Text</Pieces>
+		<Pieces>EQM_XP_Value</Pieces>
+		<Pieces>EQM_XP_Percent</Pieces>
+		<Pieces>F2_AA_XP_Divider</Pieces>
+		<Pieces>EQM_Level</Pieces>
+</Screen>
+
+<Screen item="EQM_Merc_Time_Glass">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Time_Text</Pieces>
+		<Pieces>Merc_Time_Value</Pieces>
+</Screen>
+
+<Screen item="EQM_Suspend_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>Merc_Suspend</Pieces>
+</Screen>
+
+<Screen item="EQM_Merc_Assist_Checkbox_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>3</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>3</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Assist_Checkbox</Pieces>
+</Screen>
+
+<Screen item="EQM_Merc_Assist_Wrap">
+	<Size>
+		<CX>92</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>EQM_Merc_Assist_Checkbox_Wrap</Pieces>
+</Screen>
+
+<TileLayoutBox item="EQM_AA_XP_Layout">
+
+<!--
+	<Size>
+		<CX>624</CX>
+		<CY>20</CY>
+	</Size>
+-->
+
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>24</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>736</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>1360</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>4</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>4</Spacing>
+		<Pieces>EQM_Audio</Pieces>
+		<Pieces>EQM_Mail</Pieces>
+		<Pieces>EQM_Options</Pieces>
+		<Pieces>Screen:EQM_AA_Text_Wrap</Pieces>
+		<Pieces>Screen:EQM_Gauge_Title</Pieces>
+		<Pieces>Screen:EQM_XP_Text_Wrap</Pieces>
+		<Pieces>Screen:EQM_Merc_Time_Glass</Pieces>
+		<Pieces>Screen:EQM_Suspend_Wrap</Pieces>
+		<Pieces>Screen:EQM_Merc_Assist_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="CascadeSeparatorItemWnd">
+</Screen>
+
+<Screen item="EQMainWnd">
+	<Size>
+		<CX>1360</CX>
+		<CY>88</CY>
+	</Size>
+	<DrawTemplate>WDT_EQ_Main</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Horizontal</Layout>
+	<MinVSize>28</MinVSize>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>false</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>false</Style_Titlebar>
+	<Style_Transparent>true</Style_Transparent>
+	<Text></Text>
+		<Pieces>Screen:EQM_BG_01</Pieces>
+		<Pieces>Screen:EQM_BG_02</Pieces>
+		<Pieces>Screen:EQM_BG_03</Pieces>
+		<Pieces>Screen:EQM_BG_04</Pieces>
+		<Pieces>TileLayoutBox:EQM_HotButtons_Layout</Pieces>
+		<Pieces>TileLayoutBox:EQM_Stats_Layout</Pieces>
+		<Pieces>TileLayoutBox:EQM_AA_XP_Layout</Pieces>
+</Screen>
+</XML>

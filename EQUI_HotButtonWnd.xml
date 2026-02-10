@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<HotButton item="HB_Button1">
+	<ScreenID>HB_Button1</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_01</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<Screen item="HB02_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB02_Text</Pieces>
+</Screen>
+
+<Screen item="HB03_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB03_Text</Pieces>
+</Screen>
+
+<Screen item="HB04_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB04_Text</Pieces>
+</Screen>
+
+<Screen item="HB05_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB05_Text</Pieces>
+</Screen>
+
+<Screen item="HB06_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB06_Text</Pieces>
+</Screen>
+
+<Screen item="HB07_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB07_Text</Pieces>
+</Screen>
+
+<Screen item="HB08_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB08_Text</Pieces>
+</Screen>
+
+<Screen item="HB09_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB09_Text</Pieces>
+</Screen>
+
+<Screen item="HB10_Button1_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HB10_Text</Pieces>
+</Screen>
+
+<HotButton item="HB_Button2">
+	<ScreenID>HB_Button2</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_02</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button3">
+	<ScreenID>HB_Button3</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_03</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button4">
+	<ScreenID>HB_Button4</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_04</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button5">
+	<ScreenID>HB_Button5</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_05</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button6">
+	<ScreenID>HB_Button6</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_06</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button7">
+	<ScreenID>HB_Button7</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_07</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button8">
+	<ScreenID>HB_Button8</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_08</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button9">
+	<ScreenID>HB_Button9</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_09</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button10">
+	<ScreenID>HB_Button10</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_10</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="HB_Button11">
+	<ScreenID>HB_Button11</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DecalOffset>
+		<X>4</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>32</CX>
+		<CY>32</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x36_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x36_SpellGem</SpellGem>
+	<Template>HotButton_11</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<Button item="HB_PageLeftButton">
+	<ScreenID>HB_PageLeftButton</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>9</CX>
+		<CY>10</CY>
+	</Size>
+	<Template>9x10_Left</Template>
+</Button>
+
+<Label item="HB_HorizontalCurrentPageLabel">
+	<ScreenID>HB_HorizontalCurrentPageLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Button item="HB_PageRightButton">
+	<ScreenID>HB_PageRightButton</ScreenID>
+	<Location>
+		<X>29</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>9</CX>
+		<CY>10</CY>
+	</Size>
+	<Template>9x10_Right</Template>
+</Button>
+
+<Screen item="HB_Horizontal_Page_Buttons">
+	<Size>
+		<CX>40</CX>
+		<CY>12</CY>
+	</Size>
+	<UseInLayoutHorizontal>true</UseInLayoutHorizontal>
+	<UseInLayoutVertical>true</UseInLayoutVertical>
+		<Pieces>HB_HorizontalCurrentPageLabel</Pieces>
+		<Pieces>HB_PageLeftButton</Pieces>
+		<Pieces>HB_PageRightButton</Pieces>
+</Screen>
+
+<HotButton item="HB_Button12">
+	<ScreenID>HB_Button12</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>13</Y>
+	</Location>
+	<Size>
+		<CX>40</CX>
+		<CY>24</CY>
+	</Size>
+	<DecalOffset>
+		<X>10</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Font>1</Font>
+	<InvSlot>IDT_40x24_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x24_SpellGem</SpellGem>
+	<Template>Hotbutton_12_40x24</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<Screen item="HB_Button12_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>24</CY>
+	</Size>
+		<Pieces>Screen:HB_Horizontal_Page_Buttons</Pieces>
+		<Pieces>HotButton:HB_Button12</Pieces>
+</Screen>
+
+<TileLayoutBox item="HB01_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>HotButton:HB_Button1</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB02_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB02_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB03_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB03_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB04_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB04_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB05_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB05_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB06_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB06_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB07_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB07_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB08_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB08_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB09_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB09_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<TileLayoutBox item="HB10_HotButtonLayout">
+	<ScreenID>HB_HotButtonLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:HB10_Button1_Wrap</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+		<Pieces>Screen:HB_Button12_Wrap</Pieces>
+</TileLayoutBox>
+
+<!-- BEGIN CUSTOM STAMINA GAUGE SCREEN MODULE -->
+
+<Gauge item="HB_Stamina_Gauge">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>3</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Background>EXP_Single_Background</Background>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="HB_OOC_Gauge">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>29</EQType>
+	<FillTint>
+		<R>75</R>
+		<G>75</G>
+		<B>75</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Label item="HB_OOC_Value">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>137</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Gauge item="HB_Disc_Gauge">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>26</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>0</G>
+		<B>240</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Screen item="HB_Stamina_Gauge_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>30</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Title_BG</Pieces>
+		<Pieces>HB_Stamina_Gauge</Pieces>
+		<Pieces>HB_OOC_Gauge</Pieces>
+		<Pieces>HB_OOC_Value</Pieces>
+		<Pieces>HB_Disc_Gauge</Pieces>
+</Screen>
+
+<Label item="HB_Stamina_Value">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>-1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>21</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</TextColor>
+</Label>
+
+<Button item="HB_Disc_Button">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>openwnd CombatSkillSelectWnd</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TooltipReference>Discs</TooltipReference>
+</Button>
+
+<Screen item="HB_Stamina_Value_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>HB_Stamina_Value</Pieces>
+		<Pieces>HB_Disc_Button</Pieces>
+</Screen>
+
+<Screen item="HB_Stamina_Wrap">
+	<Size>
+		<CX>237</CX>
+		<CY>16</CY>
+	</Size>
+		<Pieces>Screen:HB_Stamina_Gauge_Wrap</Pieces>
+		<Pieces>Screen:HB_Stamina_Value_Wrap</Pieces>
+</Screen>
+
+<!-- END CUSTOM STAMINA GAUGE SCREEN MODULE -->
+
+<!-- BEGIN CUSTOM MANA GAUGE SCREEN MODULE -->
+
+<Label item="HB_Mana_Value">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>-1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>20</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Button item="HB_Spells_Button">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>openwnd SpellBookWnd</EQType>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Font>2</Font>
+	<TooltipReference>Spells</TooltipReference>
+</Button>
+
+<Screen item="HB_Mana_Value_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>28</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>HB_Mana_Value</Pieces>
+		<Pieces>HB_Spells_Button</Pieces>
+</Screen>
+
+<!-- NOTE: DUMMY GAUGE ADDED FOR UNIFORMITY ON NON-MANA CLASSES -->
+
+<Gauge item="HB_Mana_Gauge_Dummy">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<Background>EXP_Single_Background</Background>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="HB_Mana_Gauge">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>2</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Background>EXP_Single_Background</Background>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="HB_Scribe_Gauge">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>10</EQType>
+	<FillTint>
+		<R>176</R>
+		<G>64</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="HB_Memorize_Gauge">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>9</EQType>
+	<FillTint>
+		<R>200</R>
+		<G>0</G>
+		<B>200</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="HB_Casting_Gauge">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<EQType>7</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>0</G>
+		<B>240</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<EndCapLeft>EXP_Endcap_Left</EndCapLeft>
+		<EndCapRight>EXP_Endcap_Right</EndCapRight>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Label item="HB_Casting_Value">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>14</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>14</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<EQType>134</EQType>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="HB_Mana_Gauge_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>30</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Title_BG</Pieces>
+		<Pieces>HB_Mana_Gauge_Dummy</Pieces>
+		<Pieces>HB_Mana_Gauge</Pieces>
+		<Pieces>HB_Scribe_Gauge</Pieces>
+		<Pieces>HB_Memorize_Gauge</Pieces>
+		<Pieces>HB_Casting_Gauge</Pieces>
+		<Pieces>HB_Casting_Value</Pieces>
+</Screen>
+
+<Screen item="HB_Mana_Wrap">
+		<Pieces>Screen:HB_Mana_Value_Wrap</Pieces>
+		<Pieces>Screen:HB_Mana_Gauge_Wrap</Pieces>
+</Screen>
+
+<!-- END CUSTOM MANA GAUGE SCREEN MODULE -->
+
+<TileLayoutBox item="HB_GaugesLayout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>18</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>Screen:HB_Stamina_Wrap</Pieces>
+		<Pieces>Screen:HB_Mana_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="HotButtonWnd">
+	<Size>
+		<CX>488</CX>
+		<CY>64</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB_GaugesLayout</Pieces>
+		<Pieces>TileLayoutBox:HB01_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd2">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB02_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd3">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB03_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd4">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB04_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd5">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB05_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd6">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB06_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd7">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB07_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd8">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB08_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd9">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB09_HotButtonLayout</Pieces>
+</Screen>
+
+<Screen item="HotButtonWnd10">
+	<Size>
+		<CX>488</CX>
+		<CY>44</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Texture</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:HB10_HotButtonLayout</Pieces>
+</Screen>
+</XML>

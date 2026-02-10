@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Button item="SBW_Spell0">
+	<ScreenID>SBW_Spell0</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell1">
+	<ScreenID>SBW_Spell1</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell2">
+	<ScreenID>SBW_Spell2</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell3">
+	<ScreenID>SBW_Spell3</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell4">
+	<ScreenID>SBW_Spell4</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell5">
+	<ScreenID>SBW_Spell5</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell6">
+	<ScreenID>SBW_Spell6</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell7">
+	<ScreenID>SBW_Spell7</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell8">
+	<ScreenID>SBW_Spell8</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell9">
+	<ScreenID>SBW_Spell9</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell10">
+	<ScreenID>SBW_Spell10</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell11">
+	<ScreenID>SBW_Spell11</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell12">
+	<ScreenID>SBW_Spell12</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell13">
+	<ScreenID>SBW_Spell13</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell14">
+	<ScreenID>SBW_Spell14</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="SBW_Spell15">
+	<ScreenID>SBW_Spell15</ScreenID>
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>30</CX>
+		<CY>30</CY>
+	</DecalSize>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<StaticText item="SBW_SpellName0">
+	<ScreenID>SBW_SpellName0</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName1">
+	<ScreenID>SBW_SpellName1</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName2">
+	<ScreenID>SBW_SpellName2</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName3">
+	<ScreenID>SBW_SpellName3</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName4">
+	<ScreenID>SBW_SpellName4</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName5">
+	<ScreenID>SBW_SpellName5</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName6">
+	<ScreenID>SBW_SpellName6</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName7">
+	<ScreenID>SBW_SpellName7</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName8">
+	<ScreenID>SBW_SpellName8</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName9">
+	<ScreenID>SBW_SpellName9</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName10">
+	<ScreenID>SBW_SpellName10</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName11">
+	<ScreenID>SBW_SpellName11</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName12">
+	<ScreenID>SBW_SpellName12</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName13">
+	<ScreenID>SBW_SpellName13</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName14">
+	<ScreenID>SBW_SpellName14</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<StaticText item="SBW_SpellName15">
+	<ScreenID>SBW_SpellName15</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<Screen item="SBW_SpellName00_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName0</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName01_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName1</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName02_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName2</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName03_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName3</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName04_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName4</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName05_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName5</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName06_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName6</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName07_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName7</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName08_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName8</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName09_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName9</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName10_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName10</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName11_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName11</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName12_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName12</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName13_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName13</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName14_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName14</Pieces>
+</Screen>
+
+<Screen item="SBW_SpellName15_Wrap">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+		<Pieces>SBW_SpellName15</Pieces>
+</Screen>
+
+<TileLayoutBox item="SBW_Spell_00-07_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>6</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>6</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>6</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>6</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>6</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>SBW_Spell0</Pieces>
+		<Pieces>Screen:SBW_SpellName00_Wrap</Pieces>
+		<Pieces>SBW_Spell1</Pieces>
+		<Pieces>Screen:SBW_SpellName01_Wrap</Pieces>
+		<Pieces>SBW_Spell2</Pieces>
+		<Pieces>Screen:SBW_SpellName02_Wrap</Pieces>
+		<Pieces>SBW_Spell3</Pieces>
+		<Pieces>Screen:SBW_SpellName03_Wrap</Pieces>
+		<Pieces>SBW_Spell4</Pieces>
+		<Pieces>Screen:SBW_SpellName04_Wrap</Pieces>
+		<Pieces>SBW_Spell5</Pieces>
+		<Pieces>Screen:SBW_SpellName05_Wrap</Pieces>
+		<Pieces>SBW_Spell6</Pieces>
+		<Pieces>Screen:SBW_SpellName06_Wrap</Pieces>
+		<Pieces>SBW_Spell7</Pieces>
+		<Pieces>Screen:SBW_SpellName07_Wrap</Pieces>
+</TileLayoutBox>
+
+<StaticText item="SBW_LeftPageNum">
+	<ScreenID>SBW_LeftPageNum</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>14</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<Screen item="SBW_Spell_00-07_Glass">
+	<Size>
+		<CX>178</CX>
+		<CY>356</CY>
+	</Size>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TileLayoutBox:SBW_Spell_00-07_Layout</Pieces>
+		<Pieces>SBW_LeftPageNum</Pieces>
+</Screen>
+
+<TileLayoutBox item="SBW_Spell_08-15_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>6</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>6</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>6</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>6</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>6</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>SBW_Spell8</Pieces>
+		<Pieces>Screen:SBW_SpellName08_Wrap</Pieces>
+		<Pieces>SBW_Spell9</Pieces>
+		<Pieces>Screen:SBW_SpellName09_Wrap</Pieces>
+		<Pieces>SBW_Spell10</Pieces>
+		<Pieces>Screen:SBW_SpellName10_Wrap</Pieces>
+		<Pieces>SBW_Spell11</Pieces>
+		<Pieces>Screen:SBW_SpellName11_Wrap</Pieces>
+		<Pieces>SBW_Spell12</Pieces>
+		<Pieces>Screen:SBW_SpellName12_Wrap</Pieces>
+		<Pieces>SBW_Spell13</Pieces>
+		<Pieces>Screen:SBW_SpellName13_Wrap</Pieces>
+		<Pieces>SBW_Spell14</Pieces>
+		<Pieces>Screen:SBW_SpellName14_Wrap</Pieces>
+		<Pieces>SBW_Spell15</Pieces>
+		<Pieces>Screen:SBW_SpellName15_Wrap</Pieces>
+</TileLayoutBox>
+
+<StaticText item="SBW_RightPageNum">
+	<ScreenID>SBW_RightPageNum</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>14</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</StaticText>
+
+<Screen item="SBW_Spell_08-15_Glass">
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TileLayoutBox:SBW_Spell_08-15_Layout</Pieces>
+		<Pieces>SBW_RightPageNum</Pieces>
+</Screen>
+
+<TileLayoutBox item="SBW_Spell_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>26</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>Screen:SBW_Spell_00-07_Glass</Pieces>
+		<Pieces>Screen:SBW_Spell_08-15_Glass</Pieces>
+</TileLayoutBox>
+
+<Button item="SBW_PageDown_Button">
+	<ScreenID>SBW_PageDown_Button</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>13</CX>
+		<CY>14</CY>
+	</Size>
+	<Template>13x14_Left</Template>
+</Button>
+
+<Screen item="SBW_PageDown_Screen">
+	<Size>
+		<CX>13</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>SBW_PageDown_Button</Pieces>
+</Screen>
+
+<Button item="SBW_DoneButton">
+	<ScreenID>DoneButton</ScreenID>
+	<Size>
+		<CX>100</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Done</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="SBW_PageUp_Button">
+	<ScreenID>SBW_PageUp_Button</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>13</CX>
+		<CY>14</CY>
+	</Size>
+	<Template>13x14_Right</Template>
+</Button>
+
+<Screen item="SBW_PageUp_Screen">
+	<Size>
+		<CX>13</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>SBW_PageUp_Button</Pieces>
+</Screen>
+
+<TileLayoutBox item="SBW_Button_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>112</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>112</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>Screen:SBW_PageDown_Screen</Pieces>
+		<Pieces>SBW_DoneButton</Pieces>
+		<Pieces>Screen:SBW_PageUp_Screen</Pieces>
+</TileLayoutBox>
+
+<Screen item="SBW_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>TileLayoutBox:SBW_Spell_Layout</Pieces>
+		<Pieces>TileLayoutBox:SBW_Button_Layout</Pieces>
+</Screen>
+
+<!-- NOTE: DO NOT DELETE MEMORIZE GAUGE EQTYPE
+OR YOU WILL NOT BE ABLE TO MEMORIZE SPELLS -->
+
+<Gauge item="SBW_Memorize_Gauge">
+	<ScreenID>SBW_Memorize_Gauge</ScreenID>
+	<EQType>9</EQType>
+</Gauge>
+
+<Button item="SBW_MemPage0_Button">
+	<ScreenID>SBW_MemPage0_Button</ScreenID>
+</Button>
+
+<Button item="SBW_MemPage1_Button">
+	<ScreenID>SBW_MemPage1_Button</ScreenID>
+</Button>
+
+<Gauge item="SBW_Scribe_Gauge">
+	<ScreenID>SBW_Memorize_Gauge</ScreenID>
+</Gauge>
+
+<Screen item="SpellBookWnd">
+	<Size>
+		<CX>406</CX>
+		<CY>446</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Spells</Text>
+		<Pieces>Screen:SBW_Pane</Pieces>
+
+		<Pieces>SBW_Memorize_Gauge</Pieces>
+		<Pieces>SBW_MemPage0_Button</Pieces>
+		<Pieces>SBW_MemPage1_Button</Pieces>
+		<Pieces>SBW_Scribe_Gauge</Pieces>
+</Screen>
+</XML>

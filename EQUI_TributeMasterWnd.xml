@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Listbox item="TMW_AvailableBenefitList">
+	<ScreenID>TMW_AvailableBenefitList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Heading>Benefit</Heading>
+	</Columns>
+	<Columns>
+		<Heading>Tier</Heading>
+	</Columns>
+	<Columns>
+		<Heading>Level</Heading>
+	</Columns>
+	<Columns>
+		<Heading>Cost</Heading>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="TMW_AvailableBenefit_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>16</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TMW_AvailableBenefitList</Pieces>
+</Screen>
+
+<!-- NOTE: DUMMY ELEMENT ADDED FOR UNIFORMITY WHEN DISABLED -->
+
+<Button item="TMW_StatusButton_Dummy">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>14</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>1</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<NormalDecal>CheckBox_Normal_Disabled</NormalDecal>
+	</ButtonDrawTemplate>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</MouseoverColor>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</Button>
+
+<Button item="TMW_StatusButton">
+	<ScreenID>TMW_StatusButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>14</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Guild Tribute Opt In</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="TMW_AvailableBenefit_Pane">
+	<Size>
+		<CX>290</CX>
+		<CY>604</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Available Benefits</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>Screen:TMW_AvailableBenefit_Glass</Pieces>
+		<Pieces>TMW_StatusButton_Dummy</Pieces>
+		<Pieces>TMW_StatusButton</Pieces>
+</Screen>
+
+<Listbox item="TMW_ActiveBenefitList">
+	<ScreenID>TMW_ActiveBenefitList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Heading>Benefit</Heading>
+	</Columns>
+	<Columns>
+		<Heading>Tier</Heading>
+	</Columns>
+	<Columns>
+		<Heading>Cost</Heading>
+	</Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="TMW_ActiveBenefit_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>26</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TMW_ActiveBenefitList</Pieces>
+</Screen>
+
+<Button item="TMW_DowngradeButton">
+	<ScreenID>TMW_DowngradeButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>-</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<!-- NOTE: DUMMY ELEMENT ADDED FOR UNIFORMITY WHEN DISABLED -->
+
+<Button item="TMW_LockButton_Dummy">
+	<AutoStretch>true</AutoStretch>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<Normal>20_HotButton_Disabled</Normal>
+	</ButtonDrawTemplate>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</MouseoverColor>
+	<Style_Border>true</Style_Border>
+	<Text>Modify Benefits</Text>
+	<TextColor>
+		<R>128</R>
+		<G>128</G>
+		<B>128</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</Button>
+
+<Button item="TMW_LockButton">
+	<ScreenID>TMW_LockButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TooltipReference>Requires Tribute: Change Active Benefit Permission.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="TMW_Lock_Wrap">
+		<Pieces>TMW_LockButton_Dummy</Pieces>
+		<Pieces>TMW_LockButton</Pieces>
+</Screen>
+
+<Button item="TMW_UpgradeButton">
+	<ScreenID>TMW_UpgradeButton</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>+</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="TMW_ActiveBenefit_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>TMW_DowngradeButton</Pieces>
+		<Pieces>Screen:TMW_Lock_Wrap</Pieces>
+		<Pieces>TMW_UpgradeButton</Pieces>
+</TileLayoutBox>
+
+<Screen item="TMW_ActiveBenefit_Pane">
+	<Size>
+		<CX>290</CX>
+		<CY>168</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Active Benefits</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>Screen:TMW_ActiveBenefit_Glass</Pieces>
+		<Pieces>TileLayoutBox:TMW_ActiveBenefit_Layout</Pieces>
+</Screen>
+
+<STMLbox item="TMW_Description">
+	<ScreenID>TMW_Description</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>3</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</STMLbox>
+
+<Screen item="TMW_Description_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TMW_Description</Pieces>
+</Screen>
+
+<Screen item="TMW_Description_Pane">
+	<Size>
+		<CX>290</CX>
+		<CY>262</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Description</Text>
+		<Pieces>Screen:TMW_Description_Glass</Pieces>
+</Screen>
+
+<Button item="TMW_CoinButton">
+	<ScreenID>TMW_CoinButton</ScreenID>
+	<Size>
+		<CX>90</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<Template>Recessed_Platinum_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Button item="TMW_DonateButton">
+	<ScreenID>TMW_DonateButton</ScreenID>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Donate</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="TMW_SelectedItem">
+	<ScreenID>TMW_SelectedItem</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>18</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>16</CX>
+		<CY>16</CY>
+	</DecalSize>
+	<Template>DragItem_Clear</Template>
+</Button>
+
+<Label item="TMW_ValueLabel">
+	<ScreenID>TMW_ValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Screen item="TMW_DonateWnd">
+	<ScreenID>TMW_DonateWnd</ScreenID>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TMW_SelectedItem</Pieces>
+		<Pieces>TMW_ValueLabel</Pieces>
+</Screen>
+
+<TileLayoutBox item="TMW_Donate_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>TMW_CoinButton</Pieces>
+		<Pieces>TMW_DonateButton</Pieces>
+		<Pieces>Screen:TMW_DonateWnd</Pieces>
+</TileLayoutBox>
+
+<Screen item="TMW_Donate_Pane">
+	<Size>
+		<CX>290</CX>
+		<CY>56</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x36</DrawTemplate>
+	<Style_Border>true</Style_Border>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Text>Donation</Text>
+		<Pieces>Pane_16x36_BG</Pieces>
+		<Pieces>TileLayoutBox:TMW_Donate_Layout</Pieces>
+</Screen>
+
+<TileLayoutBox item="TMW_Layout">
+	<ScreenID>TMW_Layout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>8</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>8</Spacing>
+		<Pieces>Screen:TMW_AvailableBenefit_Pane</Pieces>
+		<Pieces>Screen:TMW_ActiveBenefit_Pane</Pieces>
+		<Pieces>Screen:TMW_Description_Pane</Pieces>
+		<Pieces>Screen:TMW_Donate_Pane</Pieces>
+		<Pieces>Screen:Tribute_Pool_Pane</Pieces>
+</TileLayoutBox>
+
+<Label item="TMW_CostLabel">
+	<ScreenID>TMW_CostLabel</ScreenID>
+</Label>
+
+<Label item="TMW_CurrentPointsLabel">
+	<ScreenID>TMW_CurrentPointsLabel</ScreenID>
+</Label>
+
+<Label item="TMW_GuildCostLabel">
+	<ScreenID>TMW_GuildCostLabel</ScreenID>
+</Label>
+
+<Label item="TMW_GuildCurrentPointsLabel">
+	<ScreenID>TMW_GuildCurrentPointsLabel</ScreenID>
+</Label>
+
+<Label item="TMW_GuildTimeLabel">
+	<ScreenID>TMW_GuildTimeLabel</ScreenID>
+</Label>
+
+<Label item="TMW_StatusText">
+	<ScreenID>TMW_StatusText</ScreenID>
+</Label>
+
+<Label item="TMW_TimeLabel">
+	<ScreenID>TMW_TimeLabel</ScreenID>
+</Label>
+
+<Label item="TMW_TotalPointsLabel">
+	<ScreenID>TMW_TotalPointsLabel</ScreenID>
+</Label>
+
+<Label item="TMW_TotalPointsText">
+	<ScreenID>TMW_TotalPointsText</ScreenID>
+</Label>
+
+<Screen item="TributeMasterWnd">
+	<Size>
+		<CX>616</CX>
+		<CY>652</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:TMW_Layout</Pieces>
+		<Pieces>TMW_CostLabel</Pieces>
+		<Pieces>TMW_CurrentPointsLabel</Pieces>
+		<Pieces>TMW_GuildCostLabel</Pieces>
+		<Pieces>TMW_GuildCurrentPointsLabel</Pieces>
+		<Pieces>TMW_GuildTimeLabel</Pieces>
+		<Pieces>TMW_StatusText</Pieces>
+		<Pieces>TMW_TimeLabel</Pieces>
+		<Pieces>TMW_TotalPointsLabel</Pieces>
+		<Pieces>TMW_TotalPointsText</Pieces>
+</Screen>
+</XML>

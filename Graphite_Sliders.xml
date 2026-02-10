@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Slider_Thumb_Disabled">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>112</X>
+			<Y>27</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Thumb_Flyby">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>112</X>
+			<Y>47</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Thumb_Normal">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>112</X>
+			<Y>67</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_EndCap_Left">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>3</X>
+			<Y>27</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Background">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>7</X>
+			<Y>27</Y>
+		</Location>
+		<Size>
+			<CX>83</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_EndCap_Right">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>90</X>
+			<Y>27</Y>
+		</Location>
+		<Size>
+			<CX>17</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<SliderDrawTemplate item="Slider">
+	<EndCapLeft>Slider_EndCap_Left</EndCapLeft>
+	<Background>Slider_Background</Background>
+	<EndCapRight>Slider_EndCap_Right</EndCapRight>
+	<Thumb>
+		<Disabled>Slider_Thumb_Disabled</Disabled>
+		<Flyby>Slider_Thumb_Flyby</Flyby>
+		<Normal>Slider_Thumb_Normal</Normal>
+		<Pressed>Slider_Thumb_Flyby</Pressed>
+		<PressedFlyby>Slider_Thumb_Flyby</PressedFlyby>
+	</Thumb>
+</SliderDrawTemplate>
+
+<Ui2DAnimation item="Slider_Red_EndCap_Left">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>3</X>
+			<Y>27</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Red_Background">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>7</X>
+			<Y>47</Y>
+		</Location>
+		<Size>
+			<CX>83</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Red_EndCap_Right">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>90</X>
+			<Y>47</Y>
+		</Location>
+		<Size>
+			<CX>17</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<SliderDrawTemplate item="Slider_Red">
+	<EndCapLeft>Slider_Red_EndCap_Left</EndCapLeft>
+	<Background>Slider_Red_Background</Background>
+	<EndCapRight>Slider_Red_EndCap_Right</EndCapRight>
+	<Thumb>
+		<Disabled>Slider_Thumb_Disabled</Disabled>
+		<Flyby>Slider_Thumb_Flyby</Flyby>
+		<Normal>Slider_Thumb_Normal</Normal>
+		<Pressed>Slider_Thumb_Flyby</Pressed>
+		<PressedFlyby>Slider_Thumb_Flyby</PressedFlyby>
+	</Thumb>
+</SliderDrawTemplate>
+
+<Ui2DAnimation item="Slider_Green_EndCap_Left">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>3</X>
+			<Y>67</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Green_Background">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>7</X>
+			<Y>67</Y>
+		</Location>
+		<Size>
+			<CX>83</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Green_EndCap_Right">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>90</X>
+			<Y>67</Y>
+		</Location>
+		<Size>
+			<CX>17</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<SliderDrawTemplate item="Slider_Green">
+	<EndCapLeft>Slider_Green_EndCap_Left</EndCapLeft>
+	<Background>Slider_Green_Background</Background>
+	<EndCapRight>Slider_Green_EndCap_Right</EndCapRight>
+	<Thumb>
+		<Disabled>Slider_Thumb_Disabled</Disabled>
+		<Flyby>Slider_Thumb_Flyby</Flyby>
+		<Normal>Slider_Thumb_Normal</Normal>
+		<Pressed>Slider_Thumb_Flyby</Pressed>
+		<PressedFlyby>Slider_Thumb_Flyby</PressedFlyby>
+	</Thumb>
+</SliderDrawTemplate>
+
+<Ui2DAnimation item="Slider_Blue_EndCap_Left">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>3</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Blue_Background">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>7</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>83</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Blue_EndCap_Right">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>90</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>17</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<SliderDrawTemplate item="Slider_Blue">
+	<EndCapLeft>Slider_Blue_EndCap_Left</EndCapLeft>
+	<Background>Slider_Blue_Background</Background>
+	<EndCapRight>Slider_Blue_EndCap_Right</EndCapRight>
+	<Thumb>
+		<Disabled>Slider_Thumb_Disabled</Disabled>
+		<Flyby>Slider_Thumb_Flyby</Flyby>
+		<Normal>Slider_Thumb_Normal</Normal>
+		<Pressed>Slider_Thumb_Flyby</Pressed>
+		<PressedFlyby>Slider_Thumb_Flyby</PressedFlyby>
+	</Thumb>
+</SliderDrawTemplate>
+
+<Ui2DAnimation item="Slider_Volume_EndCap_Left">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>3</X>
+			<Y>107</Y>
+		</Location>
+		<Size>
+			<CX>4</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Volume_Background">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>7</X>
+			<Y>107</Y>
+		</Location>
+		<Size>
+			<CX>83</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Slider_Volume_EndCap_Right">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>90</X>
+			<Y>107</Y>
+		</Location>
+		<Size>
+			<CX>17</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<SliderDrawTemplate item="Slider_Volume">
+	<EndCapLeft>Slider_Volume_EndCap_Left</EndCapLeft>
+	<Background>Slider_Volume_Background</Background>
+	<EndCapRight>Slider_Volume_EndCap_Right</EndCapRight>
+	<Thumb>
+		<Disabled>Slider_Thumb_Disabled</Disabled>
+		<Flyby>Slider_Thumb_Flyby</Flyby>
+		<Normal>Slider_Thumb_Normal</Normal>
+		<Pressed>Slider_Thumb_Flyby</Pressed>
+		<PressedFlyby>Slider_Thumb_Flyby</PressedFlyby>
+	</Thumb>
+</SliderDrawTemplate>
+
+<!-- NOTE: DUMMY GAUGE TEMPLATE USED TO SIMULATE WINDOW DRAW
+TEMPLATE TO AVOID DISTORTING RIVET GRAPHICS WHEN AUTOSTRETCHING -->
+
+<Ui2DAnimation item="Title_Endcap_Left">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>8</X>
+			<Y>7</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Title_Background">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>26</X>
+			<Y>7</Y>
+		</Location>
+		<Size>
+			<CX>76</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Title_Endcap_Right">
+	<Frames>
+		<Texture>Graphite_Sliders.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>7</Y>
+		</Location>
+		<Size>
+			<CX>14</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Gauge item="Title_BG">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<GaugeDrawTemplate>
+		<Background>Title_Background</Background>
+		<EndCapLeft>Title_Endcap_Left</EndCapLeft>
+		<EndCapRight>Title_Endcap_Right</EndCapRight>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+</XML>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Map_Toggle_Dark">
+	<Frames>
+		<Texture>Graphite_Map_Dark.png</Texture>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>462</CX>
+			<CY>342</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Map_Toggle_Dark_Flyby">
+	<Frames>
+		<Texture>Graphite_Map_Dark_Flyby.png</Texture>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>462</CX>
+			<CY>342</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Map_Toggle_Light">
+	<Frames>
+		<Texture>Graphite_Map_Light.png</Texture>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>462</CX>
+			<CY>342</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Map_Toggle_Light_Flyby">
+	<Frames>
+		<Texture>Graphite_Map_Light_Flyby.png</Texture>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>462</CX>
+			<CY>342</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

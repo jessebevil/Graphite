@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<HotButton item="40x28_HB_05_00">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/0</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_01</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<Screen item="40x28_HB_05_00_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+		<Pieces>HotButton:40x28_HB_05_00</Pieces>
+		<Pieces>HB05_Text</Pieces>
+</Screen>
+
+<HotButton item="40x28_HB_05_01">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/1</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_02</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_02">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/2</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_03</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_03">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/3</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_04</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_04">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/4</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_05</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_05">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/5</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_06</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_06">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/6</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_07</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_07">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/7</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_08</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_08">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/8</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_09</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_09">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/9</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_10</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_10">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/10</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_11</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+<HotButton item="40x28_HB_05_11">
+	<Size>
+		<CX>40</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalSize>
+		<CX>24</CX>
+		<CY>24</CY>
+	</DecalSize>
+	<DecalOffset>
+		<X>8</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<EQType>hotbutton/Bar 4/11</EQType>
+	<Font>1</Font>
+	<InvSlot>IDT_40x28_InvSlot</InvSlot>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<SpellGem>40x28_SpellGem</SpellGem>
+	<Template>HotButton_12_40x40</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+</HotButton>
+
+</XML>

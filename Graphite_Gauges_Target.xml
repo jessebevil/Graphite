@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Target_Box_Top">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>2</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Target_Box_Left">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>104</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>2</CX>
+			<CY>91</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Target_Box_Right">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>406</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>2</CX>
+			<CY>91</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Target_Box_Bottom">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>51</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>44</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Target_Box_Fill">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>6</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>45</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Target_Gauge_Background">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>64</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>9</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Target_Gauge_Fill">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>9</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Target_Gauge_Fill_Rainbow">
+	<Frames>
+		<Texture>Graphite_Gauges_Target.png</Texture>
+		<Location>
+			<X>106</X>
+			<Y>115</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>9</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

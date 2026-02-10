@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Label item="TRDW_HisName">
+	<ScreenID>TRDW_HisName</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+</Label>
+
+<Screen item="TRDW_HisName_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>20</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TRDW_HisName</Pieces>
+</Screen>
+
+<InvSlot item="TRDW_TradeSlot8">
+	<ScreenID>TRDW_TradeSlot8</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 8</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot9">
+	<ScreenID>TRDW_TradeSlot9</ScreenID>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 9</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot10">
+	<ScreenID>TRDW_TradeSlot10</ScreenID>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 10</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot11">
+	<ScreenID>TRDW_TradeSlot11</ScreenID>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 11</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot12">
+	<ScreenID>TRDW_TradeSlot12</ScreenID>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 12</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot13">
+	<ScreenID>TRDW_TradeSlot13</ScreenID>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 13</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot14">
+	<ScreenID>TRDW_TradeSlot14</ScreenID>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 14</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot15">
+	<ScreenID>TRDW_TradeSlot15</ScreenID>
+	<Background>Slot_Disabled</Background>
+	<EQType>inventory/Trade 15</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<TileLayoutBox item="TRDW_His_Slot_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>26</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>106</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>TRDW_TradeSlot8</Pieces>
+		<Pieces>TRDW_TradeSlot9</Pieces>
+		<Pieces>TRDW_TradeSlot10</Pieces>
+		<Pieces>TRDW_TradeSlot11</Pieces>
+		<Pieces>TRDW_TradeSlot12</Pieces>
+		<Pieces>TRDW_TradeSlot13</Pieces>
+		<Pieces>TRDW_TradeSlot14</Pieces>
+		<Pieces>TRDW_TradeSlot15</Pieces>
+</TileLayoutBox>
+
+<Button item="TRDW_HisMoney0">
+	<ScreenID>TRDW_HisMoney0</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>Disabled_Platinum_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Screen item="TRDW_HisMoney0_Glass">
+	<Size>
+		<CX>160</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TRDW_HisMoney0</Pieces>
+</Screen>
+
+<Button item="TRDW_HisMoney1">
+	<ScreenID>TRDW_HisMoney1</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>Disabled_Gold_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Screen item="TRDW_HisMoney1_Glass">
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TRDW_HisMoney1</Pieces>
+</Screen>
+
+<Button item="TRDW_HisMoney2">
+	<ScreenID>TRDW_HisMoney2</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>Disabled_Silver_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Screen item="TRDW_HisMoney2_Glass">
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TRDW_HisMoney2</Pieces>
+</Screen>
+
+<Button item="TRDW_HisMoney3">
+	<ScreenID>TRDW_HisMoney3</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<Template>Disabled_Copper_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Screen item="TRDW_HisMoney3_Glass">
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TRDW_HisMoney3</Pieces>
+</Screen>
+
+<TileLayoutBox item="TRDW_His_Money_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>108</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>194</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<Spacing>2</Spacing>
+		<Pieces>Screen:TRDW_HisMoney0_Glass</Pieces>
+		<Pieces>Screen:TRDW_HisMoney1_Glass</Pieces>
+		<Pieces>Screen:TRDW_HisMoney2_Glass</Pieces>
+		<Pieces>Screen:TRDW_HisMoney3_Glass</Pieces>
+</TileLayoutBox>
+
+<Screen item="TRDW_His_Pane">
+	<Size>
+		<CX>176</CX>
+		<CY>210</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:TRDW_HisName_Glass</Pieces>
+		<Pieces>TileLayoutBox:TRDW_His_Slot_Layout</Pieces>
+		<Pieces>TileLayoutBox:TRDW_His_Money_Layout</Pieces>
+</Screen>
+
+<Label item="TRDW_MyName">
+	<ScreenID>TRDW_MyName</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+</Label>
+
+<Screen item="TRDW_MyName_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>20</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TRDW_MyName</Pieces>
+</Screen>
+
+<InvSlot item="TRDW_TradeSlot0">
+	<ScreenID>TRDW_TradeSlot0</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 0</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot1">
+	<ScreenID>TRDW_TradeSlot1</ScreenID>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 1</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot2">
+	<ScreenID>TRDW_TradeSlot2</ScreenID>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 2</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot3">
+	<ScreenID>TRDW_TradeSlot3</ScreenID>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 3</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot4">
+	<ScreenID>TRDW_TradeSlot4</ScreenID>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 4</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot5">
+	<ScreenID>TRDW_TradeSlot5</ScreenID>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 5</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot6">
+	<ScreenID>TRDW_TradeSlot6</ScreenID>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 6</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="TRDW_TradeSlot7">
+	<ScreenID>TRDW_TradeSlot7</ScreenID>
+	<Background>40x40_Slot_Recessed</Background>
+	<EQType>inventory/Trade 7</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<TileLayoutBox item="TRDW_My_Slot_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>26</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>106</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>TRDW_TradeSlot0</Pieces>
+		<Pieces>TRDW_TradeSlot1</Pieces>
+		<Pieces>TRDW_TradeSlot2</Pieces>
+		<Pieces>TRDW_TradeSlot3</Pieces>
+		<Pieces>TRDW_TradeSlot4</Pieces>
+		<Pieces>TRDW_TradeSlot5</Pieces>
+		<Pieces>TRDW_TradeSlot6</Pieces>
+		<Pieces>TRDW_TradeSlot7</Pieces>
+</TileLayoutBox>
+
+<Button item="TRDW_MyMoney0">
+	<ScreenID>TRDW_MyMoney0</ScreenID>
+	<Size>
+		<CX>160</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<Template>Recessed_Platinum_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Button item="TRDW_MyMoney1">
+	<ScreenID>TRDW_MyMoney1</ScreenID>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<Template>Recessed_Gold_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Button item="TRDW_MyMoney2">
+	<ScreenID>TRDW_MyMoney2</ScreenID>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<Template>Recessed_Silver_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Button item="TRDW_MyMoney3">
+	<ScreenID>TRDW_MyMoney3</ScreenID>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<Template>Recessed_Copper_Coin</Template>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<Button item="TRDW_Cancel_Button">
+	<ScreenID>TRDW_Cancel_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>79</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Cancel</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="TRDW_Trade_Button">
+	<ScreenID>TRDW_Trade_Button</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>79</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Trade</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="TRDW_Buttons_Wrap">
+		<Pieces>TRDW_Cancel_Button</Pieces>
+		<Pieces>TRDW_Trade_Button</Pieces>
+</Screen>
+
+<TileLayoutBox item="TRDW_My_Money_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>108</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>216</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<Spacing>2</Spacing>
+		<Pieces>TRDW_MyMoney0</Pieces>
+		<Pieces>TRDW_MyMoney1</Pieces>
+		<Pieces>TRDW_MyMoney2</Pieces>
+		<Pieces>TRDW_MyMoney3</Pieces>
+		<Pieces>Screen:TRDW_Buttons_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="TRDW_My_Pane">
+	<Size>
+		<CX>176</CX>
+		<CY>232</CY>
+	</Size>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>Screen:TRDW_MyName_Glass</Pieces>
+		<Pieces>TileLayoutBox:TRDW_My_Slot_Layout</Pieces>
+		<Pieces>TileLayoutBox:TRDW_My_Money_Layout</Pieces>
+</Screen>
+
+<TileLayoutBox item="TRDW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>8</Spacing>
+		<Pieces>Screen:TRDW_His_Pane</Pieces>
+		<Pieces>Screen:TRDW_My_Pane</Pieces>
+</TileLayoutBox>
+
+<Screen item="TradeWnd">
+	<Size>
+		<CX>188</CX>
+		<CY>473</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Recessed_Grill</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Trade</Text>
+		<Pieces>TileLayoutBox:TRDW_Layout</Pieces>
+</Screen>
+</XML>

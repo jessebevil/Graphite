@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Listbox item="AW_AuraList">
+	<ScreenID>AuraList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns>
+		<Width>14</Width>
+	</Columns>
+	<Columns>
+		<Width>200</Width>
+	</Columns>
+	<DrawTemplate>WDT_2_Opaque_NoBorder</DrawTemplate>
+	<Font>2</Font>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="AuraWindow">
+	<Size>
+		<CX>168</CX>
+		<CY>42</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Opaque</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>false</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+
+<!-- NOTE: STATIC ANIMATION HACK USED FOR EXTRA TRANSPARENCY -->
+
+		<Pieces>Opaque_BG</Pieces>
+		<Pieces>AW_AuraList</Pieces>
+</Screen>
+</XML>

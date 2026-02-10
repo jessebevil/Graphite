@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="WDT_Glass_16x16_TopLeft">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>8</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_Top">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>20</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>216</CX>
+			<CY>8</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_TopRight">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>238</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>8</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_LeftTop">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>2</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>8</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_Left">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>2</X>
+			<Y>30</Y>
+		</Location>
+		<Size>
+			<CX>8</CX>
+			<CY>196</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_LeftBottom">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>2</X>
+			<Y>228</Y>
+		</Location>
+		<Size>
+			<CX>8</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_RightTop">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>246</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>8</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_Right">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>246</X>
+			<Y>30</Y>
+		</Location>
+		<Size>
+			<CX>8</CX>
+			<CY>196</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_RightBottom">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>246</X>
+			<Y>228</Y>
+		</Location>
+		<Size>
+			<CX>8</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_BottomLeft">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>2</X>
+			<Y>246</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>8</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_Bottom">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>20</X>
+			<Y>246</Y>
+		</Location>
+		<Size>
+			<CX>216</CX>
+			<CY>8</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_16x16_BottomRight">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_16x16.png</Texture>
+		<Location>
+			<X>238</X>
+			<Y>246</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>8</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<WindowDrawTemplate item="WDT_Glass_16x16">
+	<Background>Texture_BG_Clear.png</Background>
+	<Border>
+		<TopLeft>WDT_Glass_16x16_TopLeft</TopLeft>
+		<Top>WDT_Glass_16x16_Top</Top>
+		<TopRight>WDT_Glass_16x16_TopRight</TopRight>
+		<LeftTop>WDT_Glass_16x16_LeftTop</LeftTop>
+		<Left>WDT_Glass_16x16_Left</Left>
+		<LeftBottom>WDT_Glass_16x16_LeftBottom</LeftBottom>
+		<RightTop>WDT_Glass_16x16_RightTop</RightTop>
+		<Right>WDT_Glass_16x16_Right</Right>
+		<RightBottom>WDT_Glass_16x16_RightBottom</RightBottom>
+		<BottomLeft>WDT_Glass_16x16_BottomLeft</BottomLeft>
+		<Bottom>WDT_Glass_16x16_Bottom</Bottom>
+		<BottomRight>WDT_Glass_16x16_BottomRight</BottomRight>
+	</Border>
+</WindowDrawTemplate>
+
+<Ui2DAnimation item="WDT_Glass_32x32_TopLeft">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_Top">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>36</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>184</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_TopRight">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>220</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_LeftTop">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>32</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_Left">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>152</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_LeftBottom">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>204</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>32</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_RightTop">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>236</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>32</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_Right">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>236</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>152</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_RightBottom">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>236</X>
+			<Y>204</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>32</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_BottomLeft">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>236</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_Bottom">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>36</X>
+			<Y>236</Y>
+		</Location>
+		<Size>
+			<CX>184</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="WDT_Glass_32x32_BottomRight">
+	<Frames>
+		<Texture>Graphite_WDT_Glass_32x32.png</Texture>
+		<Location>
+			<X>220</X>
+			<Y>236</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<WindowDrawTemplate item="WDT_Glass_32x32">
+	<Background>Texture_BG_Clear.png</Background>
+	<Border>
+		<TopLeft>WDT_Glass_32x32_TopLeft</TopLeft>
+		<Top>WDT_Glass_32x32_Top</Top>
+		<TopRight>WDT_Glass_32x32_TopRight</TopRight>
+		<LeftTop>WDT_Glass_32x32_LeftTop</LeftTop>
+		<Left>WDT_Glass_32x32_Left</Left>
+		<LeftBottom>WDT_Glass_32x32_LeftBottom</LeftBottom>
+		<RightTop>WDT_Glass_32x32_RightTop</RightTop>
+		<Right>WDT_Glass_32x32_Right</Right>
+		<RightBottom>WDT_Glass_32x32_RightBottom</RightBottom>
+		<BottomLeft>WDT_Glass_32x32_BottomLeft</BottomLeft>
+		<Bottom>WDT_Glass_32x32_Bottom</Bottom>
+		<BottomRight>WDT_Glass_32x32_BottomRight</BottomRight>
+	</Border>
+</WindowDrawTemplate>
+
+</XML>

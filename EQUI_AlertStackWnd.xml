@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Button item="ALSW_AlertTemplate_Button">
+	<ScreenID>ALSW_AlertTemplate_Button</ScreenID>
+</Button>
+
+<TileLayoutBox item="ALSW_Alerts_Box">
+	<ScreenID>ALSW_Alerts_Box</ScreenID>
+</TileLayoutBox>
+
+<Screen item="AlertStackWnd">
+		<Pieces>ALSW_AlertTemplate_Button</Pieces>
+		<Pieces>ALSW_Alerts_Box</Pieces>
+</Screen>
+</XML>

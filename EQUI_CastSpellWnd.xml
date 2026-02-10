@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<!-- BEGIN USER TEXT EDIT FOR KEY MAPPING -->
+
+<Label item="CSPW_Spell00_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>1</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell01_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>2</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell02_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>3</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell03_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>4</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell04_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>5</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell05_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>6</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell06_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>7</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell07_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>8</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell08_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>9</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell09_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>10</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell10_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>11</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell11_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>12</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="CSPW_Spell12_Text">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>28</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>13</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>1</Font>
+	<Text>13</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<!-- END USER TEXT EDIT FOR KEY MAPPING -->
+
+<StaticAnimation item="CSPW_SpellAA_Background">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Disabled_AA_SpellGem</Animation>
+</StaticAnimation>
+
+<SpellGem item="CSPW_Spell0">
+	<ScreenID>CSPW_Spell0</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell1">
+	<ScreenID>CSPW_Spell1</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell2">
+	<ScreenID>CSPW_Spell2</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell3">
+	<ScreenID>CSPW_Spell3</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell4">
+	<ScreenID>CSPW_Spell4</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell5">
+	<ScreenID>CSPW_Spell5</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell6">
+	<ScreenID>CSPW_Spell6</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell7">
+	<ScreenID>CSPW_Spell7</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell8">
+	<ScreenID>CSPW_Spell8</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell9">
+	<ScreenID>CSPW_Spell9</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell10">
+	<ScreenID>CSPW_Spell10</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell11">
+	<ScreenID>CSPW_Spell11</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<SpellGem item="CSPW_Spell12">
+	<ScreenID>CSPW_Spell12</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<SpellGemDrawTemplate>
+		<Background>Fill_SpellGemBackground</Background>
+		<Highlight>Loaded_SpellGemHighlight</Highlight>
+		<Holder>Empty_SpellGemHolder</Holder>
+	</SpellGemDrawTemplate>
+	<SpellIconOffsetX>12</SpellIconOffsetX>
+	<SpellIconOffsetY>9</SpellIconOffsetY>
+</SpellGem>
+
+<Button item="CSPW_SpellBookH">
+	<ScreenID>CSPW_SpellBookH</ScreenID>
+
+<!-- SET TEMPLATE SIZE FOR CSPW_SpellGemLayout -->
+
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<ButtonDrawTemplate>
+		<Normal>SpellBook_Normal</Normal>
+		<Flyby>SpellBook_Flyby</Flyby>
+		<Pressed>SpellBook_Pressed</Pressed>
+		<PressedFlyby>SpellBook_PressedFlyby</PressedFlyby>
+	</ButtonDrawTemplate>
+	<Font>2</Font>
+	<Style_Checkbox>true</Style_Checkbox>
+</Button>
+
+<Screen item="CSPW_Spell00_Wrap">
+		<Pieces>SpellGem:CSPW_Spell0</Pieces>
+		<Pieces>CSPW_Spell00_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell01_Wrap">
+		<Pieces>SpellGem:CSPW_Spell1</Pieces>
+		<Pieces>CSPW_Spell01_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell02_Wrap">
+		<Pieces>SpellGem:CSPW_Spell2</Pieces>
+		<Pieces>CSPW_Spell02_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell03_Wrap">
+		<Pieces>SpellGem:CSPW_Spell3</Pieces>
+		<Pieces>CSPW_Spell03_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell04_Wrap">
+		<Pieces>SpellGem:CSPW_Spell4</Pieces>
+		<Pieces>CSPW_Spell04_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell05_Wrap">
+		<Pieces>SpellGem:CSPW_Spell5</Pieces>
+		<Pieces>CSPW_Spell05_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell06_Wrap">
+		<Pieces>SpellGem:CSPW_Spell6</Pieces>
+		<Pieces>CSPW_Spell06_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell07_Wrap">
+		<Pieces>SpellGem:CSPW_Spell7</Pieces>
+		<Pieces>CSPW_Spell07_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell08_Wrap">
+		<Pieces>CSPW_SpellAA_Background</Pieces>
+		<Pieces>SpellGem:CSPW_Spell8</Pieces>
+		<Pieces>CSPW_Spell08_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell09_Wrap">
+		<Pieces>CSPW_SpellAA_Background</Pieces>
+		<Pieces>SpellGem:CSPW_Spell9</Pieces>
+		<Pieces>CSPW_Spell09_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell10_Wrap">
+		<Pieces>CSPW_SpellAA_Background</Pieces>
+		<Pieces>SpellGem:CSPW_Spell10</Pieces>
+		<Pieces>CSPW_Spell10_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell11_Wrap">
+		<Pieces>CSPW_SpellAA_Background</Pieces>
+		<Pieces>SpellGem:CSPW_Spell11</Pieces>
+		<Pieces>CSPW_Spell11_Text</Pieces>
+</Screen>
+
+<Screen item="CSPW_Spell12_Wrap">
+		<Pieces>CSPW_SpellAA_Background</Pieces>
+		<Pieces>SpellGem:CSPW_Spell12</Pieces>
+		<Pieces>CSPW_Spell12_Text</Pieces>
+</Screen>
+
+<TileLayoutBox item="CSPW_SpellGemLayout">
+	<ScreenID>CSPW_SpellGemLayout</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToTop>true</AnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>CSPW_SpellBookH</Pieces>
+		<Pieces>Screen:CSPW_Spell00_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell01_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell02_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell03_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell04_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell05_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell06_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell07_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell08_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell09_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell10_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell11_Wrap</Pieces>
+		<Pieces>Screen:CSPW_Spell12_Wrap</Pieces>
+</TileLayoutBox>
+
+<Screen item="CastSpellWnd">
+	<Size>
+		<CX>40</CX>
+		<CY>36</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Grill</DrawTemplate>
+	<Escapable>false</Escapable>
+	<MinHSize>40</MinHSize>
+	<MinVSize>36</MinVSize>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>false</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:CSPW_SpellGemLayout</Pieces>
+</Screen>
+</XML>

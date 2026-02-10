@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<TextureInfo item="Graphite_Checkboxes.png">
+	<Size>
+		<CX>128</CX>
+		<CY>32</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Compass.png">
+	<Size>
+		<CX>256</CX>
+		<CY>64</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Credits.png">
+	<Size>
+		<CX>512</CX>
+		<CY>512</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_CSI.png">
+	<Size>
+		<CX>256</CX>
+		<CY>64</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Gauges_Breath.png">
+	<Size>
+		<CX>256</CX>
+		<CY>128</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Gauges_Target.png">
+	<Size>
+		<CX>512</CX>
+		<CY>128</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_HotButtons.png">
+	<Size>
+		<CX>512</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Inventory.png">
+	<Size>
+		<CX>512</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Map_Dark.png">
+	<Size>
+		<CX>512</CX>
+		<CY>512</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Map_Dark_Flyby.png">
+	<Size>
+		<CX>512</CX>
+		<CY>512</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Map_Light.png">
+	<Size>
+		<CX>512</CX>
+		<CY>512</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Map_Light_Flyby.png">
+	<Size>
+		<CX>512</CX>
+		<CY>512</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Sliders.png">
+	<Size>
+		<CX>128</CX>
+		<CY>128</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Spellgems.png">
+	<Size>
+		<CX>256</CX>
+		<CY>128</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_Tabboxes.png">
+	<Size>
+		<CX>64</CX>
+		<CY>64</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_WDT.png">
+	<Size>
+		<CX>512</CX>
+		<CY>512</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_WDT_Glass_16x16.png">
+	<Size>
+		<CX>256</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_WDT_Glass_32x32.png">
+	<Size>
+		<CX>256</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_WDT_Pane_16x16.png">
+	<Size>
+		<CX>256</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Graphite_WDT_Pane_16x36.png">
+	<Size>
+		<CX>256</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+
+
+
+
+
+
+
+
+<TextureInfo item="Texture_BG_Black.png">
+	<Size>
+		<CX>16</CX>
+		<CY>16</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Texture_BG_Clear.png">
+	<Size>
+		<CX>16</CX>
+		<CY>16</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Texture_BG_Dark.png">
+	<Size>
+		<CX>16</CX>
+		<CY>16</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Texture_BG_Grill.png">
+	<Size>
+		<CX>256</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Texture_BG_Opaque.png">
+	<Size>
+		<CX>16</CX>
+		<CY>16</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Texture_BG_Texture.png">
+	<Size>
+		<CX>256</CX>
+		<CY>256</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Texture_Buttons.png">
+	<Size>
+		<CX>512</CX>
+		<CY>128</CY>
+	</Size>
+</TextureInfo>
+
+<TextureInfo item="Texture_Gauges.png">
+	<Size>
+		<CX>512</CX>
+		<CY>512</CY>
+	</Size>
+</TextureInfo>
+
+</XML>

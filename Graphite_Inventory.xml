@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="20_Slot_Recessed">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>435</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="40x40_Slot_Recessed">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>393</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<!-- NOTE: SLOT_DISABLED USED FOR POTION BELT AND TRADESKILL WINDOWS -->
+
+<Ui2DAnimation item="Slot_Disabled">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+
+
+
+
+
+
+
+
+<!-- BEGIN BAGS -->
+
+<Ui2DAnimation item="Bag01_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag01_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag01_BG</Background>
+	<EQType>inventory/Equip 23</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag02_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag02_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag02_BG</Background>
+	<EQType>inventory/Equip 24</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag03_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag03_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag03_BG</Background>
+	<EQType>inventory/Equip 25</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag04_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag04_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag04_BG</Background>
+	<EQType>inventory/Equip 26</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag05_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag05_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag05_BG</Background>
+	<EQType>inventory/Equip 27</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag06_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag06_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag06_BG</Background>
+	<EQType>inventory/Equip 28</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag07_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag07_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag07_BG</Background>
+	<EQType>inventory/Equip 29</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag08_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag08_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag08_BG</Background>
+	<EQType>inventory/Equip 30</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag09_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag09_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag09_BG</Background>
+	<EQType>inventory/Equip 31</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Bag10_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>129</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Bag10_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Bag10_BG</Background>
+	<EQType>inventory/Equip 32</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<!-- END BAGS -->
+
+
+
+
+
+
+
+
+
+<!-- BEGIN DISABLED SLOTS -->
+
+<Ui2DAnimation item="Disabled_Ammo_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>26</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Arms_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>68</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Back_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>110</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Charm_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>152</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Chest_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>194</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Ear_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>236</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Face_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>278</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Feet_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>278</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Finger_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>362</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Hands_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>404</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Head_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>446</X>
+			<Y>171</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Legs_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Neck_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Power_Source_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Primary_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Range_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Secondary_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Shoulders_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Waist_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Disabled_Wrist_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>213</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<!-- END DISABLED SLOTS -->
+
+
+
+
+
+
+
+
+
+<!-- BEGIN SLOTS -->
+
+<Ui2DAnimation item="Ammo_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>183</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Ammo_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Ammo_BG</Background>
+	<EQType>inventory/Equip 22</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Arms_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>382</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Arms_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Arms_BG</Background>
+	<EQType>inventory/Equip 7</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Back_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>424</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Back_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Back_BG</Background>
+	<EQType>inventory/Equip 8</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Charm_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>48</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Charm_Slot">
+	<Size>
+		<CX>50</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Charm_BG</Background>
+	<EQType>inventory/Equip 0</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Chest_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>383</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Chest_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Chest_BG</Background>
+	<EQType>inventory/Equip 17</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Ear_Left_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>100</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Ear_Left_Slot">
+	<Size>
+		<CX>50</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Ear_Left_BG</Background>
+	<EQType>inventory/Equip 1</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Ear_Right_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>236</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Ear_Right_Slot">
+	<Size>
+		<CX>50</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Ear_Right_BG</Background>
+	<EQType>inventory/Equip 4</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Face_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>194</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Face_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Face_BG</Background>
+	<EQType>inventory/Equip 3</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Finger_Left_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>299</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Finger_Left_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Finger_Left_BG</Background>
+	<EQType>inventory/Equip 15</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Finger_Right_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>341</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Finger_Right_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Finger_Right_BG</Background>
+	<EQType>inventory/Equip 16</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Feet_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>57</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Feet_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Feet_BG</Background>
+	<EQType>inventory/Equip 19</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Hands_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>173</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Hands_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Hands_BG</Background>
+	<EQType>inventory/Equip 12</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Head_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>152</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Head_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Head_BG</Background>
+	<EQType>inventory/Equip 2</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Legs_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>425</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Legs_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Legs_BG</Background>
+	<EQType>inventory/Equip 18</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Neck_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>288</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Neck_Slot">
+	<Size>
+		<CX>50</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Neck_BG</Background>
+	<EQType>inventory/Equip 5</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Primary_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>215</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Primary_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Primary_BG</Background>
+	<EQType>inventory/Equip 13</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Power_Source_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>141</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Power_Source_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Power_Source_BG</Background>
+	<EQType>inventory/Equip 21</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Range_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>131</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Range_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Range_BG</Background>
+	<EQType>inventory/Equip 11</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Secondary_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>257</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Secondary_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Secondary_BG</Background>
+	<EQType>inventory/Equip 14</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Shoulders_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>340</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Shoulders_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Shoulders_BG</Background>
+	<EQType>inventory/Equip 6</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Waist_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>99</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Waist_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Waist_BG</Background>
+	<EQType>inventory/Equip 20</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Wrist_Left_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>47</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Wrist_Left_Slot">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>Wrist_Left_BG</Background>
+	<EQType>inventory/Equip 9</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Wrist_Right_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>89</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Wrist_Right_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Wrist_Right_BG</Background>
+	<EQType>inventory/Equip 10</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<!-- END SLOTS -->
+
+
+
+
+
+
+
+
+
+<!-- BEGIN MERC SLOTS -->
+
+<Ui2DAnimation item="Merc_Chest_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>225</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Merc_Chest_Slot">
+	<Background>Merc_Chest_BG</Background>
+	<EQType>mercenaryInventory/Equip 1</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Merc_Head_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>267</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Merc_Head_Slot">
+	<Background>Merc_Head_BG</Background>
+	<EQType>mercenaryInventory/Equip 0</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Merc_Primary_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>309</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Merc_Primary_Slot">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Merc_Primary_BG</Background>
+	<EQType>mercenaryInventory/Equip 2</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Ui2DAnimation item="Merc_Secondary_BG">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>351</X>
+			<Y>87</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<InvSlot item="Merc_Secondary_Slot">
+	<Background>Merc_Secondary_BG</Background>
+	<EQType>mercenaryInventory/Equip 3</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<!-- END MERC SLOTS -->
+
+</XML>

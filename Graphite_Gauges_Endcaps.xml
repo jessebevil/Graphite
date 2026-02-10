@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Endcap_F01_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F02_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>39</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F03_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>74</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F04_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F05_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F06_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>179</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F07_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>214</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F08_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>249</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F09_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>284</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_F10_Left">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>4</X>
+			<Y>319</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Endcap_Right">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>192</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>2</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

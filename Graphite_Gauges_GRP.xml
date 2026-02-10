@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="GRP_Texture">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>40</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>154</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="GRP_BG">
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<Animation>GRP_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="GRP_Background">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>72</X>
+			<Y>144</Y>
+		</Location>
+		<Size>
+			<CX>120</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="GRP_Fill_Rainbow">
+	<Frames>
+		<Texture>Texture_Gauges.png</Texture>
+		<Location>
+			<X>72</X>
+			<Y>179</Y>
+		</Location>
+		<Size>
+			<CX>120</CX>
+			<CY>31</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+</XML>

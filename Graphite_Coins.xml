@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Icon_Bayle">
+	<Frames>
+		<Texture>dragitem78.dds</Texture>
+		<Location>
+			<X>200</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Icon_Ebon">
+	<Frames>
+		<Texture>dragitem29.dds</Texture>
+		<Location>
+			<X>161</X>
+			<Y>120</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Icon_Radiant">
+	<Frames>
+		<Texture>dragitem29.dds</Texture>
+		<Location>
+			<X>161</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Icon_Voucher">
+	<Frames>
+		<Texture>dragitem66.dds</Texture>
+		<Location>
+			<X>0</X>
+			<Y>120</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Recessed_Coin">
+	<Frames>
+		<Texture>Graphite_Inventory.png</Texture>
+		<Location>
+			<X>437</X>
+			<Y>113</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="Disabled_Bayle_Coin">
+	<NormalDecal>Icon_Bayle</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Disabled_Copper_Coin">
+	<NormalDecal>A_CopperCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Disabled_Gold_Coin">
+	<NormalDecal>A_GoldCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Disabled_Platinum_Coin">
+	<NormalDecal>A_PlatinumCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Disabled_Silver_Coin">
+	<NormalDecal>A_SilverCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Disabled_Voucher_Coin">
+	<NormalDecal>Icon_Voucher</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Recessed_Copper_Coin">
+	<Normal>Recessed_Coin</Normal>
+	<NormalDecal>A_CopperCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Recessed_Ebon_Coin">
+	<Normal>Recessed_Coin</Normal>
+	<NormalDecal>Icon_Ebon</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Recessed_Gold_Coin">
+	<Normal>Recessed_Coin</Normal>
+	<NormalDecal>A_GoldCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Recessed_Platinum_Coin">
+	<Normal>Recessed_Coin</Normal>
+	<NormalDecal>A_PlatinumCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Recessed_Radiant_Coin">
+	<Normal>Recessed_Coin</Normal>
+	<NormalDecal>Icon_Radiant</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="Recessed_Silver_Coin">
+	<Normal>Recessed_Coin</Normal>
+	<NormalDecal>A_SilverCoin</NormalDecal>
+</ButtonDrawTemplate>
+
+<Button item="Dummy_Bayle_Coin">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>16</CX>
+		<CY>16</CY>
+	</DecalSize>
+	<Template>Disabled_Bayle_Coin</Template>
+</Button>
+
+<Button item="Dummy_Copper_Coin">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Template>Disabled_Copper_Coin</Template>
+</Button>
+
+<Button item="Dummy_Gold_Coin">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Template>Disabled_Gold_Coin</Template>
+</Button>
+
+<Button item="Dummy_Platinum_Coin">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Template>Disabled_Platinum_Coin</Template>
+</Button>
+
+<Button item="Dummy_Silver_Coin">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Template>Disabled_Silver_Coin</Template>
+</Button>
+
+<Button item="Dummy_Voucher_Coin">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>18</CX>
+		<CY>18</CY>
+	</DecalSize>
+	<Template>Disabled_Voucher_Coin</Template>
+</Button>
+
+</XML>

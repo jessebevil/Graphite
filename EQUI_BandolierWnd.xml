@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<TileLayoutBox item="BW_HotButtons_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>160</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>188</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>false</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:40x28_HB_02_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_02_01</Pieces>
+		<Pieces>HotButton:40x28_HB_02_02</Pieces>
+		<Pieces>HotButton:40x28_HB_02_03</Pieces>
+		<Pieces>HotButton:40x28_HB_02_04</Pieces>
+		<Pieces>HotButton:40x28_HB_02_05</Pieces>
+		<Pieces>HotButton:40x28_HB_02_06</Pieces>
+		<Pieces>HotButton:40x28_HB_02_07</Pieces>
+		<Pieces>HotButton:40x28_HB_02_08</Pieces>
+		<Pieces>HotButton:40x28_HB_02_09</Pieces>
+		<Pieces>HotButton:40x28_HB_02_10</Pieces>
+		<Pieces>HotButton:40x28_HB_02_11</Pieces>
+		<Pieces>Screen:40x28_HB_03_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_03_01</Pieces>
+		<Pieces>HotButton:40x28_HB_03_02</Pieces>
+		<Pieces>HotButton:40x28_HB_03_03</Pieces>
+		<Pieces>HotButton:40x28_HB_03_04</Pieces>
+		<Pieces>HotButton:40x28_HB_03_05</Pieces>
+		<Pieces>HotButton:40x28_HB_03_06</Pieces>
+		<Pieces>HotButton:40x28_HB_03_07</Pieces>
+		<Pieces>HotButton:40x28_HB_03_08</Pieces>
+		<Pieces>HotButton:40x28_HB_03_09</Pieces>
+		<Pieces>HotButton:40x28_HB_03_10</Pieces>
+		<Pieces>HotButton:40x28_HB_03_11</Pieces>
+		<Pieces>Screen:40x28_HB_04_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_04_01</Pieces>
+		<Pieces>HotButton:40x28_HB_04_02</Pieces>
+		<Pieces>HotButton:40x28_HB_04_03</Pieces>
+		<Pieces>HotButton:40x28_HB_04_04</Pieces>
+		<Pieces>HotButton:40x28_HB_04_05</Pieces>
+		<Pieces>HotButton:40x28_HB_04_06</Pieces>
+		<Pieces>HotButton:40x28_HB_04_07</Pieces>
+		<Pieces>HotButton:40x28_HB_04_08</Pieces>
+		<Pieces>HotButton:40x28_HB_04_09</Pieces>
+		<Pieces>HotButton:40x28_HB_04_10</Pieces>
+		<Pieces>HotButton:40x28_HB_04_11</Pieces>
+		<Pieces>Screen:40x28_HB_05_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_05_01</Pieces>
+		<Pieces>HotButton:40x28_HB_05_02</Pieces>
+		<Pieces>HotButton:40x28_HB_05_03</Pieces>
+		<Pieces>HotButton:40x28_HB_05_04</Pieces>
+		<Pieces>HotButton:40x28_HB_05_05</Pieces>
+		<Pieces>HotButton:40x28_HB_05_06</Pieces>
+		<Pieces>HotButton:40x28_HB_05_07</Pieces>
+		<Pieces>HotButton:40x28_HB_05_08</Pieces>
+		<Pieces>HotButton:40x28_HB_05_09</Pieces>
+		<Pieces>HotButton:40x28_HB_05_10</Pieces>
+		<Pieces>HotButton:40x28_HB_05_11</Pieces>
+		<Pieces>Screen:40x28_HB_06_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_06_01</Pieces>
+		<Pieces>HotButton:40x28_HB_06_02</Pieces>
+		<Pieces>HotButton:40x28_HB_06_03</Pieces>
+		<Pieces>HotButton:40x28_HB_06_04</Pieces>
+		<Pieces>HotButton:40x28_HB_06_05</Pieces>
+		<Pieces>HotButton:40x28_HB_06_06</Pieces>
+		<Pieces>HotButton:40x28_HB_06_07</Pieces>
+		<Pieces>HotButton:40x28_HB_06_08</Pieces>
+		<Pieces>HotButton:40x28_HB_06_09</Pieces>
+		<Pieces>HotButton:40x28_HB_06_10</Pieces>
+		<Pieces>HotButton:40x28_HB_06_11</Pieces>
+		<Pieces>Screen:40x28_HB_07_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_07_01</Pieces>
+		<Pieces>HotButton:40x28_HB_07_02</Pieces>
+		<Pieces>HotButton:40x28_HB_07_03</Pieces>
+		<Pieces>HotButton:40x28_HB_07_04</Pieces>
+		<Pieces>HotButton:40x28_HB_07_05</Pieces>
+		<Pieces>HotButton:40x28_HB_07_06</Pieces>
+		<Pieces>HotButton:40x28_HB_07_07</Pieces>
+		<Pieces>HotButton:40x28_HB_07_08</Pieces>
+		<Pieces>HotButton:40x28_HB_07_09</Pieces>
+		<Pieces>HotButton:40x28_HB_07_10</Pieces>
+		<Pieces>HotButton:40x28_HB_07_11</Pieces>
+		<Pieces>Screen:40x28_HB_08_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_08_01</Pieces>
+		<Pieces>HotButton:40x28_HB_08_02</Pieces>
+		<Pieces>HotButton:40x28_HB_08_03</Pieces>
+		<Pieces>HotButton:40x28_HB_08_04</Pieces>
+		<Pieces>HotButton:40x28_HB_08_05</Pieces>
+		<Pieces>HotButton:40x28_HB_08_06</Pieces>
+		<Pieces>HotButton:40x28_HB_08_07</Pieces>
+		<Pieces>HotButton:40x28_HB_08_08</Pieces>
+		<Pieces>HotButton:40x28_HB_08_09</Pieces>
+		<Pieces>HotButton:40x28_HB_08_10</Pieces>
+		<Pieces>HotButton:40x28_HB_08_11</Pieces>
+		<Pieces>Screen:40x28_HB_09_00_Wrap</Pieces>
+		<Pieces>HotButton:40x28_HB_09_01</Pieces>
+		<Pieces>HotButton:40x28_HB_09_02</Pieces>
+		<Pieces>HotButton:40x28_HB_09_03</Pieces>
+		<Pieces>HotButton:40x28_HB_09_04</Pieces>
+		<Pieces>HotButton:40x28_HB_09_05</Pieces>
+		<Pieces>HotButton:40x28_HB_09_06</Pieces>
+		<Pieces>HotButton:40x28_HB_09_07</Pieces>
+		<Pieces>HotButton:40x28_HB_09_08</Pieces>
+		<Pieces>HotButton:40x28_HB_09_09</Pieces>
+		<Pieces>HotButton:40x28_HB_09_10</Pieces>
+		<Pieces>HotButton:40x28_HB_09_11</Pieces>
+</TileLayoutBox>
+
+<Button item="BW_DisplayButton0">
+	<ScreenID>DisplayButton0</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<Normal>Primary_BG</Normal>
+	</ButtonDrawTemplate>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>40</CX>
+		<CY>40</CY>
+	</DecalSize>
+</Button>
+
+<!-- IS_PRIMARY 13 -->
+<InvSlot item="BW_Primary">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>BGDT_Clear_Texture</Background>
+	<EQType>inventory/Equip 13</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Screen item="BW_Primary_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+		<Pieces>BW_DisplayButton0</Pieces>
+		<Pieces>BW_Primary</Pieces>
+</Screen>
+
+<Button item="BW_DisplayButton1">
+	<ScreenID>DisplayButton1</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<Normal>Secondary_BG</Normal>
+	</ButtonDrawTemplate>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>40</CX>
+		<CY>40</CY>
+	</DecalSize>
+</Button>
+
+<!-- IS_SECONDARY 14 -->
+<InvSlot item="BW_Secondary">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>BGDT_Clear_Texture</Background>
+	<EQType>inventory/Equip 14</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Screen item="BW_Secondary_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+		<Pieces>BW_DisplayButton1</Pieces>
+		<Pieces>BW_Secondary</Pieces>
+</Screen>
+
+<Button item="BW_DisplayButton2">
+	<ScreenID>DisplayButton2</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<Normal>Range_BG</Normal>
+	</ButtonDrawTemplate>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>40</CX>
+		<CY>40</CY>
+	</DecalSize>
+</Button>
+
+<!-- IS_RANGE 11 -->
+<InvSlot item="BW_Range">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>BGDT_Clear_Texture</Background>
+	<EQType>inventory/Equip 11</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Screen item="BW_Range_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+		<Pieces>BW_DisplayButton2</Pieces>
+		<Pieces>BW_Range</Pieces>
+</Screen>
+
+<Button item="BW_DisplayButton3">
+	<ScreenID>DisplayButton3</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<ButtonDrawTemplate>
+		<Normal>Ammo_BG</Normal>
+	</ButtonDrawTemplate>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>40</CX>
+		<CY>40</CY>
+	</DecalSize>
+</Button>
+
+<!-- IS_AMMO 21 -->
+<InvSlot item="BW_Ammo">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Background>BGDT_Clear_Texture</Background>
+	<EQType>inventory/Equip 22</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Screen item="BW_Ammo_Wrap">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+		<Pieces>BW_DisplayButton3</Pieces>
+		<Pieces>BW_Ammo</Pieces>
+</Screen>
+
+<Button item="BW_AutoSwapButton">
+	<ScreenID>AutoSwapButton</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>4</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>100</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Auto Swap</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="BW_AutoSwap_Wrap">
+	<Size>
+		<CX>80</CX>
+		<CY>18</CY>
+	</Size>
+		<Pieces>BW_AutoSwapButton</Pieces>
+</Screen>
+
+<Button item="BW_AddButton">
+	<ScreenID>AddButton</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>+</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="BW_DeleteButton">
+	<ScreenID>DeleteButton</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>-</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="BW_MakeHotkeyButton">
+	<ScreenID>MkHotButton</ScreenID>
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Hotkey</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="BW_UseButton">
+	<ScreenID>UseButton</ScreenID>
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Use</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="BW_WeaponSet_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>82</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>Screen:BW_Primary_Wrap</Pieces>
+		<Pieces>Screen:BW_Secondary_Wrap</Pieces>
+		<Pieces>Screen:BW_Range_Wrap</Pieces>
+		<Pieces>Screen:BW_Ammo_Wrap</Pieces>
+		<Pieces>Screen:BW_AutoSwap_Wrap</Pieces>
+		<Pieces>BW_AddButton</Pieces>
+		<Pieces>BW_DeleteButton</Pieces>
+		<Pieces>BW_MakeHotkeyButton</Pieces>
+		<Pieces>BW_UseButton</Pieces>
+</TileLayoutBox>
+
+<Listbox item="BW_WeaponSetList">
+	<ScreenID>WeaponSetList</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Columns></Columns>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</Listbox>
+
+<Screen item="BW_WeaponSet_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>84</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>BW_WeaponSetList</Pieces>
+</Screen>
+
+<Page item="BW_Bandolier_Page">
+	<Font>2</Font>
+	<TabIcon>Tab_Icon</TabIcon>
+	<TabIconActive>Tab_Icon_Active</TabIconActive>
+	<TooltipReference>Bandolier</TooltipReference>
+		<Pieces>TileLayoutBox:BW_WeaponSet_Layout</Pieces>
+		<Pieces>Screen:BW_WeaponSet_Glass</Pieces>
+</Page>
+
+<Screen item="BW_Merc_Time_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>20</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Time_Text</Pieces>
+		<Pieces>Merc_Time_Value</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Stance_Hotkey_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>80</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Stance_Hotkey</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Stance_Activate_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>80</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Stance_Activate</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Stance_List_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>44</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>24</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Stance_List</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Assist_Checkbox_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>19</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>4</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>4</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>5</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Assist_Checkbox</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Assist_Call_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>80</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Assist_Call</Pieces>
+</Screen>
+
+<Page item="BW_ManagePage">
+	<Font>2</Font>
+	<TabIcon>Tab_Icon</TabIcon>
+	<TabIconActive>Tab_Icon_Active</TabIconActive>
+	<TooltipReference>Stance</TooltipReference>
+		<Pieces>Screen:BW_Merc_Time_Glass</Pieces>
+		<Pieces>Screen:BW_Merc_Stance_Hotkey_Wrap</Pieces>
+		<Pieces>Screen:BW_Merc_Stance_Activate_Wrap</Pieces>
+		<Pieces>Screen:BW_Merc_Stance_List_Glass</Pieces>
+		<Pieces>Screen:BW_Merc_Assist_Checkbox_Wrap</Pieces>
+		<Pieces>Screen:BW_Merc_Assist_Call_Wrap</Pieces>
+</Page>
+
+<Screen item="BW_Merc_Slot_Total_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>20</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Merc_Slot_Total</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Slot_Hotkey_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>80</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Slot_Hotkey</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Slot_Activate_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>80</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>42</BottomAnchorOffset>
+	<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Pieces>Merc_Slot_Activate</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Slot_Scrollbox_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>44</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>24</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>Screen:Merc_Slot_Scrollbox</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Dismiss_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>55</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Dismiss</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Info_Button_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>55</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>55</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Info_Button</Pieces>
+</Screen>
+
+<Screen item="BW_Merc_Gift_Wrap">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>22</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>55</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Pieces>Merc_Gift</Pieces>
+</Screen>
+
+<Page item="BW_SwitchPage">
+	<Font>2</Font>
+	<TabIcon>Tab_Icon</TabIcon>
+	<TabIconActive>Tab_Icon_Active</TabIconActive>
+	<TooltipReference>Barracks</TooltipReference>
+		<Pieces>Screen:BW_Merc_Slot_Total_Glass</Pieces>
+		<Pieces>Screen:BW_Merc_Slot_Hotkey_Wrap</Pieces>
+		<Pieces>Screen:BW_Merc_Slot_Activate_Wrap</Pieces>
+		<Pieces>Screen:BW_Merc_Slot_Scrollbox_Glass</Pieces>
+		<Pieces>Screen:BW_Merc_Dismiss_Wrap</Pieces>
+		<Pieces>Screen:BW_Merc_Info_Button_Wrap</Pieces>
+		<Pieces>Screen:BW_Merc_Gift_Wrap</Pieces>
+</Page>
+
+<TabBox item="BW_Subwindows">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>188</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>160</RightAnchorOffset>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<PageBorderTemplate>Page_Border_Null</PageBorderTemplate>
+	<TabBorderTemplate>Tab_Border_Null</TabBorderTemplate>
+		<Pages>BW_Bandolier_Page</Pages>
+		<Pages>BW_ManagePage</Pages>
+		<Pages>BW_SwitchPage</Pages>
+</TabBox>
+
+<Screen item="BandolierWnd">
+	<Size>
+		<CX>168</CX>
+		<CY>207</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Plain_Grill</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Horizontal</Layout>
+	<MinVSize>188</MinVSize>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Bandolier</Text>
+		<Pieces>TileLayoutBox:BW_HotButtons_Layout</Pieces>
+		<Pieces>BW_Subwindows</Pieces>
+</Screen>
+</XML>

@@ -1,0 +1,4487 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Label item = "IDW_CollectedLabel">
+  <ScreenID>IDW_CollectedLabel</ScreenID>
+  <RelativePosition>true</RelativePosition>
+  <Location>
+    <X>10</X>
+    <Y>95</Y>
+  </Location>
+  <Size>
+    <CX>100</CX>
+    <CY>20</CY>
+  </Size>
+  <Text></Text>
+  <NoWrap>true</NoWrap>
+</Label>
+
+<Label item = "IDW_ScribedLabel">
+  <ScreenID>IDW_ScribedLabel</ScreenID>
+  <RelativePosition>true</RelativePosition>
+  <Location>
+    <X>10</X>
+    <Y>95</Y>
+  </Location>
+  <Size>
+    <CX>100</CX>
+    <CY>20</CY>
+  </Size>
+  <Text></Text>
+  <NoWrap>true</NoWrap>
+</Label>
+
+<Button item="IDW_ModButton">
+	<ScreenID>IDW_ModButton</ScreenID>
+	<RelativePosition>true</RelativePosition>
+	<Location>
+		<X>10</X>
+		<Y>135</Y>
+	</Location>
+	<Size>
+		<CX>10</CX>
+		<CY>10</CY>
+	</Size>
+	<Text></Text>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+</Button>
+
+<Button item="IDW_PrintRealEstateItems">
+  <ScreenID>IDW_PrintRealEstateItems</ScreenID>
+  <!--<Font>3</Font>-->
+  <RelativePosition>true</RelativePosition>
+  <Location>
+    <X>10</X>
+    <Y>135</Y>
+  </Location>
+  <Size>
+    <CX>70</CX>
+    <CY>20</CY>
+  </Size>
+  <Text>Print Items</Text>
+  <Template>BDT_Normal</Template>
+  <!--<SoundPressed/>-->
+  <!--<SoundUp/>-->
+  <!--<SoundFlyby/>-->
+</Button>
+
+<Button item="IDW_IconButton">
+	<ScreenID>IconButton</ScreenID>
+	<Location>
+		<X>18</X>
+		<Y>14</Y>
+	</Location>
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<ButtonDrawTemplate>
+		<Normal>RedIconBackground</Normal>
+		<NormalDecal>BuffIcons</NormalDecal>
+	</ButtonDrawTemplate>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>36</CX>
+		<CY>36</CY>
+	</DecalSize>
+</Button>
+
+<Label item="IDW_ModButtonLabel">
+	<ScreenID>IDW_ModButtonLabel</ScreenID>
+	<RelativePosition>true</RelativePosition>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<Text></Text>
+	<NoWrap>true</NoWrap>
+</Label>
+
+<Button item="IDW_ConvertButton">
+	<ScreenID>IDW_ConvertButton</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>135</Y>
+	</Location>
+	<Size>
+		<CX>10</CX>
+		<CY>10</CY>
+	</Size>
+	<Font>2</Font>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text></Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Button>
+
+<STMLbox item = "IDW_ConvertButtonLabel">
+	<ScreenID>IDW_ConvertButtonLabel</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>10</CX>
+		<CY>10</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<Text></Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</STMLbox>
+
+<Label item="IDW_MadeBy">
+	<ScreenID>IDW_MadeBy</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>10</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Text></Text>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo1">
+	<ScreenID>IDW_ItemInfo1</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>24</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo2">
+	<ScreenID>IDW_ItemInfo2</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>38</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo3">
+	<ScreenID>IDW_ItemInfo3</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>52</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo4">
+	<ScreenID>IDW_ItemInfo4</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>66</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo5">
+	<ScreenID>IDW_ItemInfo5</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>80</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo6">
+	<ScreenID>IDW_ItemInfo6</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>94</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo7">
+	<ScreenID>IDW_ItemInfo7</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>108</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo8">
+	<ScreenID>IDW_ItemInfo8</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>122</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo9">
+	<ScreenID>IDW_ItemInfo9</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>136</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo10">
+	<ScreenID>IDW_ItemInfo10</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>150</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<!-- NOTE: BEGIN ERROR SUPPRESION ELEMENTS -->
+
+<Label item="IDW_ItemInfo11">
+	<ScreenID>IDW_ItemInfo11</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>164</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ItemInfo12">
+	<ScreenID>IDW_ItemInfo12</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>178</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item = "IDW_ItemInfo13">
+	<ScreenID>IDW_ItemInfo13</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>192</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ClassTitle1">
+	<ScreenID>IDW_ClassTitle1</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>206</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_ClassTitle2">
+	<ScreenID>IDW_ClassTitle2</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>220</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_DeityTitle">
+	<ScreenID>IDW_DeityTitle</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>234</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_RaceTitle2">
+	<ScreenID>IDW_RaceTitle2</ScreenID>
+	<Location>
+		<X>90</X>
+		<Y>248</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<NoWrap>true</NoWrap>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Button item="IDW_FuseButton">
+	<ScreenID>IDW_FuseButton</ScreenID>
+	<RelativePosition>true</RelativePosition>
+	<Location>
+		<X>10</X>
+		<Y>550</Y>
+	</Location>
+	<Size>
+		<CX>10</CX>
+		<CY>10</CY>
+	</Size>
+	<Text></Text>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+</Button>
+
+<Label item="IDW_FuseButtonLabel">
+	<ScreenID>IDW_FuseButtonLabel</ScreenID>
+	<RelativePosition>true</RelativePosition>
+	<Location>
+		<X>10</X>
+		<Y>50</Y>
+	</Location>
+	<Size>
+		<CX>40</CX>
+		<CY>20</CY>
+	</Size>
+	<Text></Text>
+	<NoWrap>true</NoWrap>
+</Label>
+
+<Button item="IDW_RewardButton">
+		<ScreenID>IDW_RewardButton</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>10</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>10</CY>
+		</Size>
+		<Text></Text>
+		<Template>BDT_Normal</Template>
+		<!--<SoundPressed/>-->
+		<!--<SoundUp/>-->
+		<!--<SoundFlyby/>-->
+</Button>
+  
+<STMLbox item = "IDW_RewardButtonLabel">
+	<ScreenID>IDW_RewardButtonLabel</ScreenID>
+	<RelativePosition>true</RelativePosition>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>600</CX>
+		<CY>20</CY>
+	</Size>
+	<Text></Text>
+	<NoWrap>false</NoWrap>
+</STMLbox>
+
+<!-- NOTE: END ERROR SUPPRESION ELEMENTS -->
+
+
+
+
+
+
+
+
+
+<Label item="IDW_Row1Col1Stat">
+	<ScreenID>IDW_Row1Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row2Col1Stat">
+	<ScreenID>IDW_Row2Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>76</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row3Col1Stat">
+	<ScreenID>IDW_Row3Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>92</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row4Col1Stat">
+	<ScreenID>IDW_Row4Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>108</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row5Col1Stat">
+	<ScreenID>IDW_Row5Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>124</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row6Col1Stat">
+	<ScreenID>IDW_Row6Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>140</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row7Col1Stat">
+	<ScreenID>IDW_Row7Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>156</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row8Col1Stat">
+	<ScreenID>IDW_Row8Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>172</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row9Col1Stat">
+	<ScreenID>IDW_Row9Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>188</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row10Col1Stat">
+	<ScreenID>IDW_Row10Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>204</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row11Col1Stat">
+	<ScreenID>IDW_Row11Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>220</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row12Col1Stat">
+	<ScreenID>IDW_Row12Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>236</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row13Col1Stat">
+	<ScreenID>IDW_Row13Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>252</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row14Col1Stat">
+	<ScreenID>IDW_Row14Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>268</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row15Col1Stat">
+	<ScreenID>IDW_Row15Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>284</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row16Col1Stat">
+	<ScreenID>IDW_Row16Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>300</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row17Col1Stat">
+	<ScreenID>IDW_Row17Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>316</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row18Col1Stat">
+	<ScreenID>IDW_Row18Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>332</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row19Col1Stat">
+	<ScreenID>IDW_Row19Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>348</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row20Col1Stat">
+	<ScreenID>IDW_Row20Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>364</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row21Col1Stat">
+	<ScreenID>IDW_Row21Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>380</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row22Col1Stat">
+	<ScreenID>IDW_Row22Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>396</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row23Col1Stat">
+	<ScreenID>IDW_Row23Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>412</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row24Col1Stat">
+	<ScreenID>IDW_Row24Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>428</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row25Col1Stat">
+	<ScreenID>IDW_Row25Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>444</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row26Col1Stat">
+	<ScreenID>IDW_Row26Col1Stat</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>460</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Label item="IDW_Row1Col1Value">
+	<ScreenID>IDW_Row1Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row2Col1Value">
+	<ScreenID>IDW_Row2Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>76</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row3Col1Value">
+	<ScreenID>IDW_Row3Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>92</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row4Col1Value">
+	<ScreenID>IDW_Row4Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>108</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row5Col1Value">
+	<ScreenID>IDW_Row5Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>124</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row6Col1Value">
+	<ScreenID>IDW_Row6Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>140</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row7Col1Value">
+	<ScreenID>IDW_Row7Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>156</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row8Col1Value">
+	<ScreenID>IDW_Row8Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>172</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row9Col1Value">
+	<ScreenID>IDW_Row9Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>188</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row10Col1Value">
+	<ScreenID>IDW_Row10Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>204</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row11Col1Value">
+	<ScreenID>IDW_Row11Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>220</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row12Col1Value">
+	<ScreenID>IDW_Row12Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>236</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row13Col1Value">
+	<ScreenID>IDW_Row13Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>252</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row14Col1Value">
+	<ScreenID>IDW_Row14Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>268</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row15Col1Value">
+	<ScreenID>IDW_Row15Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>284</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row16Col1Value">
+	<ScreenID>IDW_Row16Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>300</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row17Col1Value">
+	<ScreenID>IDW_Row17Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>316</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row18Col1Value">
+	<ScreenID>IDW_Row18Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>332</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row19Col1Value">
+	<ScreenID>IDW_Row19Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>348</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row20Col1Value">
+	<ScreenID>IDW_Row20Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>364</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row21Col1Value">
+	<ScreenID>IDW_Row21Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>380</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row22Col1Value">
+	<ScreenID>IDW_Row22Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>396</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row23Col1Value">
+	<ScreenID>IDW_Row23Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>412</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row24Col1Value">
+	<ScreenID>IDW_Row24Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>428</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row25Col1Value">
+	<ScreenID>IDW_Row25Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>444</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row26Col1Value">
+	<ScreenID>IDW_Row26Col1Value</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>460</Y>
+	</Location>
+	<Size>
+		<CX>110</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<AlignRight>true</AlignRight>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Label item="IDW_Row1Col2Stat">
+	<ScreenID>IDW_Row1Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row2Col2Stat">
+	<ScreenID>IDW_Row2Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>76</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row3Col2Stat">
+	<ScreenID>IDW_Row3Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>92</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row4Col2Stat">
+	<ScreenID>IDW_Row4Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>108</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row5Col2Stat">
+	<ScreenID>IDW_Row5Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>124</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row6Col2Stat">
+	<ScreenID>IDW_Row6Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>140</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row7Col2Stat">
+	<ScreenID>IDW_Row7Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>156</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row8Col2Stat">
+	<ScreenID>IDW_Row8Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>172</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row9Col2Stat">
+	<ScreenID>IDW_Row9Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>188</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row10Col2Stat">
+	<ScreenID>IDW_Row10Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>204</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row11Col2Stat">
+	<ScreenID>IDW_Row11Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>220</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row12Col2Stat">
+	<ScreenID>IDW_Row12Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>236</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row13Col2Stat">
+	<ScreenID>IDW_Row13Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>252</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row14Col2Stat">
+	<ScreenID>IDW_Row14Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>268</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row15Col2Stat">
+	<ScreenID>IDW_Row15Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>284</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row16Col2Stat">
+	<ScreenID>IDW_Row16Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>300</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row17Col2Stat">
+	<ScreenID>IDW_Row17Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>316</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row18Col2Stat">
+	<ScreenID>IDW_Row18Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>332</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row19Col2Stat">
+	<ScreenID>IDW_Row19Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>348</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row20Col2Stat">
+	<ScreenID>IDW_Row20Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>364</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row21Col2Stat">
+	<ScreenID>IDW_Row21Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>380</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row22Col2Stat">
+	<ScreenID>IDW_Row22Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>396</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row23Col2Stat">
+	<ScreenID>IDW_Row23Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>412</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row24Col2Stat">
+	<ScreenID>IDW_Row24Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>428</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row25Col2Stat">
+	<ScreenID>IDW_Row25Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>444</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row26Col2Stat">
+	<ScreenID>IDW_Row26Col2Stat</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>460</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Label item="IDW_Row1Col2Value">
+	<ScreenID>IDW_Row1Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row2Col2Value">
+	<ScreenID>IDW_Row2Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>76</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row3Col2Value">
+	<ScreenID>IDW_Row3Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>92</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row4Col2Value">
+	<ScreenID>IDW_Row4Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>108</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row5Col2Value">
+	<ScreenID>IDW_Row5Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>124</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row6Col2Value">
+	<ScreenID>IDW_Row6Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>140</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row7Col2Value">
+	<ScreenID>IDW_Row7Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>156</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row8Col2Value">
+	<ScreenID>IDW_Row8Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>172</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row9Col2Value">
+	<ScreenID>IDW_Row9Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>188</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row10Col2Value">
+	<ScreenID>IDW_Row10Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>204</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row11Col2Value">
+	<ScreenID>IDW_Row11Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>220</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row12Col2Value">
+	<ScreenID>IDW_Row12Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>236</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row13Col2Value">
+	<ScreenID>IDW_Row13Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>252</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row14Col2Value">
+	<ScreenID>IDW_Row14Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>268</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row15Col2Value">
+	<ScreenID>IDW_Row15Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>284</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row16Col2Value">
+	<ScreenID>IDW_Row16Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>300</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row17Col2Value">
+	<ScreenID>IDW_Row17Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>316</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row18Col2Value">
+	<ScreenID>IDW_Row18Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>332</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row19Col2Value">
+	<ScreenID>IDW_Row19Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>348</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row20Col2Value">
+	<ScreenID>IDW_Row20Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>364</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row21Col2Value">
+	<ScreenID>IDW_Row21Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>380</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row22Col2Value">
+	<ScreenID>IDW_Row22Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>396</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row23Col2Value">
+	<ScreenID>IDW_Row23Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>412</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row24Col2Value">
+	<ScreenID>IDW_Row24Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>428</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row25Col2Value">
+	<ScreenID>IDW_Row25Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>444</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row26Col2Value">
+	<ScreenID>IDW_Row26Col2Value</ScreenID>
+	<Location>
+		<X>140</X>
+		<Y>460</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Label item="IDW_Row1Col3Stat">
+	<ScreenID>IDW_Row1Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row2Col3Stat">
+	<ScreenID>IDW_Row2Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>76</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row3Col3Stat">
+	<ScreenID>IDW_Row3Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>92</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row4Col3Stat">
+	<ScreenID>IDW_Row4Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>108</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row5Col3Stat">
+	<ScreenID>IDW_Row5Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>124</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row6Col3Stat">
+	<ScreenID>IDW_Row6Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>140</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row7Col3Stat">
+	<ScreenID>IDW_Row7Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>156</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row8Col3Stat">
+	<ScreenID>IDW_Row8Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>172</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row9Col3Stat">
+	<ScreenID>IDW_Row9Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>188</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row10Col3Stat">
+	<ScreenID>IDW_Row10Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>204</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row11Col3Stat">
+	<ScreenID>IDW_Row11Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>220</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row12Col3Stat">
+	<ScreenID>IDW_Row12Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>236</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row13Col3Stat">
+	<ScreenID>IDW_Row13Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>252</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row14Col3Stat">
+	<ScreenID>IDW_Row14Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>268</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row15Col3Stat">
+	<ScreenID>IDW_Row15Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>284</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row16Col3Stat">
+	<ScreenID>IDW_Row16Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>300</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row17Col3Stat">
+	<ScreenID>IDW_Row17Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>316</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row18Col3Stat">
+	<ScreenID>IDW_Row18Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>332</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row19Col3Stat">
+	<ScreenID>IDW_Row19Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>348</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row20Col3Stat">
+	<ScreenID>IDW_Row20Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>364</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row21Col3Stat">
+	<ScreenID>IDW_Row21Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>380</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row22Col3Stat">
+	<ScreenID>IDW_Row22Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>396</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row23Col3Stat">
+	<ScreenID>IDW_Row23Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>412</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row24Col3Stat">
+	<ScreenID>IDW_Row24Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>428</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row25Col3Stat">
+	<ScreenID>IDW_Row25Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>444</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row26Col3Stat">
+	<ScreenID>IDW_Row26Col3Stat</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>460</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Label item="IDW_Row1Col3Value">
+	<ScreenID>IDW_Row1Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row2Col3Value">
+	<ScreenID>IDW_Row2Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>76</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row3Col3Value">
+	<ScreenID>IDW_Row3Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>92</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row4Col3Value">
+	<ScreenID>IDW_Row4Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>108</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row5Col3Value">
+	<ScreenID>IDW_Row5Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>124</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row6Col3Value">
+	<ScreenID>IDW_Row6Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>140</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row7Col3Value">
+	<ScreenID>IDW_Row7Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>156</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row8Col3Value">
+	<ScreenID>IDW_Row8Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>172</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row9Col3Value">
+	<ScreenID>IDW_Row9Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>188</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row10Col3Value">
+	<ScreenID>IDW_Row10Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>204</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row11Col3Value">
+	<ScreenID>IDW_Row11Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>220</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row12Col3Value">
+	<ScreenID>IDW_Row12Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>236</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row13Col3Value">
+	<ScreenID>IDW_Row13Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>252</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row14Col3Value">
+	<ScreenID>IDW_Row14Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>268</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row15Col3Value">
+	<ScreenID>IDW_Row15Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>284</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row16Col3Value">
+	<ScreenID>IDW_Row16Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>300</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row17Col3Value">
+	<ScreenID>IDW_Row17Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>316</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row18Col3Value">
+	<ScreenID>IDW_Row18Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>332</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row19Col3Value">
+	<ScreenID>IDW_Row19Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>348</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row20Col3Value">
+	<ScreenID>IDW_Row20Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>364</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row21Col3Value">
+	<ScreenID>IDW_Row21Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>380</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row22Col3Value">
+	<ScreenID>IDW_Row22Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>396</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row23Col3Value">
+	<ScreenID>IDW_Row23Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>412</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row24Col3Value">
+	<ScreenID>IDW_Row24Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>428</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row25Col3Value">
+	<ScreenID>IDW_Row25Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>444</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Row26Col3Value">
+	<ScreenID>IDW_Row26Col3Value</ScreenID>
+	<Location>
+		<X>260</X>
+		<Y>460</Y>
+	</Location>
+	<Size>
+		<CX>100</CX>
+		<CY>14</CY>
+	</Size>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Label item="IDW_Heroic1">
+	<ScreenID>IDW_Heroic1</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic2">
+	<ScreenID>IDW_Heroic2</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic3">
+	<ScreenID>IDW_Heroic3</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic4">
+	<ScreenID>IDW_Heroic4</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic5">
+	<ScreenID>IDW_Heroic5</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic6">
+	<ScreenID>IDW_Heroic6</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic7">
+	<ScreenID>IDW_Heroic7</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic8">
+	<ScreenID>IDW_Heroic8</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic9">
+	<ScreenID>IDW_Heroic9</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic10">
+	<ScreenID>IDW_Heroic10</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic11">
+	<ScreenID>IDW_Heroic11</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic12">
+	<ScreenID>IDW_Heroic12</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="IDW_Heroic13">
+	<ScreenID>IDW_Heroic13</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>60</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+
+
+
+
+
+
+
+<Button item="IDW_Appearance_Socket_Item">
+	<ScreenID>IDW_Appearance_Socket_Item</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Template>DragItem_Recessed</Template>
+</Button>
+
+<Button item="IDW_Appearance_Socket_Buy_Button">
+	<ScreenID>IDW_Appearance_Socket_Buy_Button</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>$</Text>
+	<TextColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<STMLbox item="IDW_Appearance_Socket_Description">
+	<ScreenID>IDW_Appearance_Socket_Description</ScreenID>
+	<Location>
+		<X>34</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Style_Transparent>true</Style_Transparent>
+</STMLbox>
+
+<Screen item="IDW_Appearance_Socket_Screen">
+	<ScreenID>IDW_Appearance_Socket_Screen</ScreenID>
+	<Size>
+		<CX>700</CX>
+		<CY>40</CY>
+	</Size>
+		<Pieces>IDW_Appearance_Socket_Item</Pieces>
+		<Pieces>IDW_Appearance_Socket_Buy_Button</Pieces>
+		<Pieces>IDW_Appearance_Socket_Description</Pieces>
+</Screen>
+
+<Button item="IDW_Socket_Slot_1_Item">
+	<ScreenID>IDW_Socket_Slot_1_Item</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Template>DragItem_Recessed</Template>
+</Button>
+
+<STMLbox item="IDW_Socket_Slot_1_Description">
+	<ScreenID>IDW_Socket_Slot_1_Description</ScreenID>
+	<Location>
+		<X>34</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Style_Transparent>true</Style_Transparent>
+</STMLbox>
+
+<Screen item="IDW_Socket_Slot_1_Screen">
+	<ScreenID>IDW_Socket_Slot_1_Screen</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>IDW_Socket_Slot_1_Item</Pieces>
+		<Pieces>IDW_Socket_Slot_1_Description</Pieces>
+</Screen>
+
+<Button item="IDW_Socket_Slot_2_Item">
+	<ScreenID>IDW_Socket_Slot_2_Item</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Template>DragItem_Recessed</Template>
+</Button>
+
+<STMLbox item="IDW_Socket_Slot_2_Description">
+	<ScreenID>IDW_Socket_Slot_2_Description</ScreenID>
+	<Location>
+		<X>34</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Style_Transparent>true</Style_Transparent>
+</STMLbox>
+
+<Screen item="IDW_Socket_Slot_2_Screen">
+	<ScreenID>IDW_Socket_Slot_2_Screen</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>IDW_Socket_Slot_2_Item</Pieces>
+		<Pieces>IDW_Socket_Slot_2_Description</Pieces>
+</Screen>
+
+<Button item="IDW_Socket_Slot_3_Item">
+	<ScreenID>IDW_Socket_Slot_3_Item</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Template>DragItem_Recessed</Template>
+</Button>
+
+<STMLbox item="IDW_Socket_Slot_3_Description">
+	<ScreenID>IDW_Socket_Slot_3_Description</ScreenID>
+	<Location>
+		<X>34</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Style_Transparent>true</Style_Transparent>
+</STMLbox>
+
+<Screen item="IDW_Socket_Slot_3_Screen">
+	<ScreenID>IDW_Socket_Slot_3_Screen</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>IDW_Socket_Slot_3_Item</Pieces>
+		<Pieces>IDW_Socket_Slot_3_Description</Pieces>
+</Screen>
+
+<Button item="IDW_Socket_Slot_4_Item">
+	<ScreenID>IDW_Socket_Slot_4_Item</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Template>DragItem_Recessed</Template>
+</Button>
+
+<STMLbox item="IDW_Socket_Slot_4_Description">
+	<ScreenID>IDW_Socket_Slot_4_Description</ScreenID>
+	<Location>
+		<X>34</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Style_Transparent>true</Style_Transparent>
+</STMLbox>
+
+<Screen item="IDW_Socket_Slot_4_Screen">
+	<ScreenID>IDW_Socket_Slot_4_Screen</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>IDW_Socket_Slot_4_Item</Pieces>
+		<Pieces>IDW_Socket_Slot_4_Description</Pieces>
+</Screen>
+
+<Button item="IDW_Socket_Slot_5_Item">
+	<ScreenID>IDW_Socket_Slot_5_Item</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Template>DragItem_Recessed</Template>
+</Button>
+
+<STMLbox item="IDW_Socket_Slot_5_Description">
+	<ScreenID>IDW_Socket_Slot_5_Description</ScreenID>
+	<Location>
+		<X>34</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Style_Transparent>true</Style_Transparent>
+</STMLbox>
+
+<Screen item="IDW_Socket_Slot_5_Screen">
+	<ScreenID>IDW_Socket_Slot_5_Screen</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>IDW_Socket_Slot_5_Item</Pieces>
+		<Pieces>IDW_Socket_Slot_5_Description</Pieces>
+</Screen>
+
+<Button item="IDW_Socket_Slot_6_Item">
+	<ScreenID>IDW_Socket_Slot_6_Item</ScreenID>
+	<Location>
+		<X>10</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>20</CX>
+		<CY>20</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>20</CX>
+		<CY>20</CY>
+	</DecalSize>
+	<Template>DragItem_Recessed</Template>
+</Button>
+
+<STMLbox item="IDW_Socket_Slot_6_Description">
+	<ScreenID>IDW_Socket_Slot_6_Description</ScreenID>
+	<Location>
+		<X>34</X>
+		<Y>3</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>14</CY>
+	</Size>
+	<Font>2</Font>
+	<Style_Transparent>true</Style_Transparent>
+</STMLbox>
+
+<Screen item="IDW_Socket_Slot_6_Screen">
+	<ScreenID>IDW_Socket_Slot_6_Screen</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>700</CX>
+		<CY>20</CY>
+	</Size>
+		<Pieces>IDW_Socket_Slot_6_Item</Pieces>
+		<Pieces>IDW_Socket_Slot_6_Description</Pieces>
+</Screen>
+
+<STMLbox item="IDW_ItemDescription">
+	<ScreenID>ItemDescription</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_Border>true</Style_Border>
+	<Style_VScroll>true</Style_VScroll>
+</STMLbox>
+
+<Screen item="IDW_Item_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>IDW_IconButton</Pieces>
+		<Pieces>IDW_CollectedLabel</Pieces>
+		<Pieces>IDW_ScribedLabel</Pieces>
+		<Pieces>IDW_ModButton</Pieces>
+		<Pieces>IDW_ModButtonLabel</Pieces>
+		<Pieces>IDW_ConvertButton</Pieces>
+		<Pieces>IDW_ConvertButtonLabel</Pieces>
+
+		<Pieces>IDW_MadeBy</Pieces>
+		<Pieces>IDW_ItemInfo1</Pieces>
+		<Pieces>IDW_ItemInfo2</Pieces>
+		<Pieces>IDW_ItemInfo3</Pieces>
+		<Pieces>IDW_ItemInfo4</Pieces>
+		<Pieces>IDW_ItemInfo5</Pieces>
+		<Pieces>IDW_ItemInfo6</Pieces>
+		<Pieces>IDW_ItemInfo7</Pieces>
+		<Pieces>IDW_ItemInfo8</Pieces>
+		<Pieces>IDW_ItemInfo9</Pieces>
+		<Pieces>IDW_ItemInfo10</Pieces>
+
+<!-- NOTE: BEGIN ERROR SUPPRESION ELEMENTS -->
+
+		<Pieces>IDW_ItemInfo11</Pieces>
+		<Pieces>IDW_ItemInfo12</Pieces>
+		<Pieces>IDW_ItemInfo13</Pieces>
+		<Pieces>IDW_ClassTitle1</Pieces>
+		<Pieces>IDW_ClassTitle2</Pieces>
+		<Pieces>IDW_DeityTitle</Pieces>
+		<Pieces>IDW_RaceTitle2</Pieces>
+
+<!-- 2018DEC29@JYD: UPDATED TO ADD NEW BUTTONS AND LABELS -->
+		<Pieces>IDW_FuseButton</Pieces>
+		<Pieces>IDW_FuseButtonLabel</Pieces>
+		<Pieces>IDW_RewardButton</Pieces>
+		<Pieces>IDW_RewardButtonLabel</Pieces>
+		<Pieces>IDW_PrintRealEstateItems</Pieces>
+<!-- 2018DEC29@JYD: END OF UPDATE -->
+
+<!-- NOTE: END ERROR SUPPRESION ELEMENTS -->
+
+		<Pieces>IDW_Row1Col1Stat</Pieces>
+		<Pieces>IDW_Row2Col1Stat</Pieces>
+		<Pieces>IDW_Row3Col1Stat</Pieces>
+		<Pieces>IDW_Row4Col1Stat</Pieces>
+		<Pieces>IDW_Row5Col1Stat</Pieces>
+		<Pieces>IDW_Row6Col1Stat</Pieces>
+		<Pieces>IDW_Row7Col1Stat</Pieces>
+		<Pieces>IDW_Row8Col1Stat</Pieces>
+		<Pieces>IDW_Row9Col1Stat</Pieces>
+		<Pieces>IDW_Row10Col1Stat</Pieces>
+		<Pieces>IDW_Row11Col1Stat</Pieces>
+		<Pieces>IDW_Row12Col1Stat</Pieces>
+		<Pieces>IDW_Row13Col1Stat</Pieces>
+		<Pieces>IDW_Row14Col1Stat</Pieces>
+		<Pieces>IDW_Row15Col1Stat</Pieces>
+		<Pieces>IDW_Row16Col1Stat</Pieces>
+		<Pieces>IDW_Row17Col1Stat</Pieces>
+		<Pieces>IDW_Row18Col1Stat</Pieces>
+		<Pieces>IDW_Row19Col1Stat</Pieces>
+		<Pieces>IDW_Row20Col1Stat</Pieces>
+		<Pieces>IDW_Row21Col1Stat</Pieces>
+		<Pieces>IDW_Row22Col1Stat</Pieces>
+		<Pieces>IDW_Row23Col1Stat</Pieces>
+		<Pieces>IDW_Row24Col1Stat</Pieces>
+		<Pieces>IDW_Row25Col1Stat</Pieces>
+		<Pieces>IDW_Row26Col1Stat</Pieces>
+
+		<Pieces>IDW_Row1Col1Value</Pieces>
+		<Pieces>IDW_Row2Col1Value</Pieces>
+		<Pieces>IDW_Row3Col1Value</Pieces>
+		<Pieces>IDW_Row4Col1Value</Pieces>
+		<Pieces>IDW_Row5Col1Value</Pieces>
+		<Pieces>IDW_Row6Col1Value</Pieces>
+		<Pieces>IDW_Row7Col1Value</Pieces>
+		<Pieces>IDW_Row8Col1Value</Pieces>
+		<Pieces>IDW_Row9Col1Value</Pieces>
+		<Pieces>IDW_Row10Col1Value</Pieces>
+		<Pieces>IDW_Row11Col1Value</Pieces>
+		<Pieces>IDW_Row12Col1Value</Pieces>
+		<Pieces>IDW_Row13Col1Value</Pieces>
+		<Pieces>IDW_Row14Col1Value</Pieces>
+		<Pieces>IDW_Row15Col1Value</Pieces>
+		<Pieces>IDW_Row16Col1Value</Pieces>
+		<Pieces>IDW_Row17Col1Value</Pieces>
+		<Pieces>IDW_Row18Col1Value</Pieces>
+		<Pieces>IDW_Row19Col1Value</Pieces>
+		<Pieces>IDW_Row20Col1Value</Pieces>
+		<Pieces>IDW_Row21Col1Value</Pieces>
+		<Pieces>IDW_Row22Col1Value</Pieces>
+		<Pieces>IDW_Row23Col1Value</Pieces>
+		<Pieces>IDW_Row24Col1Value</Pieces>
+		<Pieces>IDW_Row25Col1Value</Pieces>
+		<Pieces>IDW_Row26Col1Value</Pieces>
+
+		<Pieces>IDW_Row1Col2Stat</Pieces>
+		<Pieces>IDW_Row2Col2Stat</Pieces>
+		<Pieces>IDW_Row3Col2Stat</Pieces>
+		<Pieces>IDW_Row4Col2Stat</Pieces>
+		<Pieces>IDW_Row5Col2Stat</Pieces>
+		<Pieces>IDW_Row6Col2Stat</Pieces>
+		<Pieces>IDW_Row7Col2Stat</Pieces>
+		<Pieces>IDW_Row8Col2Stat</Pieces>
+		<Pieces>IDW_Row9Col2Stat</Pieces>
+		<Pieces>IDW_Row10Col2Stat</Pieces>
+		<Pieces>IDW_Row11Col2Stat</Pieces>
+		<Pieces>IDW_Row12Col2Stat</Pieces>
+		<Pieces>IDW_Row13Col2Stat</Pieces>
+		<Pieces>IDW_Row14Col2Stat</Pieces>
+		<Pieces>IDW_Row15Col2Stat</Pieces>
+		<Pieces>IDW_Row16Col2Stat</Pieces>
+		<Pieces>IDW_Row17Col2Stat</Pieces>
+		<Pieces>IDW_Row18Col2Stat</Pieces>
+		<Pieces>IDW_Row19Col2Stat</Pieces>
+		<Pieces>IDW_Row20Col2Stat</Pieces>
+		<Pieces>IDW_Row21Col2Stat</Pieces>
+		<Pieces>IDW_Row22Col2Stat</Pieces>
+		<Pieces>IDW_Row23Col2Stat</Pieces>
+		<Pieces>IDW_Row24Col2Stat</Pieces>
+		<Pieces>IDW_Row25Col2Stat</Pieces>
+		<Pieces>IDW_Row26Col2Stat</Pieces>
+
+		<Pieces>IDW_Row1Col2Value</Pieces>
+		<Pieces>IDW_Row2Col2Value</Pieces>
+		<Pieces>IDW_Row3Col2Value</Pieces>
+		<Pieces>IDW_Row4Col2Value</Pieces>
+		<Pieces>IDW_Row5Col2Value</Pieces>
+		<Pieces>IDW_Row6Col2Value</Pieces>
+		<Pieces>IDW_Row7Col2Value</Pieces>
+		<Pieces>IDW_Row8Col2Value</Pieces>
+		<Pieces>IDW_Row9Col2Value</Pieces>
+		<Pieces>IDW_Row10Col2Value</Pieces>
+		<Pieces>IDW_Row11Col2Value</Pieces>
+		<Pieces>IDW_Row12Col2Value</Pieces>
+		<Pieces>IDW_Row13Col2Value</Pieces>
+		<Pieces>IDW_Row14Col2Value</Pieces>
+		<Pieces>IDW_Row15Col2Value</Pieces>
+		<Pieces>IDW_Row16Col2Value</Pieces>
+		<Pieces>IDW_Row17Col2Value</Pieces>
+		<Pieces>IDW_Row18Col2Value</Pieces>
+		<Pieces>IDW_Row19Col2Value</Pieces>
+		<Pieces>IDW_Row20Col2Value</Pieces>
+		<Pieces>IDW_Row21Col2Value</Pieces>
+		<Pieces>IDW_Row22Col2Value</Pieces>
+		<Pieces>IDW_Row23Col2Value</Pieces>
+		<Pieces>IDW_Row24Col2Value</Pieces>
+		<Pieces>IDW_Row25Col2Value</Pieces>
+		<Pieces>IDW_Row26Col2Value</Pieces>
+
+		<Pieces>IDW_Row1Col3Stat</Pieces>
+		<Pieces>IDW_Row2Col3Stat</Pieces>
+		<Pieces>IDW_Row3Col3Stat</Pieces>
+		<Pieces>IDW_Row4Col3Stat</Pieces>
+		<Pieces>IDW_Row5Col3Stat</Pieces>
+		<Pieces>IDW_Row6Col3Stat</Pieces>
+		<Pieces>IDW_Row7Col3Stat</Pieces>
+		<Pieces>IDW_Row8Col3Stat</Pieces>
+		<Pieces>IDW_Row9Col3Stat</Pieces>
+		<Pieces>IDW_Row10Col3Stat</Pieces>
+		<Pieces>IDW_Row11Col3Stat</Pieces>
+		<Pieces>IDW_Row12Col3Stat</Pieces>
+		<Pieces>IDW_Row13Col3Stat</Pieces>
+		<Pieces>IDW_Row14Col3Stat</Pieces>
+		<Pieces>IDW_Row15Col3Stat</Pieces>
+		<Pieces>IDW_Row16Col3Stat</Pieces>
+		<Pieces>IDW_Row17Col3Stat</Pieces>
+		<Pieces>IDW_Row18Col3Stat</Pieces>
+		<Pieces>IDW_Row19Col3Stat</Pieces>
+		<Pieces>IDW_Row20Col3Stat</Pieces>
+		<Pieces>IDW_Row21Col3Stat</Pieces>
+		<Pieces>IDW_Row22Col3Stat</Pieces>
+		<Pieces>IDW_Row23Col3Stat</Pieces>
+		<Pieces>IDW_Row24Col3Stat</Pieces>
+		<Pieces>IDW_Row25Col3Stat</Pieces>
+		<Pieces>IDW_Row26Col3Stat</Pieces>
+
+		<Pieces>IDW_Row1Col3Value</Pieces>
+		<Pieces>IDW_Row2Col3Value</Pieces>
+		<Pieces>IDW_Row3Col3Value</Pieces>
+		<Pieces>IDW_Row4Col3Value</Pieces>
+		<Pieces>IDW_Row5Col3Value</Pieces>
+		<Pieces>IDW_Row6Col3Value</Pieces>
+		<Pieces>IDW_Row7Col3Value</Pieces>
+		<Pieces>IDW_Row8Col3Value</Pieces>
+		<Pieces>IDW_Row9Col3Value</Pieces>
+		<Pieces>IDW_Row10Col3Value</Pieces>
+		<Pieces>IDW_Row11Col3Value</Pieces>
+		<Pieces>IDW_Row12Col3Value</Pieces>
+		<Pieces>IDW_Row13Col3Value</Pieces>
+		<Pieces>IDW_Row14Col3Value</Pieces>
+		<Pieces>IDW_Row15Col3Value</Pieces>
+		<Pieces>IDW_Row16Col3Value</Pieces>
+		<Pieces>IDW_Row17Col3Value</Pieces>
+		<Pieces>IDW_Row18Col3Value</Pieces>
+		<Pieces>IDW_Row19Col3Value</Pieces>
+		<Pieces>IDW_Row20Col3Value</Pieces>
+		<Pieces>IDW_Row21Col3Value</Pieces>
+		<Pieces>IDW_Row22Col3Value</Pieces>
+		<Pieces>IDW_Row23Col3Value</Pieces>
+		<Pieces>IDW_Row24Col3Value</Pieces>
+		<Pieces>IDW_Row25Col3Value</Pieces>
+		<Pieces>IDW_Row26Col3Value</Pieces>
+
+		<Pieces>IDW_Heroic1</Pieces>
+		<Pieces>IDW_Heroic2</Pieces>
+		<Pieces>IDW_Heroic3</Pieces>
+		<Pieces>IDW_Heroic4</Pieces>
+		<Pieces>IDW_Heroic5</Pieces>
+		<Pieces>IDW_Heroic6</Pieces>
+		<Pieces>IDW_Heroic7</Pieces>
+		<Pieces>IDW_Heroic8</Pieces>
+		<Pieces>IDW_Heroic9</Pieces>
+		<Pieces>IDW_Heroic10</Pieces>
+		<Pieces>IDW_Heroic11</Pieces>
+		<Pieces>IDW_Heroic12</Pieces>
+		<Pieces>IDW_Heroic13</Pieces>
+
+		<Pieces>Screen:IDW_Appearance_Socket_Screen</Pieces>
+		<Pieces>Screen:IDW_Socket_Slot_1_Screen</Pieces>
+		<Pieces>Screen:IDW_Socket_Slot_2_Screen</Pieces>
+		<Pieces>Screen:IDW_Socket_Slot_3_Screen</Pieces>
+		<Pieces>Screen:IDW_Socket_Slot_4_Screen</Pieces>
+		<Pieces>Screen:IDW_Socket_Slot_5_Screen</Pieces>
+		<Pieces>Screen:IDW_Socket_Slot_6_Screen</Pieces>
+
+		<Pieces>IDW_ItemDescription</Pieces>
+</Screen>
+
+<Page item="IDW_ItemDescriptionTab">
+	<ScreenID>ItemDescriptionTab</ScreenID>
+	<TabText>Description</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:IDW_Item_Pane</Pieces>
+</Page>
+
+<STMLbox item="IDW_ItemLore">
+	<ScreenID>ItemLore</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>3</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_VScroll>true</Style_VScroll>
+</STMLbox>
+
+<Screen item="IDW_Lore_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_32x32</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>IDW_ItemLore</Pieces>
+</Screen>
+
+<Page item="IDW_ItemLoreTab">
+	<ScreenID>ItemLoreTab</ScreenID>
+	<TabText>Lore</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+		<Pieces>Screen:IDW_Lore_Glass</Pieces>
+</Page>
+
+<TabBox item="IDW_ItemDescriptionTabBox">
+	<ScreenID>ItemDescriptionTabBox</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<PageBorderTemplate>Page_Border_Null</PageBorderTemplate>
+	<TabBorderTemplate>Tab_Border_Pane</TabBorderTemplate>
+		<Pages>IDW_ItemDescriptionTab</Pages>
+		<Pages>IDW_ItemLoreTab</Pages>
+</TabBox>
+
+<Screen item="ItemDisplayWindow">
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>true</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>IDW_ItemDescriptionTabBox</Pieces>
+</Screen>
+</XML>

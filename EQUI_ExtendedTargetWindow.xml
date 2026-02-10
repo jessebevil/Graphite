@@ -1,0 +1,2822 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Gauge item="ETW_Gauge0">
+	<ScreenID>ETW_Gauge0</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>42</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F01_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge0">
+	<ScreenID>ETW_STAGauge0</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>82</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge0">
+	<ScreenID>ETW_ManaGauge0</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>62</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role0">
+	<ScreenID>ETW_Role0</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel0">
+	<ScreenID>ETW_HPLabel0</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>151</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_0">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>314</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_00_Wrap">
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge0</Pieces>
+		<Pieces>ETW_STAGauge0</Pieces>
+		<Pieces>ETW_ManaGauge0</Pieces>
+		<Pieces>ETW_Role0</Pieces>
+		<Pieces>ETW_HPLabel0</Pieces>
+		<Pieces>ETW_Aggro_Value_0</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge1">
+	<ScreenID>ETW_Gauge1</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>43</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F02_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge1">
+	<ScreenID>ETW_STAGauge1</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>83</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge1">
+	<ScreenID>ETW_ManaGauge1</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>63</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role1">
+	<ScreenID>ETW_Role1</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel1">
+	<ScreenID>ETW_HPLabel1</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>152</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_1">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>315</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_01_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge1</Pieces>
+		<Pieces>ETW_STAGauge1</Pieces>
+		<Pieces>ETW_ManaGauge1</Pieces>
+		<Pieces>ETW_Role1</Pieces>
+		<Pieces>ETW_HPLabel1</Pieces>
+		<Pieces>ETW_Aggro_Value_1</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge2">
+	<ScreenID>ETW_Gauge2</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>44</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F03_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge2">
+	<ScreenID>ETW_STAGauge2</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>84</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge2">
+	<ScreenID>ETW_ManaGauge2</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>64</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role2">
+	<ScreenID>ETW_Role2</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel2">
+	<ScreenID>ETW_HPLabel2</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>153</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_2">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>316</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_02_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge2</Pieces>
+		<Pieces>ETW_STAGauge2</Pieces>
+		<Pieces>ETW_ManaGauge2</Pieces>
+		<Pieces>ETW_Role2</Pieces>
+		<Pieces>ETW_HPLabel2</Pieces>
+		<Pieces>ETW_Aggro_Value_2</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge3">
+	<ScreenID>ETW_Gauge3</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>45</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F04_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge3">
+	<ScreenID>ETW_STAGauge3</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>85</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge3">
+	<ScreenID>ETW_ManaGauge3</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>65</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role3">
+	<ScreenID>ETW_Role3</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel3">
+	<ScreenID>ETW_HPLabel3</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>154</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_3">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>317</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_03_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge3</Pieces>
+		<Pieces>ETW_STAGauge3</Pieces>
+		<Pieces>ETW_ManaGauge3</Pieces>
+		<Pieces>ETW_Role3</Pieces>
+		<Pieces>ETW_HPLabel3</Pieces>
+		<Pieces>ETW_Aggro_Value_3</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge4">
+	<ScreenID>ETW_Gauge4</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>46</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F05_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge4">
+	<ScreenID>ETW_STAGauge4</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>86</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge4">
+	<ScreenID>ETW_ManaGauge4</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>66</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role4">
+	<ScreenID>ETW_Role4</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel4">
+	<ScreenID>ETW_HPLabel4</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>155</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_4">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>318</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_04_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge4</Pieces>
+		<Pieces>ETW_STAGauge4</Pieces>
+		<Pieces>ETW_ManaGauge4</Pieces>
+		<Pieces>ETW_Role4</Pieces>
+		<Pieces>ETW_HPLabel4</Pieces>
+		<Pieces>ETW_Aggro_Value_4</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge5">
+	<ScreenID>ETW_Gauge5</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>47</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F06_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge5">
+	<ScreenID>ETW_STAGauge5</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>87</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge5">
+	<ScreenID>ETW_ManaGauge5</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>67</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role5">
+	<ScreenID>ETW_Role5</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel5">
+	<ScreenID>ETW_HPLabel5</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>156</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_5">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>319</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_05_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge5</Pieces>
+		<Pieces>ETW_STAGauge5</Pieces>
+		<Pieces>ETW_ManaGauge5</Pieces>
+		<Pieces>ETW_Role5</Pieces>
+		<Pieces>ETW_HPLabel5</Pieces>
+		<Pieces>ETW_Aggro_Value_5</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge6">
+	<ScreenID>ETW_Gauge6</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>48</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F07_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge6">
+	<ScreenID>ETW_STAGauge6</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>88</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge6">
+	<ScreenID>ETW_ManaGauge6</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>68</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role6">
+	<ScreenID>ETW_Role6</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel6">
+	<ScreenID>ETW_HPLabel6</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>157</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_6">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>320</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_06_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge6</Pieces>
+		<Pieces>ETW_STAGauge6</Pieces>
+		<Pieces>ETW_ManaGauge6</Pieces>
+		<Pieces>ETW_Role6</Pieces>
+		<Pieces>ETW_HPLabel6</Pieces>
+		<Pieces>ETW_Aggro_Value_6</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge7">
+	<ScreenID>ETW_Gauge7</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>49</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F08_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge7">
+	<ScreenID>ETW_STAGauge7</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>89</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge7">
+	<ScreenID>ETW_ManaGauge7</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>69</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role7">
+	<ScreenID>ETW_Role7</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel7">
+	<ScreenID>ETW_HPLabel7</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>158</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_7">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>321</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_07_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge7</Pieces>
+		<Pieces>ETW_STAGauge7</Pieces>
+		<Pieces>ETW_ManaGauge7</Pieces>
+		<Pieces>ETW_Role7</Pieces>
+		<Pieces>ETW_HPLabel7</Pieces>
+		<Pieces>ETW_Aggro_Value_7</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge8">
+	<ScreenID>ETW_Gauge8</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>50</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F09_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge8">
+	<ScreenID>ETW_STAGauge8</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>90</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge8">
+	<ScreenID>ETW_ManaGauge8</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>70</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role8">
+	<ScreenID>ETW_Role8</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel8">
+	<ScreenID>ETW_HPLabel8</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>159</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_8">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>322</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_08_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge8</Pieces>
+		<Pieces>ETW_STAGauge8</Pieces>
+		<Pieces>ETW_ManaGauge8</Pieces>
+		<Pieces>ETW_Role8</Pieces>
+		<Pieces>ETW_HPLabel8</Pieces>
+		<Pieces>ETW_Aggro_Value_8</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge9">
+	<ScreenID>ETW_Gauge9</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>51</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge9">
+	<ScreenID>ETW_STAGauge9</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>91</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge9">
+	<ScreenID>ETW_ManaGauge9</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>71</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role9">
+	<ScreenID>ETW_Role9</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel9">
+	<ScreenID>ETW_HPLabel9</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>160</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_9">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>323</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_09_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge9</Pieces>
+		<Pieces>ETW_STAGauge9</Pieces>
+		<Pieces>ETW_ManaGauge9</Pieces>
+		<Pieces>ETW_Role9</Pieces>
+		<Pieces>ETW_HPLabel9</Pieces>
+		<Pieces>ETW_Aggro_Value_9</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge10">
+	<ScreenID>ETW_Gauge10</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>52</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge10">
+	<ScreenID>ETW_STAGauge10</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>92</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge10">
+	<ScreenID>ETW_ManaGauge10</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>72</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role10">
+	<ScreenID>ETW_Role10</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel10">
+	<ScreenID>ETW_HPLabel10</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>161</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_10">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>324</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_10_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge10</Pieces>
+		<Pieces>ETW_STAGauge10</Pieces>
+		<Pieces>ETW_ManaGauge10</Pieces>
+		<Pieces>ETW_Role10</Pieces>
+		<Pieces>ETW_HPLabel10</Pieces>
+		<Pieces>ETW_Aggro_Value_10</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge11">
+	<ScreenID>ETW_Gauge11</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>53</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge11">
+	<ScreenID>ETW_STAGauge11</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>93</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge11">
+	<ScreenID>ETW_ManaGauge11</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>73</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role11">
+	<ScreenID>ETW_Role11</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel11">
+	<ScreenID>ETW_HPLabel11</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>162</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_11">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>325</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_11_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge11</Pieces>
+		<Pieces>ETW_STAGauge11</Pieces>
+		<Pieces>ETW_ManaGauge11</Pieces>
+		<Pieces>ETW_Role11</Pieces>
+		<Pieces>ETW_HPLabel11</Pieces>
+		<Pieces>ETW_Aggro_Value_11</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge12">
+	<ScreenID>ETW_Gauge12</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>54</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge12">
+	<ScreenID>ETW_STAGauge12</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>94</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge12">
+	<ScreenID>ETW_ManaGauge12</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>74</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role12">
+	<ScreenID>ETW_Role12</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel12">
+	<ScreenID>ETW_HPLabel12</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>163</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_12">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>326</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_12_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge12</Pieces>
+		<Pieces>ETW_STAGauge12</Pieces>
+		<Pieces>ETW_ManaGauge12</Pieces>
+		<Pieces>ETW_Role12</Pieces>
+		<Pieces>ETW_HPLabel12</Pieces>
+		<Pieces>ETW_Aggro_Value_12</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge13">
+	<ScreenID>ETW_Gauge13</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>55</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge13">
+	<ScreenID>ETW_STAGauge13</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>95</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge13">
+	<ScreenID>ETW_ManaGauge13</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>75</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role13">
+	<ScreenID>ETW_Role13</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel13">
+	<ScreenID>ETW_HPLabel13</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>164</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_13">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>327</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_13_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge13</Pieces>
+		<Pieces>ETW_STAGauge13</Pieces>
+		<Pieces>ETW_ManaGauge13</Pieces>
+		<Pieces>ETW_Role13</Pieces>
+		<Pieces>ETW_HPLabel13</Pieces>
+		<Pieces>ETW_Aggro_Value_13</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge14">
+	<ScreenID>ETW_Gauge14</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>56</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge14">
+	<ScreenID>ETW_STAGauge14</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>96</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge14">
+	<ScreenID>ETW_ManaGauge14</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>76</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role14">
+	<ScreenID>ETW_Role14</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel14">
+	<ScreenID>ETW_HPLabel14</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>165</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_14">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>328</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_14_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge14</Pieces>
+		<Pieces>ETW_STAGauge14</Pieces>
+		<Pieces>ETW_ManaGauge14</Pieces>
+		<Pieces>ETW_Role14</Pieces>
+		<Pieces>ETW_HPLabel14</Pieces>
+		<Pieces>ETW_Aggro_Value_14</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge15">
+	<ScreenID>ETW_Gauge15</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>57</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge15">
+	<ScreenID>ETW_STAGauge15</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>97</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge15">
+	<ScreenID>ETW_ManaGauge15</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>77</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role15">
+	<ScreenID>ETW_Role15</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel15">
+	<ScreenID>ETW_HPLabel15</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>166</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_15">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>329</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_15_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge15</Pieces>
+		<Pieces>ETW_STAGauge15</Pieces>
+		<Pieces>ETW_ManaGauge15</Pieces>
+		<Pieces>ETW_Role15</Pieces>
+		<Pieces>ETW_HPLabel15</Pieces>
+		<Pieces>ETW_Aggro_Value_15</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge16">
+	<ScreenID>ETW_Gauge16</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>58</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge16">
+	<ScreenID>ETW_STAGauge16</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>98</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge16">
+	<ScreenID>ETW_ManaGauge16</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>78</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role16">
+	<ScreenID>ETW_Role16</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel16">
+	<ScreenID>ETW_HPLabel16</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>167</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_16">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>330</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_16_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge16</Pieces>
+		<Pieces>ETW_STAGauge16</Pieces>
+		<Pieces>ETW_ManaGauge16</Pieces>
+		<Pieces>ETW_Role16</Pieces>
+		<Pieces>ETW_HPLabel16</Pieces>
+		<Pieces>ETW_Aggro_Value_16</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge17">
+	<ScreenID>ETW_Gauge17</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>59</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge17">
+	<ScreenID>ETW_STAGauge17</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>99</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge17">
+	<ScreenID>ETW_ManaGauge17</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>79</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role17">
+	<ScreenID>ETW_Role17</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel17">
+	<ScreenID>ETW_HPLabel17</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>168</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_17">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>331</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_17_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge17</Pieces>
+		<Pieces>ETW_STAGauge17</Pieces>
+		<Pieces>ETW_ManaGauge17</Pieces>
+		<Pieces>ETW_Role17</Pieces>
+		<Pieces>ETW_HPLabel17</Pieces>
+		<Pieces>ETW_Aggro_Value_17</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge18">
+	<ScreenID>ETW_Gauge18</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>60</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge18">
+	<ScreenID>ETW_STAGauge18</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>100</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge18">
+	<ScreenID>ETW_ManaGauge18</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>80</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role18">
+	<ScreenID>ETW_Role18</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel18">
+	<ScreenID>ETW_HPLabel18</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>169</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_18">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>332</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_18_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge18</Pieces>
+		<Pieces>ETW_STAGauge18</Pieces>
+		<Pieces>ETW_ManaGauge18</Pieces>
+		<Pieces>ETW_Role18</Pieces>
+		<Pieces>ETW_HPLabel18</Pieces>
+		<Pieces>ETW_Aggro_Value_18</Pieces>
+</Screen>
+
+<Gauge item="ETW_Gauge19">
+	<ScreenID>ETW_Gauge19</ScreenID>
+	<Location>
+		<X>0</X>
+		<Y>0</Y>
+	</Location>
+	<Size>
+		<CX>154</CX>
+		<CY>31</CY>
+	</Size>
+	<EQType>61</EQType>
+	<FillTint>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</FillTint>
+	<Font>1</Font>
+	<GaugeDrawTemplate>
+		<Background>ETW_Background</Background>
+		<EndCapLeft>Endcap_F10_Left</EndCapLeft>
+		<EndCapRight>Endcap_Right</EndCapRight>
+		<Fill>ETW_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>34</TextOffsetX>
+</Gauge>
+
+<Gauge item="ETW_STAGauge19">
+	<ScreenID>ETW_STAGauge19</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>25</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>101</EQType>
+	<FillTint>
+		<R>240</R>
+		<G>240</G>
+		<B>0</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Gauge item="ETW_ManaGauge19">
+	<ScreenID>ETW_ManaGauge19</ScreenID>
+	<Location>
+		<X>32</X>
+		<Y>21</Y>
+	</Location>
+	<Size>
+		<CX>120</CX>
+		<CY>4</CY>
+	</Size>
+	<EQType>81</EQType>
+	<FillTint>
+		<R>0</R>
+		<G>75</G>
+		<B>255</B>
+	</FillTint>
+	<GaugeDrawTemplate>
+		<Fill>EXP_Single_Fill</Fill>
+	</GaugeDrawTemplate>
+	<GaugeOffsetY>0</GaugeOffsetY>
+</Gauge>
+
+<Button item="ETW_Role19">
+	<ScreenID>ETW_Role19</ScreenID>
+	<Location>
+		<X>17</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>14</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalSize>
+		<CX>14</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>1</Font>
+</Button>
+
+<Label item="ETW_HPLabel19">
+	<ScreenID>ETW_HPLabel19</ScreenID>
+	<Location>
+		<X>2</X>
+		<Y>16</Y>
+	</Location>
+	<Size>
+		<CX>29</CX>
+		<CY>12</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>170</EQType>
+	<Font>2</Font>
+	<Style_Tooltip>false</Style_Tooltip>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="ETW_Aggro_Value_19">
+	<Location>
+		<X>133</X>
+		<Y>2</Y>
+	</Location>
+	<Size>
+		<CX>22</CX>
+		<CY>10</CY>
+	</Size>
+	<EQType>333</EQType>
+	<Font>1</Font>
+</Label>
+
+<Screen item="ETW_19_Wrap">
+		<Pieces>ETW_BG</Pieces>
+		<Pieces>ETW_Gauge19</Pieces>
+		<Pieces>ETW_STAGauge19</Pieces>
+		<Pieces>ETW_ManaGauge19</Pieces>
+		<Pieces>ETW_Role19</Pieces>
+		<Pieces>ETW_HPLabel19</Pieces>
+		<Pieces>ETW_Aggro_Value_19</Pieces>
+</Screen>
+
+<TileLayoutBox item="ETW_Layout_01">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>false</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>false</HorizontalFirst>
+	<SecondarySpacing>2</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>2</Spacing>
+		<Pieces>Screen:ETW_00_Wrap</Pieces>
+		<Pieces>Screen:ETW_01_Wrap</Pieces>
+		<Pieces>Screen:ETW_02_Wrap</Pieces>
+		<Pieces>Screen:ETW_03_Wrap</Pieces>
+		<Pieces>Screen:ETW_04_Wrap</Pieces>
+		<Pieces>Screen:ETW_05_Wrap</Pieces>
+		<Pieces>Screen:ETW_06_Wrap</Pieces>
+		<Pieces>Screen:ETW_07_Wrap</Pieces>
+		<Pieces>Screen:ETW_08_Wrap</Pieces>
+		<Pieces>Screen:ETW_09_Wrap</Pieces>
+		<Pieces>Screen:ETW_10_Wrap</Pieces>
+		<Pieces>Screen:ETW_11_Wrap</Pieces>
+		<Pieces>Screen:ETW_12_Wrap</Pieces>
+</TileLayoutBox>
+
+<!-- NOTE: LAYOUT 02 IS USED TO STORE UNUSED XTARGET MODULES.
+LAYOUT 02 IS SHRUNK TO 0,0 TO AVOID DISPLAY IN THE CURRENT
+WINDOW. IF AND WHEN EXPANSIONS ALLOW MORE TARGET SLOTS AVAILABLE,
+CUT THE PREFORMATTED MODULES FROM LAYOUT 02 AND PASTE INTO LAYOUT
+01 IN ORDER TO DISPLAY THE MODULES IN THE NORMAL WINDOW VIEW. -->
+
+<Screen item="ETW_Layout_02">
+	<Size>
+		<CX>0</CX>
+		<CY>0</CY>
+	</Size>
+		<Pieces>Screen:ETW_13_Wrap</Pieces>
+		<Pieces>Screen:ETW_14_Wrap</Pieces>
+		<Pieces>Screen:ETW_15_Wrap</Pieces>
+		<Pieces>Screen:ETW_16_Wrap</Pieces>
+		<Pieces>Screen:ETW_17_Wrap</Pieces>
+		<Pieces>Screen:ETW_18_Wrap</Pieces>
+		<Pieces>Screen:ETW_19_Wrap</Pieces>
+</Screen>
+
+<Screen item="ExtendedTargetWnd">
+	<Size>
+		<CX>166</CX>
+		<CY>340</CY>
+	</Size>
+	<DrawTemplate>WDT_4_Clear</DrawTemplate>
+	<Escapable>false</Escapable>
+	<Layout>Snap_Both</Layout>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>false</Style_Closebox>
+	<Style_Minimizebox>false</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>true</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>TileLayoutBox:ETW_Layout_01</Pieces>
+		<Pieces>Screen:ETW_Layout_02</Pieces>
+</Screen>
+</XML>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<ButtonDrawTemplate item="DragItem_Clear">
+	<Normal>BGDT_Clear_Texture</Normal>
+	<NormalDecal>A_DragItem</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="DragItem_Disabled">
+	<Normal>Slot_Disabled</Normal>
+	<NormalDecal>A_DragItem</NormalDecal>
+</ButtonDrawTemplate>
+
+<ButtonDrawTemplate item="DragItem_Recessed">
+	<Normal>40x40_Slot_Recessed</Normal>
+	<NormalDecal>A_DragItem</NormalDecal>
+</ButtonDrawTemplate>
+
+</XML>

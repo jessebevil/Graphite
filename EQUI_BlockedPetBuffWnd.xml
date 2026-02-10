@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Button item="BW_BLOCKEDPETBUFF0_Button">
+	<ScreenID>BPBuff0</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>650</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF1_Button">
+	<ScreenID>BPBuff1</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>651</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF2_Button">
+	<ScreenID>BPBuff2</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>652</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF3_Button">
+	<ScreenID>BPBuff3</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>653</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF4_Button">
+	<ScreenID>BPBuff4</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>654</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF5_Button">
+	<ScreenID>BPBuff5</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>655</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF6_Button">
+	<ScreenID>BPBuff6</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>656</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF7_Button">
+	<ScreenID>BPBuff7</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>657</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF8_Button">
+	<ScreenID>BPBuff8</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>658</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF9_Button">
+	<ScreenID>BPBuff9</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>659</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF10_Button">
+	<ScreenID>BPBuff10</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>660</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF11_Button">
+	<ScreenID>BPBuff11</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>661</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF12_Button">
+	<ScreenID>BPBuff12</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>662</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF13_Button">
+	<ScreenID>BPBuff13</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>663</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF14_Button">
+	<ScreenID>BPBuff14</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>664</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF15_Button">
+	<ScreenID>BPBuff15</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>665</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF16_Button">
+	<ScreenID>BPBuff16</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>666</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF17_Button">
+	<ScreenID>BPBuff17</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>667</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF18_Button">
+	<ScreenID>BPBuff18</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>668</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF19_Button">
+	<ScreenID>BPBuff19</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>669</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF20_Button">
+	<ScreenID>BPBuff20</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>670</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF21_Button">
+	<ScreenID>BPBuff21</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>671</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF22_Button">
+	<ScreenID>BPBuff22</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>672</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF23_Button">
+	<ScreenID>BPBuff23</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>673</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF24_Button">
+	<ScreenID>BPBuff24</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>674</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF25_Button">
+	<ScreenID>BPBuff25</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>675</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF26_Button">
+	<ScreenID>BPBuff26</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>676</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF27_Button">
+	<ScreenID>BPBuff27</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>677</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF28_Button">
+	<ScreenID>BPBuff28</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>678</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Button item="BW_BLOCKEDPETBUFF29_Button">
+	<ScreenID>BPBuff29</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DecalOffset>
+		<X>2</X>
+		<Y>2</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>26</CX>
+		<CY>26</CY>
+	</DecalSize>
+	<EQType>679</EQType>
+	<Font>2</Font>
+	<Template>BDT_BlueBuff</Template>
+</Button>
+
+<Screen item="BW_BLOCKEDPETBUFF00_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF0_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF01_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF1_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF02_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF2_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF03_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF3_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF04_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF4_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF05_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF5_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF06_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF6_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF07_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF7_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF08_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF8_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF09_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF9_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF10_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF10_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF11_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF11_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF12_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF12_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF13_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF13_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF14_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF14_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF15_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF15_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF16_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF16_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF17_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF17_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF18_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF18_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF19_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF19_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF20_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF20_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF21_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF21_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF22_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF22_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF23_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF23_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF24_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF24_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF25_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF25_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF26_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF26_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF27_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF27_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF28_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF28_Button</Pieces>
+</Screen>
+
+<Screen item="BW_BLOCKEDPETBUFF29_Wrap">
+	<Size>
+		<CX>34</CX>
+		<CY>34</CY>
+	</Size>
+	<DrawTemplate>WDT_Inner_Clear</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>BW_BLOCKEDPETBUFF29_Button</Pieces>
+</Screen>
+
+<Label item="BW_BLOCKEDPETBUFF00_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>650</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF01_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>651</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF02_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>652</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF03_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>653</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF04_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>654</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF05_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>655</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF06_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>656</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF07_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>657</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF08_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>658</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF09_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>659</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF10_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>660</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF11_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>661</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF12_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>662</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF13_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>663</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF14_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>664</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF15_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>665</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF16_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>666</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF17_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>667</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF18_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>668</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF19_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>669</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF20_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>570</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF21_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>571</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF22_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>572</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF23_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>573</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF24_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>574</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF25_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>575</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF26_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>576</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF27_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>577</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF28_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>578</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="BW_BLOCKEDPETBUFF29_Text">
+	<Size>
+		<CX>110</CX>
+		<CY>34</CY>
+	</Size>
+	<AlignCenter>true</AlignCenter>
+	<EQType>579</EQType>
+	<Font>1</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<TileLayoutBox item="BW_BLOCKEDPETBUFF_00-09_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>6</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>6</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>6</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>6</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>6</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF00_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF00_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF01_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF01_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF02_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF02_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF03_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF03_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF04_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF04_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF05_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF05_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF06_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF06_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF07_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF07_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF08_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF08_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF09_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF09_Text</Pieces>
+</TileLayoutBox>
+
+<Screen item="BW_BLOCKEDPETBUFF_00-09_Glass">
+	<Size>
+		<CX>178</CX>
+		<CY>422</CY>
+	</Size>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TileLayoutBox:BW_BLOCKEDPETBUFF_00-09_Layout</Pieces>
+</Screen>
+
+<TileLayoutBox item="BW_BLOCKEDPETBUFF_10-19_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>6</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>6</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>6</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>6</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>6</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF10_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF10_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF11_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF11_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF12_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF12_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF13_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF13_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF14_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF14_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF15_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF15_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF16_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF16_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF17_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF17_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF18_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF18_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF19_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF19_Text</Pieces>
+</TileLayoutBox>
+
+<Screen item="BW_BLOCKEDPETBUFF_10-19_Glass">
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TileLayoutBox:BW_BLOCKEDPETBUFF_10-19_Layout</Pieces>
+</Screen>
+
+<TileLayoutBox item="BW_BLOCKEDPETBUFF_20-29_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>6</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>6</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>6</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>6</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>false</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>6</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF20_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF20_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF21_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF21_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF22_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF22_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF23_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF23_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF24_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF24_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF25_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF25_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF26_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF26_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF27_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF27_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF28_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF28_Text</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF29_Wrap</Pieces>
+		<Pieces>BW_BLOCKEDPETBUFF29_Text</Pieces>
+</TileLayoutBox>
+
+<Screen item="BW_BLOCKEDPETBUFF_20-29_Glass">
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Glass_BG</Pieces>
+		<Pieces>TileLayoutBox:BW_BLOCKEDPETBUFF_20-29_Layout</Pieces>
+</Screen>
+
+<TileLayoutBox item="BW_BLOCKEDPETBUFF_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>26</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>false</SnapToChildren>
+	<Spacing>6</Spacing>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF_00-09_Glass</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF_10-19_Glass</Pieces>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF_20-29_Glass</Pieces>
+</TileLayoutBox>
+
+<Editbox item="BW_EditSpellToBlockFromPet">
+	<ScreenID>BW_EditSpellToBlockFromPet</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>102</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_Border>true</Style_Border>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Button item="BW_AddSpellToBlockFromPet">
+	<ScreenID>BW_AddSpellToBlockFromPet</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>20</TopAnchorOffset>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<LeftAnchorOffset>100</LeftAnchorOffset>
+	<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Add Blocked Buff</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Screen item="BW_BLOCKEDPETBUFF_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>Pane_16x16_BG</Pieces>
+		<Pieces>TileLayoutBox:BW_BLOCKEDPETBUFF_Layout</Pieces>
+		<Pieces>BW_EditSpellToBlockFromPet</Pieces>
+		<Pieces>BW_AddSpellToBlockFromPet</Pieces>
+</Screen>
+
+<Screen item="BlockedPetBuffWnd">
+	<Size>
+		<CX>590</CX>
+		<CY>512</CY>
+	</Size>
+	<DrawTemplate>WDT_28x48_NoDrag</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text>Blocked Pet Buffs</Text>
+		<Pieces>Screen:BW_BLOCKEDPETBUFF_Pane</Pieces>
+</Screen>
+</XML>

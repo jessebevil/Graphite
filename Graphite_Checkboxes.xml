@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="CheckBox_Normal">
+	<Frames>
+		<Texture>Graphite_Checkboxes.png</Texture>
+		<Location>
+			<X>5</X>
+			<Y>9</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="CheckBox_Normal_Disabled">
+	<Frames>
+		<Texture>Graphite_Checkboxes.png</Texture>
+		<Location>
+			<X>23</X>
+			<Y>9</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="CheckBox_Pressed">
+	<Frames>
+		<Texture>Graphite_Checkboxes.png</Texture>
+		<Location>
+			<X>41</X>
+			<Y>9</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="CheckBox_Pressed_Disabled">
+	<Frames>
+		<Texture>Graphite_Checkboxes.png</Texture>
+		<Location>
+			<X>59</X>
+			<Y>9</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="CheckBox">
+	<DisabledDecal>CheckBox_Normal_Disabled</DisabledDecal>
+	<NormalDecal>CheckBox_Normal</NormalDecal>
+	<PressedDecal>CheckBox_Pressed</PressedDecal>
+	<PressedDisabledDecal>CheckBox_Pressed_Disabled</PressedDisabledDecal>
+</ButtonDrawTemplate>
+
+<!-- NOTE: REVERSE CHECKBOX USED RARELY FOR VISUAL CONFORMITY FOR CHECKBOXES WITH
+POORLY PHRASED TEXT OR WHICH APPEAR TO DEFAULT TO A STATE OPPOSITE OF COMMON USE.
+MAINLY USED TO FIX CHECKBOXES ON THE OPTIONS PAGE FOR FAST LOOT, MERC DISMISS, ETC. -->
+
+<ButtonDrawTemplate item="CheckBox_Reversed">
+	<DisabledDecal>CheckBox_Pressed_Disabled</DisabledDecal>
+	<NormalDecal>CheckBox_Pressed</NormalDecal>
+	<PressedDecal>CheckBox_Normal</PressedDecal>
+	<PressedDisabledDecal>CheckBox_Normal_Disabled</PressedDisabledDecal>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="Checkbox_Track_Normal">
+	<Frames>
+		<Texture>Graphite_Checkboxes.png</Texture>
+		<Location>
+			<X>78</X>
+			<Y>6</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="Checkbox_Track_Pressed">
+	<Frames>
+		<Texture>Graphite_Checkboxes.png</Texture>
+		<Location>
+			<X>103</X>
+			<Y>6</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="Checkbox_Track">
+	<Flyby>Checkbox_Track_Normal</Flyby>
+	<Normal>Checkbox_Track_Normal</Normal>
+	<Pressed>Checkbox_Track_Pressed</Pressed>
+	<PressedFlyby>Checkbox_Track_Pressed</PressedFlyby>
+</ButtonDrawTemplate>
+
+</XML>

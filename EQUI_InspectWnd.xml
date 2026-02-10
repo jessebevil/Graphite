@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<InvSlot item="INSW_Ear_Left">
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Background>Disabled_Ear_BG</Background>
+	<EQType>inventory/Inspect 1</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Head">
+	<Background>Disabled_Head_BG</Background>
+	<EQType>inventory/Inspect 2</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Face">
+	<Background>Disabled_Face_BG</Background>
+	<EQType>inventory/Inspect 3</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Neck">
+	<Background>Disabled_Neck_BG</Background>
+	<EQType>inventory/Inspect 5</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Charm">
+	<Background>Disabled_Charm_BG</Background>
+	<EQType>inventory/Inspect 0</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Ear_Right">
+	<Background>Disabled_Ear_BG</Background>
+	<EQType>inventory/Inspect 4</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Chest">
+	<Background>Disabled_Chest_BG</Background>
+	<EQType>inventory/Inspect 17</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Shoulders">
+	<Background>Disabled_Shoulders_BG</Background>
+	<EQType>inventory/Inspect 6</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Legs">
+	<Background>Disabled_Legs_BG</Background>
+	<EQType>inventory/Inspect 18</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Back">
+	<Background>Disabled_Back_BG</Background>
+	<EQType>inventory/Inspect 8</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Feet">
+	<Background>Disabled_Feet_BG</Background>
+	<EQType>inventory/Inspect 19</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Waist">
+	<Background>Disabled_Waist_BG</Background>
+	<EQType>inventory/Inspect 20</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Arms">
+	<Background>Disabled_Arms_BG</Background>
+	<EQType>inventory/Inspect 7</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Hands">
+	<Background>Disabled_Hands_BG</Background>
+	<EQType>inventory/Inspect 12</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Wrist_Left">
+	<Background>Disabled_Wrist_BG</Background>
+	<EQType>inventory/Inspect 9</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Wrist_Right">
+	<Background>Disabled_Wrist_BG</Background>
+	<EQType>inventory/Inspect 10</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Finger_Left">
+	<Background>Disabled_Finger_BG</Background>
+	<EQType>inventory/Inspect 15</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Finger_Right">
+	<Background>Disabled_Finger_BG</Background>
+	<EQType>inventory/Inspect 16</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Primary">
+	<Background>Disabled_Primary_BG</Background>
+	<EQType>inventory/Inspect 13</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Secondary">
+	<Background>Disabled_Secondary_BG</Background>
+	<EQType>inventory/Inspect 14</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Range">
+	<Background>Disabled_Range_BG</Background>
+	<EQType>inventory/Inspect 11</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Ammo">
+	<Background>Disabled_Ammo_BG</Background>
+	<EQType>inventory/Inspect 22</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<InvSlot item="INSW_Power_Source">
+	<Background>Disabled_Power_Source_BG</Background>
+	<EQType>inventory/Inspect 21</EQType>
+	<Font>2</Font>
+</InvSlot>
+
+<Button item="INSW_DoneButton">
+	<ScreenID>DoneButton</ScreenID>
+	<Size>
+		<CX>40</CX>
+		<CY>40</CY>
+	</Size>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</PressedColor>
+	<Template>40_HotButton</Template>
+	<Text>Done</Text>
+	<TextColor>
+		<R>255</R>
+		<G>0</G>
+		<B>0</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<TileLayoutBox item="INSW_Layout">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AnchorToLeft>true</AnchorToLeft>
+	<AnchorToTop>true</AnchorToTop>
+	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<HorizontalFirst>true</HorizontalFirst>
+	<SecondarySpacing>0</SecondarySpacing>
+	<SnapToChildren>true</SnapToChildren>
+	<Spacing>0</Spacing>
+		<Pieces>INSW_Ear_Left</Pieces>
+		<Pieces>INSW_Head</Pieces>
+		<Pieces>INSW_Face</Pieces>
+		<Pieces>INSW_Neck</Pieces>
+		<Pieces>INSW_Charm</Pieces>
+		<Pieces>INSW_Ear_Right</Pieces>
+		<Pieces>INSW_Chest</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>INSW_Shoulders</Pieces>
+		<Pieces>INSW_Legs</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>INSW_Back</Pieces>
+		<Pieces>INSW_Feet</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>INSW_Waist</Pieces>
+		<Pieces>INSW_Arms</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>INSW_Hands</Pieces>
+		<Pieces>INSW_Wrist_Left</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>INSW_Wrist_Right</Pieces>
+		<Pieces>INSW_Finger_Left</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>Screen:Generic_Spacer_Screen</Pieces>
+		<Pieces>INSW_Finger_Right</Pieces>
+		<Pieces>INSW_Primary</Pieces>
+		<Pieces>INSW_Secondary</Pieces>
+		<Pieces>INSW_Range</Pieces>
+		<Pieces>INSW_Ammo</Pieces>
+		<Pieces>INSW_Power_Source</Pieces>
+		<Pieces>INSW_DoneButton</Pieces>
+</TileLayoutBox>
+
+<Editbox item="INSW_Edit">
+	<ScreenID>INSW_Edit</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<Style_AutoVScroll>true</Style_AutoVScroll>
+	<Style_Multiline>true</Style_Multiline>
+	<Style_VScroll>true</Style_VScroll>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Editbox>
+
+<Screen item="INSW_Glass">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>40</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>40</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>40</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>40</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Glass_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>INSW_Edit</Pieces>
+</Screen>
+
+<Screen item="INSW_Pane">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>2</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>2</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
+	<Style_Border>true</Style_Border>
+		<Pieces>TileLayoutBox:INSW_Layout</Pieces>
+		<Pieces>Screen:INSW_Glass</Pieces>
+</Screen>
+
+<Screen item="InspectWnd">
+	<Size>
+		<CX>268</CX>
+		<CY>359</CY>
+	</Size>
+	<DrawTemplate>WDT_08x19_Plain_Grill</DrawTemplate>
+	<Escapable>false</Escapable>
+	<RelativePosition>false</RelativePosition>
+	<Style_Border>true</Style_Border>
+	<Style_ClientMovable>true</Style_ClientMovable>
+	<Style_Closebox>true</Style_Closebox>
+	<Style_Minimizebox>true</Style_Minimizebox>
+	<Style_Qmarkbox>false</Style_Qmarkbox>
+	<Style_Sizable>false</Style_Sizable>
+	<Style_Titlebar>true</Style_Titlebar>
+	<Style_Transparent>false</Style_Transparent>
+	<Text></Text>
+		<Pieces>Screen:INSW_Pane</Pieces>
+</Screen>
+</XML>

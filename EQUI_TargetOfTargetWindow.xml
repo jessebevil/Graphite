@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Label item="TargetOfTarget_HPLabel">
+	<ScreenID>TargetOfTarget_HPLabel</ScreenID>
+</Label>
+
+<Label item="TargetOfTarget_HPPercLabel">
+	<ScreenID>TargetOfTarget_HPPercLabel</ScreenID>
+</Label>
+
+<Screen item="TargetOfTargetWindow">
+		<Pieces>TargetOfTarget_HPLabel</Pieces>
+		<Pieces>TargetOfTarget_HPPercLabel</Pieces>
+</Screen>
+</XML>

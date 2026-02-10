@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<LayoutStrategy item="Snap_Both">
+	<ResizeHorizontal>true</ResizeHorizontal>
+	<ResizeVertical>true</ResizeVertical>
+</LayoutStrategy>
+
+<LayoutVertical item="Snap_Container">
+	<ResizeHorizontal>true</ResizeHorizontal>
+	<ResizeVertical>true</ResizeVertical>
+</LayoutVertical>
+
+<LayoutStrategy item="Snap_Horizontal">
+	<ResizeHorizontal>true</ResizeHorizontal>
+	<ResizeVertical>false</ResizeVertical>
+</LayoutStrategy>
+
+<LayoutStrategy item="Snap_Vertical">
+	<ResizeHorizontal>false</ResizeHorizontal>
+	<ResizeVertical>true</ResizeVertical>
+</LayoutStrategy>
+
+</XML>

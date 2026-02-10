@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="14_Dropdown_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>226</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="14_Dropdown_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>250</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="14_Dropdown_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>274</X>
+			<Y>45</Y>
+		</Location>
+		<Size>
+			<CX>9</CX>
+			<CY>14</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="14_Dropdown">
+	<Disabled>14_Dropdown_Disabled</Disabled>
+	<Flyby>14_Dropdown_Flyby</Flyby>
+	<Normal>14_Dropdown_Normal</Normal>
+	<Pressed>14_Dropdown_Flyby</Pressed>
+	<PressedFlyby>14_Dropdown_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+<Ui2DAnimation item="20_Dropdown_Disabled">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>224</X>
+			<Y>77</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20_Dropdown_Flyby">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>248</X>
+			<Y>77</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="20_Dropdown_Normal">
+	<Frames>
+		<Texture>Texture_Buttons.png</Texture>
+		<Location>
+			<X>272</X>
+			<Y>77</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>16</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<ButtonDrawTemplate item="20_Dropdown">
+	<Disabled>20_Dropdown_Disabled</Disabled>
+	<Flyby>20_Dropdown_Flyby</Flyby>
+	<Normal>20_Dropdown_Normal</Normal>
+	<Pressed>20_Dropdown_Flyby</Pressed>
+	<PressedFlyby>20_Dropdown_Flyby</PressedFlyby>
+</ButtonDrawTemplate>
+
+</XML>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<Ui2DAnimation item="Cold_Texture">
+	<Frames>
+		<Texture>gemicons01.tga</Texture>
+		<Location>
+			<X>169</X>
+			<Y>121</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Cold_Icon">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Cold_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="Corruption_Texture">
+	<Frames>
+		<Texture>gemicons02.tga</Texture>
+		<Location>
+			<X>97</X>
+			<Y>121</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Corruption_Icon">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Corruption_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="Disease_Texture">
+	<Frames>
+		<Texture>gemicons01.tga</Texture>
+		<Location>
+			<X>121</X>
+			<Y>145</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Disease_Icon">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Disease_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="Fire_Texture">
+	<Frames>
+		<Texture>gemicons01.tga</Texture>
+		<Location>
+			<X>49</X>
+			<Y>121</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Fire_Icon">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Fire_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="Magic_Texture">
+	<Frames>
+		<Texture>gemicons01.tga</Texture>
+		<Location>
+			<X>217</X>
+			<Y>145</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Magic_Icon">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Magic_Texture</Animation>
+</StaticAnimation>
+
+<Ui2DAnimation item="Poison_Texture">
+	<Frames>
+		<Texture>gemicons01.tga</Texture>
+		<Location>
+			<X>25</X>
+			<Y>145</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="Poison_Icon">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Animation>Poison_Texture</Animation>
+</StaticAnimation>
+
+</XML>
