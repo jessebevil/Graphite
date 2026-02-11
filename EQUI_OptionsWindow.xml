@@ -35,6 +35,396 @@
 		<Pieces>General_Options_Text</Pieces>
 </Screen>
 
+<Button item="OGP_FastItemDestroyCheckbox">
+	<ScreenID>OGP_FastItemDestroyCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>424</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox_Reversed</Template>
+	<Text>Confirm Item Destroy</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, destroying items will require confirmation.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_AANoConfirmCheckbox">
+	<ScreenID>OGP_AANoConfirmCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>376</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox_Reversed</Template>
+	<Text>Confirm AA Purchases</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, AA purchases will require confirmation.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_AdvMerchantNoConfirmCheckbox">
+	<ScreenID>OGP_AdvMerchantNoConfirmCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>440</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox_Reversed</Template>
+	<Text>Confirm LDoN Purchases</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, LDoN adventure point purchases will require confirmation.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_LeadershipNoConfirmCheckbox">
+	<ScreenID>OGP_LeadershipNoConfirmCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>40</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Allow Auto Stand</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>Toggle whether you want to spend leadership points without a confirmation window.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_GuildInvitesCheckbox">
+	<ScreenID>OGP_GuildInvitesCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>88</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Allow Guild Invites</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_LootAutosplitCheckbox">
+	<ScreenID>OGP_LootAutosplitCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>152</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>/autosplit Coin Loot</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Label item="OGP_PlayerTradeLabel">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Text>Allow Trading With</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Combobox item="OGP_PlayerTradeCombobox">
+	<ScreenID>OGP_PlayerTradeCombobox</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>284</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>20</CY>
+	</Size>
+	<Button>20_Dropdown</Button>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<ListHeight>46</ListHeight>
+	<Style_Border>true</Style_Border>
+		<Choices>Everyone</Choices>
+		<Choices>Party members only</Choices>
+		<Choices>No one</Choices>
+</Combobox>
+
+<Button item="OGP_LeftClickHelpText">
+	<ScreenID>OGP_LeftClickHelpText</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>38</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Show Help On Target Click</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, help text will be displayed when left clicking a target.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_UseTellWindowsCheckbox">
+	<ScreenID>OGP_UseTellWindowsCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>120</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Allow Tell Windows</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, tells will appear in a new chat window.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
 <Button item="OGP_AllowAutoDuckCheckbox">
 	<ScreenID>OGP_AllowAutoDuckCheckbox</ScreenID>
 	<Location>
@@ -123,11 +513,11 @@
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
 
-<Button item="OGP_CombatMusicCheckbox">
-	<ScreenID>OGP_CombatMusicCheckbox</ScreenID>
+<Button item="OGP_AutojoinCheckbox">
+	<ScreenID>OGP_Autojoin</ScreenID>
 	<Location>
 		<X>8</X>
-		<Y>56</Y>
+		<Y>280</Y>
 	</Location>
 	<Size>
 		<CX>200</CX>
@@ -154,7 +544,183 @@
 	</PressedColor>
 	<Style_Checkbox>true</Style_Checkbox>
 	<Template>CheckBox</Template>
-	<Text>Allow Combat Music</Text>
+	<Text>Auto Join General Channels</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, characters will automatically join general chat channels.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_AutoConsentGroupCheckbox">
+	<ScreenID>OGP_AutoConsentGroupCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>216</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Auto Consent Group /corpsedrag</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, group members will automatically have consent to /corpsedrag.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_AutoConsentRaidCheckbox">
+	<ScreenID>OGP_AutoConsentRaidCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>248</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Auto Consent Raid /corpsedrag</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, raid members will automatically have consent to /corpsedrag.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_AutoConsentGuildCheckbox">
+	<ScreenID>OGP_AutoConsentGuildCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>232</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Auto Consent Guild /corpsedrag</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, guild members will automatically have consent to /corpsedrag.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_TradeskillCtrlClickCheckbox">
+	<ScreenID>OGP_TradeskillCtrlClickCheckbox</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>8</Y>
+	</Location>
+	<Size>
+		<CX>160</CX>
+		<CY>28</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Open Tradeskill Container with CTRL-Right Click</Text>
 	<TextAlignCenter>false</TextAlignCenter>
 	<TextColor>
 		<R>255</R>
@@ -166,11 +732,80 @@
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
 
-<Button item="OGP_EnvSoundsCheckbox">
-	<ScreenID>OGP_EnvSoundsCheckbox</ScreenID>
+<Button item="OGP_LoadSkinButton">
+	<ScreenID>OGP_LoadSkinButton</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>546</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>/load [UI]</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_LayoutCopyButton">
+	<ScreenID>OGP_LayoutCopyButton</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>524</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Copy UI_[character]_[server].ini</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TooltipReference>Copy a window layout from any stored layout over the current layout.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_AutoDeclineTCGChallengesButton">
+	<ScreenID>OGP_AutoDeclineTCGChallengesButton</ScreenID>
 	<Location>
 		<X>8</X>
-		<Y>72</Y>
+		<Y>264</Y>
 	</Location>
 	<Size>
 		<CX>200</CX>
@@ -197,7 +832,8 @@
 	</PressedColor>
 	<Style_Checkbox>true</Style_Checkbox>
 	<Template>CheckBox</Template>
-	<Text>Allow Environmental Sounds</Text>
+	<Text>Auto Decline LoN Challenges</Text>
+	<TooltipReference>If checked, Legends of Norrath challenges will automatically be declined.</TooltipReference>
 	<TextAlignCenter>false</TextAlignCenter>
 	<TextColor>
 		<R>255</R>
@@ -209,11 +845,11 @@
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
 
-<Button item="OGP_GuildInvitesCheckbox">
-	<ScreenID>OGP_GuildInvitesCheckbox</ScreenID>
+<Button item="OGP_AutoAcceptKickRequests">
+	<ScreenID>OGP_AutoAcceptKickRequests</ScreenID>
 	<Location>
 		<X>8</X>
-		<Y>88</Y>
+		<Y>200</Y>
 	</Location>
 	<Size>
 		<CX>200</CX>
@@ -240,7 +876,662 @@
 	</PressedColor>
 	<Style_Checkbox>true</Style_Checkbox>
 	<Template>CheckBox</Template>
-	<Text>Allow Guild Invites</Text>
+	<Text>Auto Accept Kick Requests</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, kick requests from alternate logins will automatically be accepted.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_ShowPetOwnerNames">
+	<ScreenID>OGP_ShowPetOwnerNames</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>54</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Show Pet Owner Names</Text>
+	<TooltipReference>If checked, pet owner names will be displayed.</TooltipReference>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_ClickThroughSelf">
+	<ScreenID>OGP_ClickThroughSelf</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>360</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Click Through Self</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, mouse clicks will pass through your character.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_ClickThroughMercs">
+	<ScreenID>OGP_ClickThroughMercs</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>328</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Click Through Mercenaries</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, mouse clicks will pass through mercenaries.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_ClickThroughPets">
+	<ScreenID>OGP_ClickThroughPets</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>344</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Click Through Pets</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, mouse clicks will pass through pets.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_HideFirstWindowAlerts">
+	<ScreenID>OGP_HideFirstWindowAlerts</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>70</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox_Reversed</Template>
+	<Text>Show Window First Use Help</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, UI window first use help dialogues will be displayed.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_LootAllConfirmCheckbox">
+	<ScreenID>OGP_LootAllConfirmCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>456</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Confirm Loot All</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, Loot All will require confirmation.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_DismissMercenaryConfirmCheckbox">
+	<ScreenID>OGP_DismissMercenaryConfirmCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>472</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Confirm Mercenary Dismisal</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, Mercenary dismissal will require confirmation.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_RaidInviteConfirmCheckbox">
+	<ScreenID>OGP_RaidInviteConfirmCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>504</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Confirm Raid Invites</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, raid invites will require confirmation.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+
+<Button item="OGP_OfflineModeConfirmCheckbox">
+	<ScreenID>OGP_OfflineModeConfirmCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>488</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>16</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Confirm Offline Trader Mode</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, offline trader mode will require confirmation.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Label item="OGP_NoDropLabel">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Text>Confirm No Drop Loot</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Combobox item="OGP_NoDropItemCombobox">
+	<ScreenID>OGP_NoDropItemCombobox</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>322</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>20</CY>
+	</Size>
+	<Button>20_Dropdown</Button>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<ListHeight>46</ListHeight>
+	<Style_Border>true</Style_Border>
+	<Choices>Always</Choices>
+	<Choices>Not Usable</Choices>
+	<Choices>Never</Choices>
+</Combobox>
+
+<Label item="OGP_ItemDroppingLabel">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Text>Allow Fast Drop</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Combobox item="OGP_ItemDroppingCombobox">
+	<ScreenID>OGP_ItemDroppingCombobox</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>246</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>20</CY>
+	</Size>
+	<Button>20_Dropdown</Button>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<ListHeight>46</ListHeight>
+	<Style_Border>true</Style_Border>
+		<Choices>With confirmation</Choices>
+		<Choices>Without confirmation</Choices>
+		<Choices>Never</Choices>
+</Combobox>
+
+<Label item="OGP_FontLabel">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Text>Font Selector</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="OGP_CurrentFont">
+	<ScreenID>OGP_CurrentFont</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>1</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>2</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>2</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Combobox item="OGP_FontSelector">
+	<ScreenID>OGP_FontSelector</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>362</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>20</CY>
+	</Size>
+	<Button>20_Dropdown</Button>
+	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
+	<Font>2</Font>
+	<ListHeight>80</ListHeight>
+	<Style_Border>true</Style_Border>
+</Combobox>
+
+<Button item="OGP_ChangeFont">
+	<ScreenID>OGP_ChangeFont</ScreenID>
+	<Location>
+		<X>336</X>
+		<Y>384</Y>
+	</Location>
+	<Size>
+		<CX>80</CX>
+		<CY>20</CY>
+	</Size>
+	<DrawTemplate>WDT_HotButton</DrawTemplate>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Border>true</Style_Border>
+	<Template>20_HotButton</Template>
+	<Text>Accept</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_AnonymousCheckbox">
+	<ScreenID>OGP_AnonymousCheckbox</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>86</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Use /anonymous</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_RoleplayingCheckbox">
+	<ScreenID>OGP_RoleplayingCheckbox</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>102</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Use /roleplaying</Text>
 	<TextAlignCenter>false</TextAlignCenter>
 	<TextColor>
 		<R>255</R>
@@ -295,50 +1586,6 @@
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
 
-<Button item="OGP_UseTellWindowsCheckbox">
-	<ScreenID>OGP_UseTellWindowsCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>120</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Allow Tell Windows</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, tells will appear in a new chat window.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
 <Button item="OGP_AllowContextMenusCheckbox">
 	<ScreenID>OGP_AllowContextMenusCheckbox</ScreenID>
 	<Location>
@@ -382,11 +1629,172 @@
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
 
-<Button item="OGP_LootAutosplitCheckbox">
-	<ScreenID>OGP_LootAutosplitCheckbox</ScreenID>
+<!--FixMe: I'm not assigned in Pieces!-->
+<Label item="OGP_SoundRealismLabel">
+	<ScreenID>OGP_SoundRealismLabel</ScreenID>
+	<Location>
+		<X>200</X>
+		<Y>10</Y>
+	</Location>
+	<Size>
+		<CX>160</CX>
+		<CY>14</CY>
+	</Size>
+	<Text>Sound Realism</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<NoWrap>true</NoWrap>
+	<AlignCenter>false</AlignCenter>
+	<AlignRight>false</AlignRight>
+</Label>
+
+<Slider item="OGP_SoundRealismSlider">
+	<ScreenID>OGP_SoundRealismSlider</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>212</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<SliderArt>Slider</SliderArt>
+</Slider>
+
+<Label item="OGP_SoundRealismValueLabel">
+	<ScreenID>OGP_SoundRealismValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Label item="OGP_MusicVolumeLabel">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<Font>2</Font>
+	<Text>Music Volume</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Slider item="OGP_MusicVolumeSlider">
+	<ScreenID>OGP_MusicVolumeSlider</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>152</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<SliderArt>Slider_Volume</SliderArt>
+</Slider>
+
+<Label item="OGP_MusicVolumeValueLabel">
+	<ScreenID>OGP_MusicVolumeValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+
+<Label item="OGP_SoundVolumeLabel">
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignCenter>true</AlignCenter>
+	<Font>2</Font>
+	<Text>Sound</Text>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Slider item="OGP_SoundVolumeSlider">
+	<ScreenID>OGP_SoundVolumeSlider</ScreenID>
+	<Location>
+		<X>216</X>
+		<Y>182</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<SliderArt>Slider_Volume</SliderArt>
+</Slider>
+
+<Label item="OGP_SoundVolumeValueLabel">
+	<ScreenID>OGP_SoundVolumeValueLabel</ScreenID>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorOffset>0</TopAnchorOffset>
+	<TopAnchorToTop>true</TopAnchorToTop>
+	<LeftAnchorOffset>0</LeftAnchorOffset>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorOffset>0</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<AlignRight>true</AlignRight>
+	<Font>2</Font>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+</Label>
+
+<Button item="OGP_EnvSoundsCheckbox">
+	<ScreenID>OGP_EnvSoundsCheckbox</ScreenID>
 	<Location>
 		<X>8</X>
-		<Y>152</Y>
+		<Y>72</Y>
 	</Location>
 	<Size>
 		<CX>200</CX>
@@ -413,7 +1821,7 @@
 	</PressedColor>
 	<Style_Checkbox>true</Style_Checkbox>
 	<Template>CheckBox</Template>
-	<Text>/autosplit Coin Loot</Text>
+	<Text>Allow Environmental Sounds</Text>
 	<TextAlignCenter>false</TextAlignCenter>
 	<TextColor>
 		<R>255</R>
@@ -421,6 +1829,338 @@
 		<B>255</B>
 	</TextColor>
 	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_CombatMusicCheckbox">
+	<ScreenID>OGP_CombatMusicCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>56</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Allow Combat Music</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Label item="OGP_ItemPlacementLabel">
+		<ScreenID>OGP_ItemPlacementLabel</ScreenID>
+		<Font>3</Font>
+		<Text>Item Placement</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Size>
+			<CX>120</CX>
+			<CY>15</CY>
+		</Size>
+		<Location>
+			<X>-100</X>
+			<Y>-100</Y>
+		</Location>
+</Label>
+
+<Button item="OGP_ItemPlacementHideUICheckbox">
+	<ScreenID>OGP_ItemPlacementHideUICheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>536</Y>
+	</Location>
+	<Size>
+		<CX>210</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox_Reversed</Template>
+	<Text>Item Placement: Show UI</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, the UI will be displayed during item placement.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_ItemPlacementDefaultModeCursorCheckbox">
+	<ScreenID>OGP_ItemPlacementDefaultModeCursorCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>520</Y>
+	</Location>
+	<Size>
+		<CX>210</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text> Item Placement: Default Cusor Mode</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, item placement will default to cursor mode.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Button item="OGP_ItemPlacementShowOverlayCheckbox">
+	<ScreenID>OGP_ItemPlacementShowOverlayCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>552</Y>
+	</Location>
+	<Size>
+		<CX>210</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Item Placement: Show Overlay</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, the real estate overlay will be displayed during item placement.</TooltipReference>
+	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
+	<UseCustomPressedColor>true</UseCustomPressedColor>
+</Button>
+
+<Page item="OptionsGeneralPage">
+	<ScreenID>OptionsGeneralPage</ScreenID>
+	<Font>2</Font>
+	<TabText>General</TabText>
+	<TabTextActiveColor>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</TabTextActiveColor>
+	<TabTextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TabTextColor>
+	<TooltipReference>General</TooltipReference>
+
+<!-- NOTE: OptionsGeneralPage ELEMENTS WILL NOT FUNCTION OUTSIDE THE DEFAULT
+PAGE ITEM. MOVING ELEMENTS TO A TILEBOX OR SCREEN ITEM BREAKS FUNCTIONALITY.
+DO NOT INCLUDE ELEMENTS INSIDE CUSTOM SCREEN ITEMS. -->
+
+	<Pieces>Screen:Generic_Pane_BG</Pieces>
+
+	<Pieces>Screen:General_Options_Title</Pieces>
+	<Pieces>OGP_AllowAutoDuckCheckbox</Pieces>
+	<Pieces>OGP_AllowAutoStandCheckbox</Pieces>
+	<Pieces>OGP_LeadershipNoConfirmCheckbox</Pieces>
+	<Pieces>OGP_CombatMusicCheckbox</Pieces>
+	<Pieces>OGP_EnvSoundsCheckbox</Pieces>
+	<Pieces>OGP_GuildInvitesCheckbox</Pieces>
+	<Pieces>OGP_PetWindowPopupCheckbox</Pieces>
+	<Pieces>OGP_UseTellWindowsCheckbox</Pieces>
+	<Pieces>OGP_AllowContextMenusCheckbox</Pieces>
+	<Pieces>OGP_LootAutosplitCheckbox</Pieces>
+	<Pieces>OGP_AutoAFKOnCheckBox</Pieces>
+	<Pieces>OGP_AutoAFKOffCheckBox</Pieces>
+	<Pieces>OGP_AutoAcceptKickRequests</Pieces>
+	<Pieces>OGP_AutoConsentGroupCheckbox</Pieces>
+	<Pieces>OGP_AutoConsentGuildCheckbox</Pieces>
+	<Pieces>OGP_AutoConsentRaidCheckbox</Pieces>
+	<Pieces>OGP_AutoDeclineTCGChallengesButton</Pieces>
+	<Pieces>OGP_AutojoinCheckbox</Pieces>
+	<Pieces>OGP_AutoMercPassiveCheckBox</Pieces>
+	<Pieces>OGP_TributeLogoffAutoOffCheckbox</Pieces>
+	<Pieces>OGP_ClickThroughMercs</Pieces>
+	<Pieces>OGP_ClickThroughPets</Pieces>
+	<Pieces>OGP_ClickThroughSelf</Pieces>
+	<Pieces>OGP_AANoConfirmCheckbox</Pieces>
+	<Pieces>OGP_BagSellConfirmCheckbox</Pieces>
+	<Pieces>OGP_BagSellContentsConfirmCheckbox</Pieces>
+	<Pieces>OGP_FastItemDestroyCheckbox</Pieces>
+	<Pieces>OGP_AdvMerchantNoConfirmCheckbox</Pieces>
+	<Pieces>OGP_LootAllConfirmCheckbox</Pieces>
+	<Pieces>OGP_DismissMercenaryConfirmCheckbox</Pieces>
+	<Pieces>OGP_OfflineModeConfirmCheckbox</Pieces>
+	<Pieces>OGP_RaidInviteConfirmCheckbox</Pieces>
+	<Pieces>OGP_ItemPlacementDefaultModeCursorCheckbox</Pieces>
+	<Pieces>OGP_ItemPlacementHideUICheckbox</Pieces>
+	<Pieces>OGP_ItemPlacementShowOverlayCheckbox</Pieces>
+
+	<Pieces>OGP_TradeskillCtrlClickCheckbox</Pieces>
+	<Pieces>OGP_LeftClickHelpText</Pieces>
+	<Pieces>OGP_ShowPetOwnerNames</Pieces>
+	<Pieces>OGP_HideFirstWindowAlerts</Pieces>
+	<Pieces>OGP_AnonymousCheckbox</Pieces>
+	<Pieces>OGP_RoleplayingCheckbox</Pieces>
+
+	<Pieces>Screen:Sound_Title</Pieces>
+	<Pieces>Screen:Music_Wrap</Pieces>
+	<Pieces>OGP_MusicVolumeSlider</Pieces>
+	<Pieces>Screen:Sound_Volume_Wrap</Pieces>
+	<Pieces>OGP_SoundVolumeSlider</Pieces>
+	<Pieces>Screen:Sound_Realism_Wrap</Pieces>
+	<Pieces>OGP_SoundRealismSlider</Pieces>
+
+	<Pieces>Screen:OGP_ItemDroppingTitle</Pieces>
+	<Pieces>OGP_ItemDroppingCombobox</Pieces>
+	<Pieces>Screen:Player_Trade_Title</Pieces>
+	<Pieces>OGP_PlayerTradeCombobox</Pieces>
+	<Pieces>Screen:NoDropItemTitle</Pieces>
+	<Pieces>OGP_NoDropItemCombobox</Pieces>
+	<Pieces>Screen:Font_Title</Pieces>
+	<Pieces>OGP_FontSelector</Pieces>
+	<Pieces>Screen:OGP_CurrentFont_Wrap</Pieces>
+	<Pieces>OGP_ChangeFont</Pieces>
+	<Pieces>Screen:Hide_Mercs_Title</Pieces>
+	<Pieces>OGP_HideAFKMercsComboBox</Pieces>
+	<Pieces>Screen:Hide_Pets_Title</Pieces>
+	<Pieces>OGP_HideAFKPetsComboBox</Pieces>
+	<Pieces>Screen:Hide_Players_Title</Pieces>
+	<Pieces>OGP_HideAFKComboBox</Pieces>
+	<Pieces>OGP_LoadSkinButton</Pieces>
+	<Pieces>OGP_LayoutCopyButton</Pieces>
+</Page>
+
+<Button item="ODP_PCNamesCheckbox">
+	<ScreenID>ODP_PCNamesCheckbox</ScreenID>
+	<Location>
+		<X>8</X>
+		<Y>402</Y>
+	</Location>
+	<Size>
+		<CX>200</CX>
+		<CY>14</CY>
+	</Size>
+	<DecalOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</DecalOffset>
+	<DecalSize>
+		<CX>13</CX>
+		<CY>14</CY>
+	</DecalSize>
+	<Font>2</Font>
+	<MouseoverColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</MouseoverColor>
+	<PressedColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</PressedColor>
+	<Style_Checkbox>true</Style_Checkbox>
+	<Template>CheckBox</Template>
+	<Text>Show PC Names</Text>
+	<TextAlignCenter>false</TextAlignCenter>
+	<TextColor>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</TextColor>
+	<TextOffsetX>18</TextOffsetX>
+	<TooltipReference>If checked, player character names will be displayed.</TooltipReference>
 	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
@@ -509,270 +2249,6 @@
 	</TextColor>
 	<TextOffsetX>18</TextOffsetX>
 	<TooltipReference>If checked, automatically disable /afk when the keyboard is active.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AutoAcceptKickRequests">
-	<ScreenID>OGP_AutoAcceptKickRequests</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>200</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Auto Accept Kick Requests</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, kick requests from alternate logins will automatically be accepted.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AutoConsentGroupCheckbox">
-	<ScreenID>OGP_AutoConsentGroupCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>216</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Auto Consent Group /corpsedrag</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, group members will automatically have consent to /corpsedrag.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AutoConsentGuildCheckbox">
-	<ScreenID>OGP_AutoConsentGuildCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>232</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Auto Consent Guild /corpsedrag</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, guild members will automatically have consent to /corpsedrag.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AutoConsentRaidCheckbox">
-	<ScreenID>OGP_AutoConsentRaidCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>248</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Auto Consent Raid /corpsedrag</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, raid members will automatically have consent to /corpsedrag.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AutoDeclineTCGChallengesButton">
-	<ScreenID>OGP_AutoDeclineTCGChallengesButton</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>264</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Auto Decline LoN Challenges</Text>
-	<TooltipReference>If checked, Legends of Norrath challenges will automatically be declined.</TooltipReference>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AutojoinCheckbox">
-	<ScreenID>OGP_Autojoin</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>280</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Auto Join General Channels</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, characters will automatically join general chat channels.</TooltipReference>
 	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
@@ -873,182 +2349,6 @@
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
 
-<Button item="OGP_ClickThroughMercs">
-	<ScreenID>OGP_ClickThroughMercs</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>328</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Click Through Mercenaries</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, mouse clicks will pass through mercenaries.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_ClickThroughPets">
-	<ScreenID>OGP_ClickThroughPets</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>344</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Click Through Pets</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, mouse clicks will pass through pets.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_ClickThroughSelf">
-	<ScreenID>OGP_ClickThroughSelf</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>360</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Click Through Self</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, mouse clicks will pass through your character.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AANoConfirmCheckbox">
-	<ScreenID>OGP_AANoConfirmCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>376</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox_Reversed</Template>
-	<Text>Confirm AA Purchases</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, AA purchases will require confirmation.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
 <Button item="OGP_BagSellConfirmCheckbox">
 	<ScreenID>OGP_BagSellConfirmCheckbox</ScreenID>
 	<Location>
@@ -1137,698 +2437,18 @@
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
 
-<Button item="OGP_FastItemDestroyCheckbox">
-	<ScreenID>OGP_FastItemDestroyCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>424</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox_Reversed</Template>
-	<Text>Confirm Item Destroy</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, destroying items will require confirmation.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AdvMerchantNoConfirmCheckbox">
-	<ScreenID>OGP_AdvMerchantNoConfirmCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>440</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox_Reversed</Template>
-	<Text>Confirm LDoN Purchases</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, LDoN adventure point purchases will require confirmation.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_LootAllConfirmCheckbox">
-	<ScreenID>OGP_LootAllConfirmCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>456</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Confirm Loot All</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, Loot All will require confirmation.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_DismissMercenaryConfirmCheckbox">
-	<ScreenID>OGP_DismissMercenaryConfirmCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>472</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Confirm Mercenary Dismisal</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, Mercenary dismissal will require confirmation.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_OfflineModeConfirmCheckbox">
-	<ScreenID>OGP_OfflineModeConfirmCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>488</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>16</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Confirm Offline Trader Mode</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, offline trader mode will require confirmation.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_RaidInviteConfirmCheckbox">
-	<ScreenID>OGP_RaidInviteConfirmCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>504</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Confirm Raid Invites</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, raid invites will require confirmation.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_ItemPlacementDefaultModeCursorCheckbox">
-	<ScreenID>OGP_ItemPlacementDefaultModeCursorCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>520</Y>
-	</Location>
-	<Size>
-		<CX>210</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text> Item Placement: Default Cusor Mode</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, item placement will default to cursor mode.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_ItemPlacementHideUICheckbox">
-	<ScreenID>OGP_ItemPlacementHideUICheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>536</Y>
-	</Location>
-	<Size>
-		<CX>210</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox_Reversed</Template>
-	<Text>Item Placement: Show UI</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, the UI will be displayed during item placement.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_ItemPlacementShowOverlayCheckbox">
-	<ScreenID>OGP_ItemPlacementShowOverlayCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>552</Y>
-	</Location>
-	<Size>
-		<CX>210</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Item Placement: Show Overlay</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, the real estate overlay will be displayed during item placement.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-
-
-
-
-
-
-
-
-<Button item="OGP_TradeskillCtrlClickCheckbox">
-	<ScreenID>OGP_TradeskillCtrlClickCheckbox</ScreenID>
+<Screen item="NoDropItemTitle">
 	<Location>
 		<X>216</X>
-		<Y>8</Y>
-	</Location>
-	<Size>
-		<CX>160</CX>
-		<CY>28</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Open Tradeskill Container with CTRL-Right Click</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_LeftClickHelpText">
-	<ScreenID>OGP_LeftClickHelpText</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>38</Y>
+		<Y>306</Y>
 	</Location>
 	<Size>
 		<CX>200</CX>
 		<CY>14</CY>
 	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Show Help On Target Click</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, help text will be displayed when left clicking a target.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_ShowPetOwnerNames">
-	<ScreenID>OGP_ShowPetOwnerNames</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>54</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Show Pet Owner Names</Text>
-	<TooltipReference>If checked, pet owner names will be displayed.</TooltipReference>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_HideFirstWindowAlerts">
-	<ScreenID>OGP_HideFirstWindowAlerts</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>70</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox_Reversed</Template>
-	<Text>Show Window First Use Help</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, UI window first use help dialogues will be displayed.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_AnonymousCheckbox">
-	<ScreenID>OGP_AnonymousCheckbox</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>86</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Use /anonymous</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_RoleplayingCheckbox">
-	<ScreenID>OGP_RoleplayingCheckbox</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>102</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Use /roleplaying</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-
-
-
-
-
-
-
-
-<Label item="Sound_Text">
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignCenter>true</AlignCenter>
-	<Font>2</Font>
-	<Text>Sound</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
+		<Pieces>Title_BG</Pieces>
+		<Pieces>OGP_NoDropLabel</Pieces>
+</Screen>
 
 <Screen item="Sound_Title">
 	<Location>
@@ -1840,47 +2460,8 @@
 		<CY>14</CY>
 	</Size>
 		<Pieces>Title_BG</Pieces>
-		<Pieces>Sound_Text</Pieces>
+		<Pieces>OGP_SoundVolumeLabel</Pieces>
 </Screen>
-
-<Label item="Music_Text">
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>2</Font>
-	<Text>Music Volume</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
-
-<Label item="OGP_MusicVolumeValueLabel">
-	<ScreenID>OGP_MusicVolumeValueLabel</ScreenID>
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignRight>true</AlignRight>
-	<Font>2</Font>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
 
 <Screen item="Music_Wrap">
 	<Location>
@@ -1891,22 +2472,9 @@
 		<CX>200</CX>
 		<CY>14</CY>
 	</Size>
-		<Pieces>Music_Text</Pieces>
+		<Pieces>OGP_MusicVolumeLabel</Pieces>
 		<Pieces>OGP_MusicVolumeValueLabel</Pieces>
 </Screen>
-
-<Slider item="OGP_MusicVolumeSlider">
-	<ScreenID>OGP_MusicVolumeSlider</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>152</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<SliderArt>Slider_Volume</SliderArt>
-</Slider>
 
 <Label item="Sound_Volume_Text">
 	<AutoStretch>true</AutoStretch>
@@ -1927,26 +2495,6 @@
 	</TextColor>
 </Label>
 
-<Label item="OGP_SoundVolumeValueLabel">
-	<ScreenID>OGP_SoundVolumeValueLabel</ScreenID>
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignRight>true</AlignRight>
-	<Font>2</Font>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
-
 <Screen item="Sound_Volume_Wrap">
 	<Location>
 		<X>216</X>
@@ -1959,19 +2507,6 @@
 		<Pieces>Sound_Volume_Text</Pieces>
 		<Pieces>OGP_SoundVolumeValueLabel</Pieces>
 </Screen>
-
-<Slider item="OGP_SoundVolumeSlider">
-	<ScreenID>OGP_SoundVolumeSlider</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>182</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<SliderArt>Slider_Volume</SliderArt>
-</Slider>
 
 <Label item="Sound_Realism_Text">
 	<AutoStretch>true</AutoStretch>
@@ -1992,26 +2527,6 @@
 	</TextColor>
 </Label>
 
-<Label item="OGP_SoundRealismValueLabel">
-	<ScreenID>OGP_SoundRealismValueLabel</ScreenID>
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignRight>true</AlignRight>
-	<Font>2</Font>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
-
 <Screen item="Sound_Realism_Wrap">
 	<Location>
 		<X>216</X>
@@ -2022,51 +2537,10 @@
 		<CY>14</CY>
 	</Size>
 		<Pieces>Sound_Realism_Text</Pieces>
-		<Pieces>OGP_SoundRealismValueLabel</Pieces>
+		<Pieces>OGP_SoundRealismLabel</Pieces>
 </Screen>
 
-<Slider item="OGP_SoundRealismSlider">
-	<Location>
-		<X>216</X>
-		<Y>212</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<ScreenID>OGP_SoundRealismSlider</ScreenID>
-	<SliderArt>Slider</SliderArt>
-</Slider>
-
-
-
-
-
-
-
-
-
-<Label item="Item_Dropping_Text">
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignCenter>true</AlignCenter>
-	<Font>2</Font>
-	<Text>Allow Fast Drop</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
-
-<Screen item="Item_Dropping_Title">
+<Screen item="OGP_ItemDroppingTitle">
 	<Location>
 		<X>216</X>
 		<Y>230</Y>
@@ -2076,48 +2550,8 @@
 		<CY>14</CY>
 	</Size>
 		<Pieces>Title_BG</Pieces>
-		<Pieces>Item_Dropping_Text</Pieces>
+		<Pieces>OGP_ItemDroppingLabel</Pieces>
 </Screen>
-
-<Combobox item="OGP_ItemDroppingCombobox">
-	<ScreenID>OGP_ItemDroppingCombobox</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>246</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>20</CY>
-	</Size>
-	<Button>20_Dropdown</Button>
-	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
-	<Font>2</Font>
-	<ListHeight>46</ListHeight>
-	<Style_Border>true</Style_Border>
-		<Choices>With confirmation</Choices>
-		<Choices>Without confirmation</Choices>
-		<Choices>Never</Choices>
-</Combobox>
-
-<Label item="Player_Trade_Text">
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignCenter>true</AlignCenter>
-	<Font>2</Font>
-	<Text>Allow Trading With</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
 
 <Screen item="Player_Trade_Title">
 	<Location>
@@ -2129,101 +2563,8 @@
 		<CY>14</CY>
 	</Size>
 		<Pieces>Title_BG</Pieces>
-		<Pieces>Player_Trade_Text</Pieces>
+		<Pieces>OGP_PlayerTradeLabel</Pieces>
 </Screen>
-
-<Combobox item="OGP_PlayerTradeCombobox">
-	<ScreenID>OGP_PlayerTradeCombobox</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>284</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>20</CY>
-	</Size>
-	<Button>20_Dropdown</Button>
-	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
-	<Font>2</Font>
-	<ListHeight>46</ListHeight>
-	<Style_Border>true</Style_Border>
-		<Choices>Everyone</Choices>
-		<Choices>Party members only</Choices>
-		<Choices>No one</Choices>
-</Combobox>
-
-<Label item="No_Drop_Text">
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignCenter>true</AlignCenter>
-	<Font>2</Font>
-	<Text>Confirm No Drop Loot</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
-
-<Screen item="No_Drop_Title">
-	<Location>
-		<X>216</X>
-		<Y>306</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-		<Pieces>Title_BG</Pieces>
-		<Pieces>No_Drop_Text</Pieces>
-</Screen>
-
-<Combobox item="OGP_NoDropItemCombobox">
-	<ScreenID>OGP_NoDropItemCombobox</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>322</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>20</CY>
-	</Size>
-	<Button>20_Dropdown</Button>
-	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
-	<Font>2</Font>
-	<ListHeight>46</ListHeight>
-	<Style_Border>true</Style_Border>
-		<Choices>Always</Choices>
-		<Choices>Not Usable</Choices>
-		<Choices>Never</Choices>
-</Combobox>
-
-<Label item="Font_Text">
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>0</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>0</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>0</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignCenter>true</AlignCenter>
-	<Font>2</Font>
-	<Text>Font Selector</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
 
 <Screen item="Font_Title">
 	<Location>
@@ -2235,45 +2576,8 @@
 		<CY>14</CY>
 	</Size>
 		<Pieces>Title_BG</Pieces>
-		<Pieces>Font_Text</Pieces>
+		<Pieces>OGP_FontLabel</Pieces>
 </Screen>
-
-<Combobox item="OGP_FontSelector">
-	<ScreenID>OGP_FontSelector</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>362</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>20</CY>
-	</Size>
-	<Button>20_Dropdown</Button>
-	<DrawTemplate>WDT_Inner_Black</DrawTemplate>
-	<Font>2</Font>
-	<ListHeight>80</ListHeight>
-	<Style_Border>true</Style_Border>
-</Combobox>
-
-<Label item="OGP_CurrentFont">
-	<ScreenID>OGP_CurrentFont</ScreenID>
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>1</TopAnchorOffset>
-	<TopAnchorToTop>true</TopAnchorToTop>
-	<LeftAnchorOffset>2</LeftAnchorOffset>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>2</RightAnchorOffset>
-	<RightAnchorToLeft>false</RightAnchorToLeft>
-	<BottomAnchorOffset>1</BottomAnchorOffset>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<AlignCenter>true</AlignCenter>
-	<Font>2</Font>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-</Label>
 
 <Screen item="OGP_CurrentFont_Wrap">
 	<Location>
@@ -2288,40 +2592,6 @@
 	<Style_Border>true</Style_Border>
 		<Pieces>OGP_CurrentFont</Pieces>
 </Screen>
-
-<Button item="OGP_ChangeFont">
-	<ScreenID>OGP_ChangeFont</ScreenID>
-	<Location>
-		<X>336</X>
-		<Y>384</Y>
-	</Location>
-	<Size>
-		<CX>80</CX>
-		<CY>20</CY>
-	</Size>
-	<DrawTemplate>WDT_HotButton</DrawTemplate>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>0</R>
-		<G>255</G>
-		<B>0</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Border>true</Style_Border>
-	<Template>20_HotButton</Template>
-	<Text>Accept</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
 
 <Label item="Hide_Mercs_Text">
 	<AutoStretch>true</AutoStretch>
@@ -2482,168 +2752,6 @@
 	<Choices>All</Choices>
 </Combobox>
 
-<Button item="OGP_LayoutCopyButton">
-	<ScreenID>OGP_LayoutCopyButton</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>524</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>20</CY>
-	</Size>
-	<DrawTemplate>WDT_HotButton</DrawTemplate>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>0</R>
-		<G>255</G>
-		<B>0</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Border>true</Style_Border>
-	<Template>20_HotButton</Template>
-	<Text>Copy UI_[character]_[server].ini</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TooltipReference>Copy a window layout from any stored layout over the current layout.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="OGP_LoadSkinButton">
-	<ScreenID>OGP_LoadSkinButton</ScreenID>
-	<Location>
-		<X>216</X>
-		<Y>546</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>20</CY>
-	</Size>
-	<DrawTemplate>WDT_HotButton</DrawTemplate>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>0</R>
-		<G>255</G>
-		<B>0</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Border>true</Style_Border>
-	<Template>20_HotButton</Template>
-	<Text>/load [UI]</Text>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Page item="OptionsGeneralPage">
-	<ScreenID>OptionsGeneralPage</ScreenID>
-	<Font>2</Font>
-	<TabText>General</TabText>
-	<TabTextActiveColor>
-		<R>0</R>
-		<G>255</G>
-		<B>0</B>
-	</TabTextActiveColor>
-	<TabTextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TabTextColor>
-	<TooltipReference>General</TooltipReference>
-
-<!-- NOTE: OptionsGeneralPage ELEMENTS WILL NOT FUNCTION OUTSIDE THE DEFAULT
-PAGE ITEM. MOVING ELEMENTS TO A TILEBOX OR SCREEN ITEM BREAKS FUNCTIONALITY.
-DO NOT INCLUDE ELEMENTS INSIDE CUSTOM SCREEN ITEMS. -->
-
-		<Pieces>Screen:Generic_Pane_BG</Pieces>
-
-		<Pieces>Screen:General_Options_Title</Pieces>
-		<Pieces>OGP_AllowAutoDuckCheckbox</Pieces>
-		<Pieces>OGP_AllowAutoStandCheckbox</Pieces>
-		<Pieces>OGP_CombatMusicCheckbox</Pieces>
-		<Pieces>OGP_EnvSoundsCheckbox</Pieces>
-		<Pieces>OGP_GuildInvitesCheckbox</Pieces>
-		<Pieces>OGP_PetWindowPopupCheckbox</Pieces>
-		<Pieces>OGP_UseTellWindowsCheckbox</Pieces>
-		<Pieces>OGP_AllowContextMenusCheckbox</Pieces>
-		<Pieces>OGP_LootAutosplitCheckbox</Pieces>
-		<Pieces>OGP_AutoAFKOnCheckBox</Pieces>
-		<Pieces>OGP_AutoAFKOffCheckBox</Pieces>
-		<Pieces>OGP_AutoAcceptKickRequests</Pieces>
-		<Pieces>OGP_AutoConsentGroupCheckbox</Pieces>
-		<Pieces>OGP_AutoConsentGuildCheckbox</Pieces>
-		<Pieces>OGP_AutoConsentRaidCheckbox</Pieces>
-		<Pieces>OGP_AutoDeclineTCGChallengesButton</Pieces>
-		<Pieces>OGP_AutojoinCheckbox</Pieces>
-		<Pieces>OGP_AutoMercPassiveCheckBox</Pieces>
-		<Pieces>OGP_TributeLogoffAutoOffCheckbox</Pieces>
-		<Pieces>OGP_ClickThroughMercs</Pieces>
-		<Pieces>OGP_ClickThroughPets</Pieces>
-		<Pieces>OGP_ClickThroughSelf</Pieces>
-		<Pieces>OGP_AANoConfirmCheckbox</Pieces>
-		<Pieces>OGP_BagSellConfirmCheckbox</Pieces>
-		<Pieces>OGP_BagSellContentsConfirmCheckbox</Pieces>
-		<Pieces>OGP_FastItemDestroyCheckbox</Pieces>
-		<Pieces>OGP_AdvMerchantNoConfirmCheckbox</Pieces>
-		<Pieces>OGP_LootAllConfirmCheckbox</Pieces>
-		<Pieces>OGP_DismissMercenaryConfirmCheckbox</Pieces>
-		<Pieces>OGP_OfflineModeConfirmCheckbox</Pieces>
-		<Pieces>OGP_RaidInviteConfirmCheckbox</Pieces>
-		<Pieces>OGP_ItemPlacementDefaultModeCursorCheckbox</Pieces>
-		<Pieces>OGP_ItemPlacementHideUICheckbox</Pieces>
-		<Pieces>OGP_ItemPlacementShowOverlayCheckbox</Pieces>
-
-		<Pieces>OGP_TradeskillCtrlClickCheckbox</Pieces>
-		<Pieces>OGP_LeftClickHelpText</Pieces>
-		<Pieces>OGP_ShowPetOwnerNames</Pieces>
-		<Pieces>OGP_HideFirstWindowAlerts</Pieces>
-		<Pieces>OGP_AnonymousCheckbox</Pieces>
-		<Pieces>OGP_RoleplayingCheckbox</Pieces>
-
-		<Pieces>Screen:Sound_Title</Pieces>
-		<Pieces>Screen:Music_Wrap</Pieces>
-		<Pieces>OGP_MusicVolumeSlider</Pieces>
-		<Pieces>Screen:Sound_Volume_Wrap</Pieces>
-		<Pieces>OGP_SoundVolumeSlider</Pieces>
-		<Pieces>Screen:Sound_Realism_Wrap</Pieces>
-		<Pieces>OGP_SoundRealismSlider</Pieces>
-
-		<Pieces>Screen:Item_Dropping_Title</Pieces>
-		<Pieces>OGP_ItemDroppingCombobox</Pieces>
-		<Pieces>Screen:Player_Trade_Title</Pieces>
-		<Pieces>OGP_PlayerTradeCombobox</Pieces>
-		<Pieces>Screen:No_Drop_Title</Pieces>
-		<Pieces>OGP_NoDropItemCombobox</Pieces>
-		<Pieces>Screen:Font_Title</Pieces>
-		<Pieces>OGP_FontSelector</Pieces>
-		<Pieces>Screen:OGP_CurrentFont_Wrap</Pieces>
-		<Pieces>OGP_ChangeFont</Pieces>
-		<Pieces>Screen:Hide_Mercs_Title</Pieces>
-		<Pieces>OGP_HideAFKMercsComboBox</Pieces>
-		<Pieces>Screen:Hide_Pets_Title</Pieces>
-		<Pieces>OGP_HideAFKPetsComboBox</Pieces>
-		<Pieces>Screen:Hide_Players_Title</Pieces>
-		<Pieces>OGP_HideAFKComboBox</Pieces>
-		<Pieces>OGP_LoadSkinButton</Pieces>
-		<Pieces>OGP_LayoutCopyButton</Pieces>
-</Page>
-
 
 
 
@@ -2704,7 +2812,7 @@ IN ORDER TO PRESERVE SCREEN ID AND BUTTON FUNCTIONALITY -->
 		<Pieces>Display_Options_Text</Pieces>
 </Screen>
 
-<Label item="Clip_Plane_Text">
+<Label item="ODP_ClipPlaneLabel">
 	<AutoStretch>true</AutoStretch>
 	<TopAnchorOffset>0</TopAnchorOffset>
 	<TopAnchorToTop>true</TopAnchorToTop>
@@ -2752,7 +2860,7 @@ IN ORDER TO PRESERVE SCREEN ID AND BUTTON FUNCTIONALITY -->
 		<CX>200</CX>
 		<CY>14</CY>
 	</Size>
-		<Pieces>Clip_Plane_Text</Pieces>
+		<Pieces>ODP_ClipPlaneLabel</Pieces>
 		<Pieces>ODP_ClipPlaneValueLabel</Pieces>
 </Screen>
 
@@ -3475,50 +3583,6 @@ IN ORDER TO PRESERVE SCREEN ID AND BUTTON FUNCTIONALITY -->
 	</TextColor>
 	<TextOffsetX>18</TextOffsetX>
 	<TooltipReference>If checked, NPC names will be displayed.</TooltipReference>
-	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
-	<UseCustomPressedColor>true</UseCustomPressedColor>
-</Button>
-
-<Button item="ODP_PCNamesCheckbox">
-	<ScreenID>ODP_PCNamesCheckbox</ScreenID>
-	<Location>
-		<X>8</X>
-		<Y>402</Y>
-	</Location>
-	<Size>
-		<CX>200</CX>
-		<CY>14</CY>
-	</Size>
-	<DecalOffset>
-		<X>0</X>
-		<Y>0</Y>
-	</DecalOffset>
-	<DecalSize>
-		<CX>13</CX>
-		<CY>14</CY>
-	</DecalSize>
-	<Font>2</Font>
-	<MouseoverColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</MouseoverColor>
-	<PressedColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</PressedColor>
-	<Style_Checkbox>true</Style_Checkbox>
-	<Template>CheckBox</Template>
-	<Text>Show PC Names</Text>
-	<TextAlignCenter>false</TextAlignCenter>
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<TextOffsetX>18</TextOffsetX>
-	<TooltipReference>If checked, player character names will be displayed.</TooltipReference>
 	<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 	<UseCustomPressedColor>true</UseCustomPressedColor>
 </Button>
