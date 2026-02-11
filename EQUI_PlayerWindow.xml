@@ -165,7 +165,7 @@ EQTYPE LABEL TO SUPPRESS SURNAME AUTOWRAP ERRORS -->
 	<TextOffsetX>-500</TextOffsetX>
 </Gauge>
 
-<Gauge item="Player_Fatigue">
+<Gauge item="PlayerFatigue">
 	<ScreenID>PlayerFatigue</ScreenID>
 	<Location>
 		<X>32</X>
@@ -243,7 +243,7 @@ EQTYPE LABEL TO SUPPRESS SURNAME AUTOWRAP ERRORS -->
 <Button item="PW_CombatStateAnim">
 	<ScreenID>PW_CombatStateAnim</ScreenID>
 	<Location>
-		<X>2</X>
+		<X>17</X>
 		<Y>2</Y>
 	</Location>
 	<Size>
@@ -544,6 +544,7 @@ EQTYPE LABEL TO SUPPRESS SURNAME AUTOWRAP ERRORS -->
 		<Pieces>Player_FatiguePercLabel</Pieces>
 		<Pieces>Player_HPPercLabel</Pieces>
 		<Pieces>Player_ManaPercLabel</Pieces>
+		<Pieces>PW_CombatStateAnim</Pieces>
 </Screen>
 
 <StaticAnimation item="A_AttackIndicatorAnimFill">
