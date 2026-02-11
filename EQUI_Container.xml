@@ -12,6 +12,7 @@
 		<CX>32</CX>
 		<CY>32</CY>
 	</Size>
+	<Template>DragItem_Disabled</Template>							   
 	<DecalOffset>
 		<X>0</X>
 		<Y>0</Y>
@@ -20,14 +21,15 @@
 		<CX>32</CX>
 		<CY>32</CY>
 	</DecalSize>
-	<Template>DragItem_Disabled</Template>
+	
 </Button>
 
 <InvSlot item="Container_Slot">
 	<ScreenID>Container_Slot</ScreenID>
+	<RelativePosition>true</RelativePosition>
 	<Size>
-		<CX>32</CX>
-		<CY>32</CY>
+		<CX>40</CX>
+		<CY>40</CY>
 	</Size>
 	<Background>40x40_Slot_Recessed</Background>
 	<EQType>-1</EQType>
@@ -37,6 +39,7 @@
 <TileLayoutBox item="ContainerStandard_Items">
 	<ScreenID>ContainerStandard_Items</ScreenID>
 	<AutoStretchHorizontal>true</AutoStretchHorizontal>
+	<AutoStretchVertical>true</AutoStretchVertical>
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
