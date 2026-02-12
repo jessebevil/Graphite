@@ -536,8 +536,8 @@
 		<Pages>AAW_ArchetypePage</Pages>
 		<Pages>AAW_ClassPage</Pages>
 		<Pages>AAW_SpecialPage</Pages>
-		<Pages>AAW_FocusPage</Pages>
-		<Pages>AAW_MercAAPage</Pages>
+		<!-- <Pages>AAW_FocusPage</Pages> -->
+		<!-- <Pages>AAW_MercAAPage</Pages> -->
 </TabBox>
 
 <STMLbox item="AAW_Description">
@@ -914,8 +914,8 @@
 		<Pieces>Glass_BG</Pieces>
 		<Pieces>AAW_Player_Current_Text</Pieces>
 		<Pieces>AAW_Player_Current_Value</Pieces>
-		<Pieces>AAW_Merc_Current_Text</Pieces>
-		<Pieces>AAW_Merc_Current_Value</Pieces>
+		<!-- <Pieces>AAW_Merc_Current_Text</Pieces> -->
+		<!-- <Pieces>AAW_Merc_Current_Value</Pieces> -->
 </Screen>
 
 <!-- NOTE: DUMMY ELEMENT ADDED FOR UNIFORMITY WHEN DISABLED -->
@@ -1321,7 +1321,7 @@
 	<PageBorderTemplate>Page_Border_Null</PageBorderTemplate>
 	<TabBorderTemplate>Tab_Border_Pane</TabBorderTemplate>
 		<Pages>AAW_Purchase_Page</Pages>
-		<Pages>AAW_Auto-Grant_Page</Pages>
+		<!-- <Pages>AAW_Auto-Grant_Page</Pages> -->
 </TabBox>
 
 <Label item="AAW_Assigned_Text">
@@ -1884,11 +1884,11 @@
 	<SecondarySpacing>0</SecondarySpacing>
 	<SnapToChildren>true</SnapToChildren>
 	<Spacing>8</Spacing>
-		<Pieces>Screen:AAW_Shroud_Pane</Pieces>
+		<!-- <Pieces>Screen:AAW_Shroud_Pane</Pieces> -->
 		<Pieces>Screen:AAW_Timer_Pane</Pieces>
 		<Pieces>TabBox:AAW_Purchase_TabBox</Pieces>
 		<Pieces>Screen:AAW_Player_Pane</Pieces>
-		<Pieces>Screen:AAW_Merc_Pane</Pieces>
+		<!-- <Pieces>Screen:AAW_Merc_Pane</Pieces> -->
 		<Pieces>Screen:AAW_Done_Pane</Pieces>
 </TileLayoutBox>
 
