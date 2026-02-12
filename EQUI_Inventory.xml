@@ -46,7 +46,7 @@
 		<CX>132</CX>
 		<CY>12</CY>
 	</Size>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Stats</Text>
 	<TextColor>
 		<R>138</R>
@@ -65,7 +65,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Level</Text>
 	<TextColor>
 		<R>255</R>
@@ -86,7 +86,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>2</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -109,7 +109,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Class</Text>
 	<TextColor>
 		<R>255</R>
@@ -130,7 +130,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>3</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -153,7 +153,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Deity</Text>
 	<TextColor>
 		<R>255</R>
@@ -174,7 +174,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>4</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -199,7 +199,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>22</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -224,7 +224,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>70</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -249,7 +249,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>128</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -274,7 +274,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>129</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -297,7 +297,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Weight</Text>
 	<TextColor>
 		<R>255</R>
@@ -318,7 +318,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>237</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -343,7 +343,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>23</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -368,7 +368,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>211</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -393,7 +393,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<EQType>251</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>225</R>
 		<G>181</G>
@@ -413,7 +413,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>238</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -432,7 +432,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>/</Text>
 	<TextColor>
 		<R>255</R>
@@ -453,7 +453,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>264</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -481,7 +481,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<EQType>252</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>225</R>
 		<G>181</G>
@@ -501,7 +501,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>239</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -521,7 +521,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>265</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -549,7 +549,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<EQType>256</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>225</R>
 		<G>181</G>
@@ -569,7 +569,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>243</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -589,7 +589,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>269</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -617,7 +617,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<EQType>255</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>225</R>
 		<G>181</G>
@@ -637,7 +637,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>242</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -657,7 +657,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>268</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -685,7 +685,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<EQType>254</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>225</R>
 		<G>181</G>
@@ -705,7 +705,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>241</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -725,7 +725,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>267</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -753,7 +753,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<EQType>253</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>225</R>
 		<G>181</G>
@@ -773,7 +773,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>240</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -793,7 +793,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>266</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -821,7 +821,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<EQType>257</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>214</R>
 		<G>178</G>
@@ -841,7 +841,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>244</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>225</R>
 		<G>181</G>
@@ -861,7 +861,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>270</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -879,7 +879,7 @@
 </Screen>
 
 <Label item="IW_Resists_Header">
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Resists</Text>
 	<TextColor>
 		<R>138</R>
@@ -910,7 +910,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Magic</Text>
 	<TextColor>
 		<R>75</R>
@@ -931,7 +931,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>249</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>75</R>
 		<G>175</G>
@@ -951,7 +951,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>275</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>75</R>
 		<G>175</G>
@@ -989,7 +989,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Fire</Text>
 	<TextColor>
 		<R>255</R>
@@ -1010,7 +1010,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>247</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>25</G>
@@ -1030,7 +1030,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>273</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>25</G>
@@ -1068,7 +1068,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Cold</Text>
 	<TextColor>
 		<R>25</R>
@@ -1089,7 +1089,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>248</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>25</R>
 		<G>75</G>
@@ -1109,7 +1109,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>274</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>25</R>
 		<G>75</G>
@@ -1147,7 +1147,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Disease</Text>
 	<TextColor>
 		<R>150</R>
@@ -1168,7 +1168,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>246</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>150</R>
 		<G>150</G>
@@ -1188,7 +1188,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>272</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>150</R>
 		<G>150</G>
@@ -1226,7 +1226,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Poison</Text>
 	<TextColor>
 		<R>50</R>
@@ -1247,7 +1247,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>245</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>50</R>
 		<G>255</G>
@@ -1267,7 +1267,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>271</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>50</R>
 		<G>255</G>
@@ -1305,7 +1305,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Corruption</Text>
 	<TextColor>
 		<R>100</R>
@@ -1326,7 +1326,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>250</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>100</R>
 		<G>0</G>
@@ -1346,7 +1346,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>276</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>100</R>
 		<G>0</G>
@@ -1363,7 +1363,7 @@
 </Screen>
 
 <Label item="IW_Mods_Header">
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Mods</Text>
 	<TextColor>
 		<R>138</R>
@@ -1382,7 +1382,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Accuracy</Text>
 	<TextColor>
 		<R>255</R>
@@ -1403,7 +1403,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>222</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1423,7 +1423,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>284</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1448,7 +1448,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Avoidance</Text>
 	<TextColor>
 		<R>255</R>
@@ -1469,7 +1469,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>221</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1489,7 +1489,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>283</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1514,7 +1514,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Combat Effects</Text>
 	<TextColor>
 		<R>255</R>
@@ -1535,7 +1535,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>216</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1555,7 +1555,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>278</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1580,7 +1580,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Dmg. Shield</Text>
 	<TextColor>
 		<R>255</R>
@@ -1601,7 +1601,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>218</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1621,7 +1621,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>280</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1646,8 +1646,8 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
-	<Text>Dmg. Shield Mitigation</Text>
+	<Font>2</Font>
+	<Text>Dmg. Shld Mit.</Text>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1667,7 +1667,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>220</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1687,7 +1687,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>282</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1712,7 +1712,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>DoT Shielding</Text>
 	<TextColor>
 		<R>255</R>
@@ -1733,7 +1733,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>219</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1753,7 +1753,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>281</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1778,7 +1778,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Shielding</Text>
 	<TextColor>
 		<R>255</R>
@@ -1799,7 +1799,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>217</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1819,7 +1819,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>279</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1844,7 +1844,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Spell Shield</Text>
 	<TextColor>
 		<R>255</R>
@@ -1865,7 +1865,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>215</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1885,7 +1885,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>277</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1910,7 +1910,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Strike Through</Text>
 	<TextColor>
 		<R>255</R>
@@ -1931,7 +1931,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>224</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1951,7 +1951,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>286</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -1976,7 +1976,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Stun Resist</Text>
 	<TextColor>
 		<R>255</R>
@@ -1997,7 +1997,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>223</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2017,7 +2017,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>285</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2042,7 +2042,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Clairvoyance</Text>
 	<TextColor>
 		<R>255</R>
@@ -2063,7 +2063,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>227</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2088,7 +2088,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>214</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2113,7 +2113,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>212</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2138,7 +2138,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>213</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2163,7 +2163,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>225</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2188,7 +2188,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>226</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2202,7 +2202,7 @@
 </Screen>
 
 <Label item="IW_Skill_Damage_Mods_Header">
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Skill Damage Mods</Text>
 	<TextColor>
 		<R>138</R>
@@ -2221,7 +2221,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Backstab</Text>
 	<TextColor>
 		<R>255</R>
@@ -2242,7 +2242,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>229</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2262,7 +2262,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>288</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2287,7 +2287,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Bash</Text>
 	<TextColor>
 		<R>255</R>
@@ -2308,7 +2308,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>228</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2328,7 +2328,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>287</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2353,7 +2353,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Dragon Punch</Text>
 	<TextColor>
 		<R>255</R>
@@ -2374,7 +2374,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>230</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2394,7 +2394,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>289</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2419,7 +2419,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Eagle Strike</Text>
 	<TextColor>
 		<R>255</R>
@@ -2440,7 +2440,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>231</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2460,7 +2460,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>290</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2485,7 +2485,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Flying Kick</Text>
 	<TextColor>
 		<R>255</R>
@@ -2506,7 +2506,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>232</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2526,7 +2526,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>291</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2551,7 +2551,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Frenzy</Text>
 	<TextColor>
 		<R>255</R>
@@ -2572,7 +2572,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>236</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2592,7 +2592,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>295</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2617,7 +2617,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Kick</Text>
 	<TextColor>
 		<R>255</R>
@@ -2638,7 +2638,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>233</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2658,7 +2658,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>292</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2683,7 +2683,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Round Kick</Text>
 	<TextColor>
 		<R>255</R>
@@ -2704,7 +2704,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>234</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2724,7 +2724,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>293</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2749,7 +2749,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Tiger Claw</Text>
 	<TextColor>
 		<R>255</R>
@@ -2770,7 +2770,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>235</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2790,7 +2790,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>294</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2806,7 +2806,7 @@
 </Screen>
 
 <Label item="IW_Guild_Tribute_Header">
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Guild Tribute</Text>
 	<TextColor>
 		<R>138</R>
@@ -2825,7 +2825,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Tribute</Text>
 	<TextColor>
 		<R>255</R>
@@ -2846,7 +2846,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>121</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2866,7 +2866,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>123</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2885,7 +2885,7 @@
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>/</Text>
 	<TextColor>
 		<R>255</R>
@@ -2906,7 +2906,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>122</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2932,7 +2932,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Trophy</Text>
 	<TextColor>
 		<R>255</R>
@@ -2953,7 +2953,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>299</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2973,7 +2973,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>300</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -2999,7 +2999,7 @@
 	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Personal Tribute</Text>
 	<TextColor>
 		<R>138</R>
@@ -3020,7 +3020,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>118</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>138</R>
 		<G>163</G>
@@ -3045,7 +3045,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>116</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -3065,7 +3065,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>119</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -3085,7 +3085,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>117</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -3113,7 +3113,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>297</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -3133,7 +3133,7 @@
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>298</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4794,7 +4794,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>/</Text>
 	<TextColor>
 		<R>255</R>
@@ -4808,7 +4808,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 		<CX>141</CX>
 		<CY>12</CY>
 	</Size>
-	<Font>1</Font>
+	<Font>3</Font>
 	<Text>Stats</Text>
 	<TextColor>
 		<R>138</R>
@@ -4829,7 +4829,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>344</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4854,7 +4854,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>338</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4874,7 +4874,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>339</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4901,7 +4901,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>340</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4921,7 +4921,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>341</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4948,7 +4948,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>342</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4968,7 +4968,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>343</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -4995,7 +4995,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>345</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5020,7 +5020,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>346</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5046,7 +5046,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>347</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5071,7 +5071,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>348</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5096,7 +5096,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>349</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5121,7 +5121,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>350</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5146,7 +5146,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>351</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5171,7 +5171,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>352</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5196,7 +5196,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>353</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5221,7 +5221,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>356</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5246,7 +5246,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>354</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5271,7 +5271,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>355</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5296,7 +5296,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>357</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5321,7 +5321,7 @@ UIs. Instead an animation instance is dynamically created and used. -->
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AlignRight>true</AlignRight>
 	<EQType>358</EQType>
-	<Font>1</Font>
+	<Font>3</Font>
 	<TextColor>
 		<R>255</R>
 		<G>255</G>
@@ -5739,12 +5739,12 @@ TOOLTIPS FROM DISPLAYING BEHIND RIGHT SIDE PANE -->
 	<PageBorderTemplate>Page_Border_Null</PageBorderTemplate>
 	<TabBorderTemplate>Tab_Border_Pane</TabBorderTemplate>
 		<Pages>Page:IW_InvPage</Pages>
-		<Pages>Page:IW_Credits_Page</Pages>
+		<!-- <Pages>Page:IW_Credits_Page</Pages> -->
 		<Pages>Page:IW_EIPage</Pages>
 		<Pages>Page:IW_AltCharProgPage</Pages>
 		<Pages>Page:IW_AltCurrPage</Pages>
-		<Pages>Page:IW_MercenaryInvPage</Pages>
-		<Pages>Page:IW_MountsPage</Pages>
+		<!-- <Pages>Page:IW_MercenaryInvPage</Pages> -->
+		<!-- <Pages>Page:IW_MountsPage</Pages> -->
 </TabBox>
 
 <!-- NOTE: DUMMY ELEMENT ADDED FOR UNIFORMITY WHEN DISABLED -->
@@ -5819,8 +5819,8 @@ TOOLTIPS FROM DISPLAYING BEHIND RIGHT SIDE PANE -->
 		<CX>56</CX>
 		<CY>20</CY>
 	</Size>
-		<Pieces>IW_UpgradeCharacter_Dummy</Pieces>
-		<Pieces>IW_UpgradeCharacter</Pieces>
+		<!-- <Pieces>IW_UpgradeCharacter_Dummy</Pieces> -->
+		<!-- <Pieces>IW_UpgradeCharacter</Pieces> -->
 </Screen>
 
 <Button item="IW_Skills">
@@ -6050,10 +6050,10 @@ TOOLTIPS FROM DISPLAYING BEHIND RIGHT SIDE PANE -->
 	<Spacing>0</Spacing>
 		<Pieces>Screen:IW_Upgrade_Wrap</Pieces>
 		<Pieces>IW_Skills</Pieces>
-		<Pieces>IW_PlotItems</Pieces>
+		<!-- <Pieces>IW_PlotItems</Pieces> -->
 		<Pieces>IW_FacePick</Pieces>
 		<Pieces>IW_Tinting</Pieces>
-		<Pieces>IW_Achievements</Pieces>
+		<!-- <Pieces>IW_Achievements</Pieces> -->
 		<Pieces>IW_AltAdvBtn</Pieces>
 		<Pieces>IW_Destroy</Pieces>
 		<Pieces>IW_DoneButton</Pieces>
