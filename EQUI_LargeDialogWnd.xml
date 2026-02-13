@@ -403,7 +403,7 @@
 	<Style_Closebox>true</Style_Closebox>
 	<Style_Minimizebox>true</Style_Minimizebox>
 	<Style_Qmarkbox>false</Style_Qmarkbox>
-	<Style_Sizable>false</Style_Sizable>
+	<Style_Sizable>true</Style_Sizable>
 	<Style_Titlebar>true</Style_Titlebar>
 	<Style_Transparent>false</Style_Transparent>
 	<Text></Text>
