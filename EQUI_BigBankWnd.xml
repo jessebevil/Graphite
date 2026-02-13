@@ -39,8 +39,8 @@
 <InvSlot item="BIGB_BankSlot0">
 	<ScreenID>BIGB_BankSlot0</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 0</EQType>
@@ -290,7 +290,7 @@
 <TileLayoutBox item="BIGB_BankSlot0_Layout">
 	<Size>
 		<CX>1240</CX>
-		<CY>40</CY>
+		<CY>30</CY>
 	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
@@ -344,8 +344,8 @@
 <InvSlot item="BIGB_BankSlot1">
 	<ScreenID>BIGB_BankSlot1</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 1</EQType>
@@ -593,6 +593,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot1_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -653,8 +657,8 @@
 <InvSlot item="BIGB_BankSlot2">
 	<ScreenID>BIGB_BankSlot2</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 2</EQType>
@@ -902,6 +906,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot2_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -962,8 +970,8 @@
 <InvSlot item="BIGB_BankSlot3">
 	<ScreenID>BIGB_BankSlot3</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 3</EQType>
@@ -1211,6 +1219,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot3_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -1271,8 +1283,8 @@
 <InvSlot item="BIGB_BankSlot4">
 	<ScreenID>BIGB_BankSlot4</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 4</EQType>
@@ -1520,6 +1532,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot4_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -1580,8 +1596,8 @@
 <InvSlot item="BIGB_BankSlot5">
 	<ScreenID>BIGB_BankSlot5</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 5</EQType>
@@ -1829,6 +1845,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot5_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -1889,8 +1909,8 @@
 <InvSlot item="BIGB_BankSlot6">
 	<ScreenID>BIGB_BankSlot6</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 6</EQType>
@@ -2138,6 +2158,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot6_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -2198,8 +2222,8 @@
 <InvSlot item="BIGB_BankSlot7">
 	<ScreenID>BIGB_BankSlot7</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 7</EQType>
@@ -2447,6 +2471,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot7_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -2507,8 +2535,8 @@
 <InvSlot item="BIGB_BankSlot8">
 	<ScreenID>BIGB_BankSlot8</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 8</EQType>
@@ -2756,6 +2784,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot8_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -2816,8 +2848,8 @@
 <InvSlot item="BIGB_BankSlot9">
 	<ScreenID>BIGB_BankSlot9</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 9</EQType>
@@ -3065,6 +3097,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot9_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -3125,8 +3161,8 @@
 <InvSlot item="BIGB_BankSlot10">
 	<ScreenID>BIGB_BankSlot10</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 10</EQType>
@@ -3374,6 +3410,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot10_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -3434,8 +3474,8 @@
 <InvSlot item="BIGB_BankSlot11">
 	<ScreenID>BIGB_BankSlot11</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 11</EQType>
@@ -3683,6 +3723,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot11_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -3743,8 +3787,8 @@
 <InvSlot item="BIGB_BankSlot12">
 	<ScreenID>BIGB_BankSlot12</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 12</EQType>
@@ -3992,6 +4036,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot12_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -4052,8 +4100,8 @@
 <InvSlot item="BIGB_BankSlot13">
 	<ScreenID>BIGB_BankSlot13</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 13</EQType>
@@ -4301,6 +4349,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot13_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -4361,8 +4413,8 @@
 <InvSlot item="BIGB_BankSlot14">
 	<ScreenID>BIGB_BankSlot14</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 14</EQType>
@@ -4610,6 +4662,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot14_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -4670,8 +4726,8 @@
 <InvSlot item="BIGB_BankSlot15">
 	<ScreenID>BIGB_BankSlot15</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 15</EQType>
@@ -4919,6 +4975,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot15_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -4979,8 +5039,8 @@
 <InvSlot item="BIGB_BankSlot16">
 	<ScreenID>BIGB_BankSlot16</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 16</EQType>
@@ -5228,6 +5288,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot16_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -5288,8 +5352,8 @@
 <InvSlot item="BIGB_BankSlot17">
 	<ScreenID>BIGB_BankSlot17</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 17</EQType>
@@ -5537,6 +5601,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot17_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -5597,8 +5665,8 @@
 <InvSlot item="BIGB_BankSlot18">
 	<ScreenID>BIGB_BankSlot18</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 18</EQType>
@@ -5846,6 +5914,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot18_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -5906,8 +5978,8 @@
 <InvSlot item="BIGB_BankSlot19">
 	<ScreenID>BIGB_BankSlot19</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 19</EQType>
@@ -6155,6 +6227,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot19_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -6215,8 +6291,8 @@
 <InvSlot item="BIGB_BankSlot20">
 	<ScreenID>BIGB_BankSlot20</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 20</EQType>
@@ -6464,6 +6540,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot20_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -6524,8 +6604,8 @@
 <InvSlot item="BIGB_BankSlot21">
 	<ScreenID>BIGB_BankSlot21</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 21</EQType>
@@ -6773,6 +6853,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot21_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -6833,8 +6917,8 @@
 <InvSlot item="BIGB_BankSlot22">
 	<ScreenID>BIGB_BankSlot22</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 22</EQType>
@@ -7082,6 +7166,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot22_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -7142,8 +7230,8 @@
 <InvSlot item="BIGB_BankSlot23">
 	<ScreenID>BIGB_BankSlot23</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/Bank 23</EQType>
@@ -7391,6 +7479,10 @@
 </InvSlot>
 
 <TileLayoutBox item="BIGB_BankSlot23_Layout">
+	<Size>
+		<CX>1240</CX>
+		<CY>30</CY>
+	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
 	<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -7440,23 +7532,22 @@
 		<Pieces>BIGB_BankSlot23_39</Pieces>
 </TileLayoutBox>
 
-<TileLayoutBox item="BIGB_Bank_Layout">
+<VerticalLayoutBox item="BIGB_Bank_Layout">
 	<AutoStretch>true</AutoStretch>
 	<TopAnchorOffset>20</TopAnchorOffset>
 	<TopAnchorToTop>true</TopAnchorToTop>
 	<LeftAnchorOffset>0</LeftAnchorOffset>
 	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>1240</RightAnchorOffset>
-	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<RightAnchorOffset>100</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
 	<BottomAnchorOffset>0</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
-	<FirstPieceTemplate>true</FirstPieceTemplate>
+	<!-- <FirstPieceTemplate>true</FirstPieceTemplate> -->
 	<HorizontalFirst>false</HorizontalFirst>
 	<SecondarySpacing>0</SecondarySpacing>
 	<SnapToChildren>false</SnapToChildren>
-	<!-- <Style_VScroll>true</Style_VScroll> -->
 	<Spacing>0</Spacing>
 		<Pieces>TileLayoutBox:BIGB_BankSlot0_Layout</Pieces>
 		<Pieces>TileLayoutBox:BIGB_BankSlot1_Layout</Pieces>
@@ -7482,7 +7573,7 @@
 		<Pieces>TileLayoutBox:BIGB_BankSlot21_Layout</Pieces>
 		<Pieces>TileLayoutBox:BIGB_BankSlot22_Layout</Pieces>
 		<Pieces>TileLayoutBox:BIGB_BankSlot23_Layout</Pieces>
-</TileLayoutBox>
+</VerticalLayoutBox>
 
 
 
@@ -7752,24 +7843,25 @@
 	<TopAnchorToTop>true</TopAnchorToTop>
 	<LeftAnchorOffset>0</LeftAnchorOffset>
 	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorOffset>1360</RightAnchorOffset>
-	<RightAnchorToLeft>true</RightAnchorToLeft>
-	<BottomAnchorOffset>0</BottomAnchorOffset>
+	<RightAnchorOffset>5</RightAnchorOffset>
+	<RightAnchorToLeft>false</RightAnchorToLeft>
+	<BottomAnchorOffset>128</BottomAnchorOffset>
 	<BottomAnchorToTop>false</BottomAnchorToTop>
 	<DrawTemplate>WDT_Pane_16x16</DrawTemplate>
 	<Style_Border>true</Style_Border>
+	<Style_VScroll>true</Style_VScroll>
 	
 	<Pieces>Pane_16x16_BG</Pieces>
 	<Pieces>Screen:BIGB_Name_Screen</Pieces>
-	<Pieces>TileLayoutBox:BIGB_Bank_Layout</Pieces>
+	<Pieces>VerticalLayoutBox:BIGB_Bank_Layout</Pieces>
 	<Pieces>TileLayoutBox:BIGB_Money_Layout</Pieces>
 </Screen>
 
 <InvSlot item="BIGB_SharedBankSlot0">
 	<ScreenID>BIGB_SharedBankSlot0</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/SharedBank 0</EQType>
@@ -8019,7 +8111,7 @@
 <TileLayoutBox item="BIGB_SharedBankSlot0_Layout">
 	<Size>
 		<CX>1280</CX>
-		<CY>40</CY>
+		<CY>30</CY>
 	</Size>
 	<AnchorToLeft>true</AnchorToLeft>
 	<AnchorToTop>true</AnchorToTop>
@@ -8081,8 +8173,8 @@
 <InvSlot item="BIGB_SharedBankSlot1">
 	<ScreenID>BIGB_SharedBankSlot1</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/SharedBank 1</EQType>
@@ -8390,8 +8482,8 @@
 <InvSlot item="BIGB_SharedBankSlot2">
 	<ScreenID>BIGB_SharedBankSlot2</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/SharedBank 2</EQType>
@@ -8699,8 +8791,8 @@
 <InvSlot item="BIGB_SharedBankSlot3">
 	<ScreenID>BIGB_SharedBankSlot3</ScreenID>
 	<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+		<CX>30</CX>
+		<CY>30</CY>
 	</Size>
 	<Background>20_Slot_Recessed</Background>
 	<EQType>inventory/SharedBank 3</EQType>
@@ -9078,9 +9170,10 @@
 
 <Screen item="BigBankWnd">
 	<Size>
-		<CX>1380</CX>
-		<CY>1160</CY>
+		<CX>1080</CX>
+		<CY>930</CY>
 	</Size>
+	<AutoStretch>true</AutoStretch>
 	<DrawTemplate>WDT_28x48_Drag_Horizontal</DrawTemplate>
 	<Escapable>false</Escapable>
 	<Layout>Snap_Vertical</Layout>
@@ -9091,7 +9184,7 @@
 	<Style_Closebox>true</Style_Closebox>
 	<Style_Minimizebox>true</Style_Minimizebox>
 	<Style_Qmarkbox>false</Style_Qmarkbox>
-	<Style_Sizable>false</Style_Sizable>
+	<Style_Sizable>true</Style_Sizable>
 	<Style_Titlebar>true</Style_Titlebar>
 	<Style_Transparent>false</Style_Transparent>
 	<Text>Bank</Text>
